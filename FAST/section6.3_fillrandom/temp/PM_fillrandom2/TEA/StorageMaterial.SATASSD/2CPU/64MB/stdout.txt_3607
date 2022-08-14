@@ -1,0 +1,3089 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_ssd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46817.3 MB (estimated)
+FileSize:   23777.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_ssd
+DB path: [/home/supermt/rocksdb_ssd]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is NOT triggered
+TEA is triggered
+Memtable speed: 56/95 / 56
+Flush speed: 286.5/111.5286.5
+Compaction idle: 0.0166667/0.0208333idle ratio: 0.8
+Memtable speed: 53/81 / 56
+Flush speed: 329.25/98.5278329.25
+Compaction idle: 0.0375/0.0263889idle ratio: 1.42105
+Memtable speed: 51/73 / 56
+Flush speed: 328.75/93.5329.25
+Compaction idle: 0.025/0.0260417idle ratio: 0.96
+Memtable speed: 48/68 / 56
+Flush speed: 309.25/89.6912329.25
+Compaction idle: 0.0625/0.0333333idle ratio: 1.875
+Memtable speed: 57/66 / 57
+Flush speed: 193.333/85.9042329.25
+Compaction idle: 0.075/0.0402778idle ratio: 1.86207
+Memtable speed: 40/62 / 57
+Flush speed: 198.667/83.337329.25
+Compaction idle: 0.0333333/0.0392857idle ratio: 0.848485
+Memtable speed: 52/61 / 57
+Flush speed: 193.667/81.1699329.25
+Compaction idle: 0.0625/0.0421875idle ratio: 1.48148
+Memtable speed: 68/62 / 68
+Flush speed: 335/87.3363335
+Compaction idle: 0.05/0.0430556idle ratio: 1.16129
+Memtable speed: 35/51 / 68
+Flush speed: 182/84.1577335
+Compaction idle: 0.0416667/0.0449074idle ratio: 0.927835
+Memtable speed: 65/52 / 68
+Flush speed: 165/85.9583335
+Compaction idle: 0.0583333/0.049537idle ratio: 1.17757
+Memtable speed: 75/54 / 75
+Flush speed: 221.5/88.6319335
+Compaction idle: 0.025/0.0481481idle ratio: 0.519231
+Memtable speed: 102/60 / 102
+Flush speed: 277/98.8294335
+Compaction idle: 0.025/0.0481481idle ratio: 0.519231
+Memtable speed: 24/57 / 102
+Flush speed: 232.5/105.193335
+Compaction idle: 0.05/0.0467593idle ratio: 1.06931
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 36/55 / 102
+Flush speed: 107.5/106.269335
+Compaction idle: 0.0625/0.0453704idle ratio: 1.37755
+Memtable speed: 46/55 / 102
+Flush speed: 203/112.775335
+Compaction idle: 0.025/0.0444444idle ratio: 0.5625
+Memtable speed: 121/63 / 121
+Flush speed: 320/136.233335
+Compaction idle: 0.025/0.0402778idle ratio: 0.62069
+Memtable speed: 115/68 / 121
+Flush speed: 283/142.25335
+Compaction idle: 0.0333333/0.0384259idle ratio: 0.86747
+Memtable speed: 23/67 / 121
+Flush speed: 146/139.679335
+Compaction idle: 0.0875/0.0435185idle ratio: 2.01064
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 46/65 / 121
+Flush speed: 60/142.346335
+Compaction idle: 0.00833333/0.037963idle ratio: 0.219512
+Memtable speed: 69/64 / 121
+Flush speed: 73/141.833335
+Compaction idle: 0.0875/0.0449074idle ratio: 1.94845
+Memtable speed: 27/56 / 121
+Flush speed: 190/124.231335
+Compaction idle: 0.025/0.0449074idle ratio: 0.556701
+slow flush, decrease thread
+Memtable speed: 36/57 / 121
+Flush speed: 287/139.125335
+Compaction idle: 0.025/0.0421296idle ratio: 0.593407
+Memtable speed: 78/62 / 121
+Flush speed: 130/153.818335
+Compaction idle: 0.0583333/0.0416667idle ratio: 1.4
+Memtable speed: 57/63 / 121
+Flush speed: 163/150.182335
+Compaction idle: 0.0625/0.0458333idle ratio: 1.36364
+Memtable speed: 76/58 / 121
+Flush speed: 332/151.273335
+Compaction idle: 0.0375/0.0472222idle ratio: 0.794118
+Memtable speed: 35/49 / 121
+Flush speed: 299/152.727335
+Compaction idle: 0.025/0.0462963idle ratio: 0.54
+Memtable speed: 56/53 / 121
+Flush speed: 109/149.364335
+Compaction idle: 0.0416667/0.0412037idle ratio: 1.01124
+Memtable speed: 45/53 / 121
+Flush speed: 108.5/140.958335
+Compaction idle: 0.0416667/0.0449074idle ratio: 0.927835
+Memtable speed: 44/50 / 121
+Flush speed: 386/167.042386
+Compaction idle: 0.025/0.037963idle ratio: 0.658537
+Memtable speed: 95/58 / 121
+Flush speed: 330/194.955386
+Compaction idle: 0.0625/0.0421296idle ratio: 1.48352
+Memtable speed: 32/57 / 121
+Flush speed: 358/201.409386
+Compaction idle: 0.025/0.0421296idle ratio: 0.593407
+Memtable speed: 105/60 / 121
+Flush speed: 199/207.682386
+Compaction idle: 0.05/0.0412037idle ratio: 1.21348
+Memtable speed: 47/59 / 121
+Flush speed: 112.5/203.091386
+Compaction idle: 0.075/0.0425926idle ratio: 1.76087
+Memtable speed: 39/55 / 121
+Flush speed: 277/198.091386
+Compaction idle: 0.025/0.0412037idle ratio: 0.606742
+Memtable speed: 86/61 / 121
+Flush speed: 315/199.545386
+Compaction idle: 0.05/0.0439815idle ratio: 1.13684
+Memtable speed: 100/65 / 121
+Flush speed: 308/217.636386
+Compaction idle: 0.05/0.0449074idle ratio: 1.1134
+Memtable speed: 24/63 / 121
+Flush speed: 261/254.65386
+Compaction idle: 0.025/0.0430556idle ratio: 0.580645
+Memtable speed: 62/65 / 121
+Flush speed: 107/226.75386
+Compaction idle: 0.0666667/0.0476852idle ratio: 1.39806
+Memtable speed: 47/60 / 121
+Flush speed: 64/200.15386
+Compaction idle: 0.05/0.0462963idle ratio: 1.08
+Memtable speed: 67/64 / 121
+Flush speed: 67/171.05386
+Compaction idle: 0.0583333/0.05idle ratio: 1.16667
+Memtable speed: 77/61 / 121
+Flush speed: 476/198.75476
+Compaction idle: 0.05/0.05idle ratio: 1
+Memtable speed: 96/66 / 121
+Flush speed: 373/249.778476
+Compaction idle: 0.025/0.0444444idle ratio: 0.5625
+Memtable speed: 121/75 / 121
+Flush speed: 473/271.556476
+Compaction idle: 0.0375/0.0458333idle ratio: 0.818182
+Memtable speed: 27/69 / 121
+Flush speed: 299/269.778476
+Compaction idle: 0.0333333/0.0439815idle ratio: 0.757895
+idle threads, keep the threads
+Memtable speed: 26/60 / 121
+Flush speed: 43/240.333476
+Compaction idle: 0.1125/0.0509259idle ratio: 2.20909
+slow flush, decrease thread
+idle threads, keep the threads
+lo/ro, increase thread
+Memtable speed: 19/60 / 121
+Flush speed: 26/214.222476
+Compaction idle: 0.075/0.0564815idle ratio: 1.32787
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 19/55 / 121
+Flush speed: 60/188.1476
+Compaction idle: 0.0625/0.0560185idle ratio: 1.1157
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 49/55 / 121
+Flush speed: 128.5/176.864476
+Compaction idle: 0.075/0.0587963idle ratio: 1.27559
+Memtable speed: 42/52 / 121
+Flush speed: 106.667/152.705476
+Compaction idle: 0.0333333/0.0560185idle ratio: 0.595041
+Memtable speed: 127/58 / 127
+Flush speed: 106/107.678476
+Compaction idle: 0.0625/0.0574074idle ratio: 1.08871
+Memtable speed: 48/53 / 127
+Flush speed: 112.333/79.6765476
+Compaction idle: 0.05/0.0601852idle ratio: 0.830769
+Memtable speed: 39/44 / 127
+Flush speed: 119.25/50.0375476
+Compaction idle: 0.0416667/0.0606481idle ratio: 0.687023
+Memtable speed: 28/44 / 127
+Flush speed: 100/34.8587476
+Compaction idle: 0.0625/0.0638889idle ratio: 0.978261
+Memtable speed: 45/46 / 127
+Flush speed: 55.5/33.9271476
+Compaction idle: 0.0375/0.0555556idle ratio: 0.675
+Memtable speed: 53/50 / 127
+Flush speed: 50/34.9271476
+Compaction idle: 0.0666667/0.0546296idle ratio: 1.22034
+Memtable speed: 62/54 / 127
+Flush speed: 59/36.4022476
+Compaction idle: 0.075/0.0560185idle ratio: 1.33884
+Memtable speed: 61/56 / 127
+Flush speed: 61/34.9886476
+Compaction idle: 0.075/0.0560185idle ratio: 1.33884
+Memtable speed: 42/56 / 127
+Flush speed: 66.5/34.7421476
+Compaction idle: 0.0625/0.0592593idle ratio: 1.05469
+Memtable speed: 43/46 / 127
+Flush speed: 93.5/35.8542476
+Compaction idle: 0.05/0.0578704idle ratio: 0.864
+Memtable speed: 59/48 / 127
+Flush speed: 117/37.9868476
+Compaction idle: 0.075/0.0606481idle ratio: 1.23664
+Memtable speed: 48/49 / 127
+Flush speed: 145.333/41.5463476
+Compaction idle: 0.0625/0.062963idle ratio: 0.992647
+Memtable speed: 39/50 / 127
+Flush speed: 100/46.7396476
+Compaction idle: 0.0666667/0.0634259idle ratio: 1.05109
+Memtable speed: 55/51 / 127
+Flush speed: 51/49.5556476
+Compaction idle: 0.05/0.0648148idle ratio: 0.771429
+Memtable speed: 37/49 / 127
+Flush speed: 52.5/46.6146476
+Compaction idle: 0.0583333/0.0638889idle ratio: 0.913043
+Memtable speed: 33/46 / 127
+Flush speed: 35/45.1146476
+Compaction idle: 0.075/0.0638889idle ratio: 1.17391
+Memtable speed: 64/46 / 127
+Flush speed: 63/45.2396476
+Compaction idle: 0.0875/0.0652778idle ratio: 1.34043
+Memtable speed: 49/47 / 127
+Flush speed: 67/45.2708476
+Compaction idle: 0.025/0.0611111idle ratio: 0.409091
+Memtable speed: 51/48 / 127
+Flush speed: 110/46.3021476
+Compaction idle: 0.0625/0.0625idle ratio: 1
+Memtable speed: 71/49 / 127
+Flush speed: 108/45.7396476
+Compaction idle: 0.0666667/0.0615741idle ratio: 1.08271
+Memtable speed: 15/46 / 127
+Flush speed: 27/43.8214476
+Compaction idle: 0.0625/0.0615741idle ratio: 1.01504
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 44/46 / 127
+Flush speed: 145/50.6538476
+Compaction idle: 0.1125/0.0666667idle ratio: 1.6875
+Memtable speed: 64/47 / 127
+Flush speed: 44/46.5357476
+Compaction idle: 1/0.172222idle ratio: 5.80645
+Memtable speed: 2/43 / 127
+Flush speed: 44/45.9286476
+Compaction idle: 0.075/0.174074idle ratio: 0.430851
+slow flush, decrease thread
+Memtable speed: 42/44 / 127
+Flush speed: 114/48.1333476
+Compaction idle: 0.0625/0.172685idle ratio: 0.36193
+Memtable speed: 67/45 / 127
+Flush speed: 70/48.6476
+Compaction idle: 0.05/0.168519idle ratio: 0.296703
+Memtable speed: 38/43 / 127
+Flush speed: 77.5/49.3476
+Compaction idle: 0.025/0.168519idle ratio: 0.148352
+Memtable speed: 55/44 / 127
+Flush speed: 117/49.7667476
+Compaction idle: 0.0875/0.171296idle ratio: 0.510811
+Memtable speed: 47/41 / 127
+Flush speed: 104/49.5476
+Compaction idle: 0.075/0.172222idle ratio: 0.435484
+Memtable speed: 51/45 / 127
+Flush speed: 113/51.7812476
+Compaction idle: 0.0416667/0.169907idle ratio: 0.245232
+Memtable speed: 59/47 / 127
+Flush speed: 122/50.3438476
+Compaction idle: 0.05/0.162963idle ratio: 0.306818
+Memtable speed: 33/43 / 127
+Flush speed: 88/56.6333476
+Compaction idle: 0.025/0.0546296idle ratio: 0.457627
+Memtable speed: 38/47 / 127
+Flush speed: 97.5/60.2476
+Compaction idle: 0.05/0.0518519idle ratio: 0.964286
+Memtable speed: 45/48 / 127
+Flush speed: 44/59.5476
+Compaction idle: 0.075/0.0532407idle ratio: 1.4087
+Memtable speed: 31/44 / 127
+Flush speed: 46/57.7857476
+Compaction idle: 0.0666667/0.0550926idle ratio: 1.21008
+Memtable speed: 53/45 / 127
+Flush speed: 103/64.1923476
+Compaction idle: 0.0416667/0.0569444idle ratio: 0.731707
+Memtable speed: 65/46 / 127
+Flush speed: 86/66.9583476
+Compaction idle: 0.05/0.0527778idle ratio: 0.947368
+Memtable speed: 63/48 / 127
+Flush speed: 61/69.1364476
+Compaction idle: 0.075/0.0527778idle ratio: 1.42105
+Memtable speed: 59/49 / 127
+Flush speed: 57/70.45476
+Compaction idle: 0.0625/0.0550926idle ratio: 1.13445
+Memtable speed: 44/47 / 127
+Flush speed: 90.5/61.1818476
+Compaction idle: 0.0333333/0.0532407idle ratio: 0.626087
+Memtable speed: 88/54 / 127
+Flush speed: 106/62.8182476
+Compaction idle: 0.0875/0.0601852idle ratio: 1.45385
+Memtable speed: 48/55 / 127
+Flush speed: 146/73.95476
+Compaction idle: 0.0875/0.0643519idle ratio: 1.35971
+Memtable speed: 44/55 / 127
+Flush speed: 122/81.75476
+Compaction idle: 0.0416667/0.0606481idle ratio: 0.687023
+Memtable speed: 58/58 / 127
+Flush speed: 89/86.05476
+Compaction idle: 0.0333333/0.0569444idle ratio: 0.585366
+Memtable speed: 36/56 / 127
+Flush speed: 93/77.3182476
+Compaction idle: 0.075/0.0606481idle ratio: 1.23664
+Memtable speed: 39/53 / 127
+Flush speed: 84/77.1364476
+Compaction idle: 0.0416667/0.0597222idle ratio: 0.697674
+Memtable speed: 55/52 / 127
+Flush speed: 122/82.6818476
+Compaction idle: 0.0875/0.0611111idle ratio: 1.43182
+Memtable speed: 38/50 / 127
+Flush speed: 65/83.4091476
+Compaction idle: 0.0875/0.0638889idle ratio: 1.36957
+Memtable speed: 23/47 / 127
+Flush speed: 74/90.1476
+Compaction idle: 0.0625/0.0671296idle ratio: 0.931034
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 19/40 / 127
+Flush speed: 36/83.1476
+Compaction idle: 0.1125/0.0699074idle ratio: 1.60927
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 22/37 / 127
+Flush speed: 27/71.2476
+Compaction idle: 0.1125/0.0726852idle ratio: 1.54777
+Memtable speed: 27/35 / 127
+Flush speed: 26/61.6476
+Compaction idle: 0.0375/0.0722222idle ratio: 0.519231
+Memtable speed: 83/38 / 127
+Flush speed: 148/67.5476
+Compaction idle: 0.075/0.0768519idle ratio: 0.975904
+Memtable speed: 22/36 / 127
+Flush speed: 31/68.1111476
+Compaction idle: 0.0625/0.075463idle ratio: 0.828221
+Memtable speed: 16/33 / 127
+Flush speed: 34/62.5556476
+Compaction idle: 0.125/0.0847222idle ratio: 1.47541
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 15/29 / 127
+Flush speed: 45/54476
+Compaction idle: 0.025/0.0777778idle ratio: 0.321429
+Memtable speed: 14/26 / 127
+Flush speed: 23/49.3333476
+Compaction idle: 0.0375/0.0722222idle ratio: 0.519231
+Memtable speed: 19/26 / 127
+Flush speed: 44/46476
+Compaction idle: 0.1/0.0763889idle ratio: 1.30909
+Memtable speed: 100/35 / 127
+Flush speed: 70.5/44.85476
+Compaction idle: 1/0.175idle ratio: 5.71429
+Memtable speed: 3/33 / 127
+Flush speed: 70.5/44.7273476
+Compaction idle: 1/0.273611idle ratio: 3.65482
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 47/35 / 127
+Flush speed: 58/47.6364476
+Compaction idle: 0.075/0.277778idle ratio: 0.27
+Memtable speed: 14/27 / 127
+Flush speed: 83/32.7857476
+Compaction idle: 0.0625/0.276389idle ratio: 0.226131
+Memtable speed: 16/27 / 127
+Flush speed: 25/32.3571476
+Compaction idle: 0.025/0.272222idle ratio: 0.0918367
+Memtable speed: 19/27 / 127
+Flush speed: 25/31.7143476
+Compaction idle: 0.0833333/0.267593idle ratio: 0.311419
+Memtable speed: 1/25 / 127
+Flush speed: 21.5/28.0333476
+Compaction idle: 0.0375/0.268981idle ratio: 0.139415
+slow flush, decrease thread
+applying changes
+Memtable speed: 58/30 / 127
+Flush speed: 83/32.0333476
+Compaction idle: 0.0375/0.268981idle ratio: 0.139415
+Memtable speed: 52/34 / 127
+Flush speed: 128/35.2812476
+Compaction idle: 0.0375/0.262037idle ratio: 0.14311
+Memtable speed: 60/30 / 127
+Flush speed: 112/40.4476
+Compaction idle: 0.0875/0.160648idle ratio: 0.544669
+Memtable speed: 30/33 / 127
+Flush speed: 93/44.8929476
+Compaction idle: 0.0416667/0.0541667idle ratio: 0.769231
+Memtable speed: 55/33 / 127
+Flush speed: 82/46.6071476
+Compaction idle: 0.0416667/0.050463idle ratio: 0.825688
+Memtable speed: 56/38 / 127
+Flush speed: 90/59.9545476
+Compaction idle: 0.05/0.0490741idle ratio: 1.01887
+Memtable speed: 64/43 / 127
+Flush speed: 98/66.5909476
+Compaction idle: 0.025/0.0490741idle ratio: 0.509434
+Memtable speed: 20/44 / 127
+Flush speed: 70/70.6818476
+Compaction idle: 0.0583333/0.0462963idle ratio: 1.26
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 18/45 / 127
+Flush speed: 51/80.7476
+Compaction idle: 0.1875/0.062963idle ratio: 2.97794
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 1/39 / 127
+Flush speed: 19.5/67.5909476
+Compaction idle: 0/0.0587963idle ratio: 0
+slow flush, decrease thread
+lo/ro, increase thread
+applying changes
+Memtable speed: 12/35 / 127
+Flush speed: 31/64.65476
+Compaction idle: 0.05/0.0601852idle ratio: 0.830769
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 35/32 / 127
+Flush speed: 60/59.45476
+Compaction idle: 0.0125/0.0518519idle ratio: 0.241071
+Memtable speed: 57/35 / 127
+Flush speed: 71.5/52.0909476
+Compaction idle: 0.0416667/0.0518519idle ratio: 0.803571
+Memtable speed: 74/37 / 127
+Flush speed: 94/53.1818476
+Compaction idle: 0.05/0.0527778idle ratio: 0.947368
+Memtable speed: 10/32 / 127
+Flush speed: 21/46.9091476
+Compaction idle: 0.0875/0.0569444idle ratio: 1.53659
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 15/26 / 127
+Flush speed: 28/40.5455476
+Compaction idle: 0.1625/0.0722222idle ratio: 2.25
+Memtable speed: 1/24 / 127
+Flush speed: 20.5/33.0417476
+Compaction idle: 0.025/0.0685185idle ratio: 0.364865
+slow flush, decrease thread
+applying changes
+Memtable speed: 1/22 / 127
+Flush speed: 27.5/28.6923476
+Compaction idle: 0.00833333/0.0486111idle ratio: 0.171429
+slow flush, decrease thread
+applying changes
+Memtable speed: 22/25 / 127
+Flush speed: 56/34.125476
+Compaction idle: 0.05/0.0541667idle ratio: 0.923077
+Memtable speed: 25/26 / 127
+Flush speed: 79/38.125476
+Compaction idle: 0.0416667/0.0532407idle ratio: 0.782609
+Memtable speed: 66/30 / 127
+Flush speed: 90/40.625476
+Compaction idle: 0.075/0.0601852idle ratio: 1.24615
+Memtable speed: 31/27 / 127
+Flush speed: 76.5/41.0417476
+Compaction idle: 0.05/0.0611111idle ratio: 0.818182
+Memtable speed: 49/24 / 127
+Flush speed: 49/37.2917476
+Compaction idle: 0.1/0.0666667idle ratio: 1.5
+Memtable speed: 21/25 / 127
+Flush speed: 82/42.375476
+Compaction idle: 0.0625/0.0638889idle ratio: 0.978261
+Memtable speed: 29/27 / 127
+Flush speed: 46/43.875476
+Compaction idle: 0.0625/0.0527778idle ratio: 1.18421
+Memtable speed: 29/30 / 127
+Flush speed: 40/49.6364476
+Compaction idle: 0.1125/0.0625idle ratio: 1.8
+Memtable speed: 37/34 / 127
+Flush speed: 60/57.85476
+Compaction idle: 0.05/0.0671296idle ratio: 0.744828
+Memtable speed: 53/37 / 127
+Flush speed: 78/60.05476
+Compaction idle: 0.05/0.0671296idle ratio: 0.744828
+Memtable speed: 59/41 / 127
+Flush speed: 75/59.65476
+Compaction idle: 0.0583333/0.0689815idle ratio: 0.845638
+Memtable speed: 52/40 / 127
+Flush speed: 53/55.95476
+Compaction idle: 0.1/0.0717593idle ratio: 1.39355
+Memtable speed: 24/39 / 127
+Flush speed: 69/61.3333476
+Compaction idle: 0.05/0.0717593idle ratio: 0.696774
+Memtable speed: 33/37 / 127
+Flush speed: 70/63.6667476
+Compaction idle: 0.0166667/0.0625idle ratio: 0.266667
+Memtable speed: 47/40 / 127
+Flush speed: 66/61.8889476
+Compaction idle: 0.0416667/0.0601852idle ratio: 0.692308
+Memtable speed: 58/43 / 127
+Flush speed: 69/64.4444476
+Compaction idle: 0.025/0.0560185idle ratio: 0.446281
+Memtable speed: 35/44 / 127
+Flush speed: 89/69.8889476
+Compaction idle: 0.0333333/0.0472222idle ratio: 0.705882
+Memtable speed: 23/42 / 127
+Flush speed: 56/69.4444476
+Compaction idle: 0.00833333/0.0425926idle ratio: 0.195652
+Memtable speed: 28/39 / 127
+Flush speed: 72/68.7778476
+Compaction idle: 0.0583333/0.0435185idle ratio: 1.34043
+Memtable speed: 40/37 / 127
+Flush speed: 65/67.6667476
+Compaction idle: 0.1125/0.049537idle ratio: 2.27103
+Memtable speed: 19/34 / 127
+Flush speed: 141/69.7476
+Compaction idle: 0.025/0.0412037idle ratio: 0.606742
+Memtable speed: 35/35 / 127
+Flush speed: 86/71.4476
+Compaction idle: 0.05/0.0412037idle ratio: 1.21348
+Memtable speed: 43/36 / 127
+Flush speed: 64/70.8476
+Compaction idle: 0.075/0.0476852idle ratio: 1.57282
+Memtable speed: 36/35 / 127
+Flush speed: 63/70.5476
+Compaction idle: 0.0375/0.0472222idle ratio: 0.794118
+Memtable speed: 39/33 / 127
+Flush speed: 73/70.9476
+Compaction idle: 0.05/0.05idle ratio: 1
+Memtable speed: 62/36 / 127
+Flush speed: 83/70.3476
+Compaction idle: 0.1125/0.0587963idle ratio: 1.91339
+Memtable speed: 35/37 / 127
+Flush speed: 57/70.4476
+Compaction idle: 0/0.0578704idle ratio: 0
+Memtable speed: 30/37 / 127
+Flush speed: 43/67.5476
+Compaction idle: 0/0.0513889idle ratio: 0
+Memtable speed: 34/37 / 127
+Flush speed: 69/67.9476
+Compaction idle: 0.125/0.0527778idle ratio: 2.36842
+Memtable speed: 39/39 / 127
+Flush speed: 82/68.8889476
+Compaction idle: 0.05/0.0555556idle ratio: 0.9
+Memtable speed: 42/40 / 127
+Flush speed: 65/66.5556476
+Compaction idle: 0.0416667/0.0546296idle ratio: 0.762712
+Memtable speed: 64/42 / 127
+Flush speed: 98/70.3333476
+Compaction idle: 0.1/0.0574074idle ratio: 1.74194
+Memtable speed: 48/43 / 127
+Flush speed: 73/71.4444476
+Compaction idle: 0.0625/0.0601852idle ratio: 1.03846
+Memtable speed: 47/44 / 127
+Flush speed: 64/70.4444476
+Compaction idle: 0.05/0.0601852idle ratio: 0.830769
+Memtable speed: 38/41 / 127
+Flush speed: 68/68.7778476
+Compaction idle: 0.0375/0.0518519idle ratio: 0.723214
+Memtable speed: 44/42 / 127
+Flush speed: 71/70.3333476
+Compaction idle: 0.0375/0.0560185idle ratio: 0.669421
+Memtable speed: 40/44 / 127
+Flush speed: 105/77.2222476
+Compaction idle: 0.075/0.0643519idle ratio: 1.16547
+Memtable speed: 16/42 / 127
+Flush speed: 52/75.3333476
+Compaction idle: 0.1/0.0615741idle ratio: 1.62406
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 28/40 / 127
+Flush speed: 71/74.1111476
+Compaction idle: 0.1/0.0671296idle ratio: 1.48966
+Memtable speed: 57/42 / 127
+Flush speed: 66/74.2222476
+Compaction idle: 0.05/0.0680556idle ratio: 0.734694
+Memtable speed: 54/41 / 127
+Flush speed: 83/72.5556476
+Compaction idle: 0.0375/0.0611111idle ratio: 0.613636
+Memtable speed: 44/40 / 127
+Flush speed: 62/71.3333476
+Compaction idle: 0.0333333/0.0578704idle ratio: 0.576
+Memtable speed: 60/42 / 127
+Flush speed: 84/73.5556476
+Compaction idle: 0.0625/0.0592593idle ratio: 1.05469
+Memtable speed: 65/45 / 127
+Flush speed: 99/77476
+Compaction idle: 0.0416667/0.0597222idle ratio: 0.697674
+Memtable speed: 49/45 / 127
+Flush speed: 102/80.4444476
+Compaction idle: 0.075/0.0638889idle ratio: 1.17391
+Memtable speed: 50/47 / 127
+Flush speed: 82/77.8889476
+Compaction idle: 0.05/0.0611111idle ratio: 0.818182
+Memtable speed: 57/51 / 127
+Flush speed: 81/81.1111476
+Compaction idle: 0.075/0.0583333idle ratio: 1.28571
+Memtable speed: 39/52 / 127
+Flush speed: 75/81.5556476
+Compaction idle: 0.05/0.0527778idle ratio: 0.947368
+Memtable speed: 30/49 / 127
+Flush speed: 123/87.8889476
+Compaction idle: 0.0625/0.0541667idle ratio: 1.15385
+Memtable speed: 24/46 / 127
+Flush speed: 49/84.1111476
+Compaction idle: 0.0875/0.0597222idle ratio: 1.46512
+Memtable speed: 44/46 / 127
+Flush speed: 115/90476
+Compaction idle: 0.0375/0.0601852idle ratio: 0.623077
+Memtable speed: 38/44 / 127
+Flush speed: 76/89.1111476
+Compaction idle: 0.125/0.0671296idle ratio: 1.86207
+Memtable speed: 47/42 / 127
+Flush speed: 69/85.7778476
+Compaction idle: 0.075/0.0708333idle ratio: 1.05882
+Memtable speed: 30/39 / 127
+Flush speed: 68.5/73.85476
+Compaction idle: 0.0375/0.0666667idle ratio: 0.5625
+Memtable speed: 70/42 / 127
+Flush speed: 111/76.75476
+Compaction idle: 0.0625/0.0680556idle ratio: 0.918367
+Memtable speed: 53/41 / 127
+Flush speed: 78/76.45476
+Compaction idle: 0.075/0.0680556idle ratio: 1.10204
+Memtable speed: 66/44 / 127
+Flush speed: 70/75.95476
+Compaction idle: 0.0625/0.0694444idle ratio: 0.9
+Memtable speed: 48/46 / 127
+Flush speed: 64/70.05476
+Compaction idle: 0.05/0.0680556idle ratio: 0.734694
+Memtable speed: 55/50 / 127
+Flush speed: 88/73.95476
+Compaction idle: 0.0416667/0.062963idle ratio: 0.661765
+Memtable speed: 76/53 / 127
+Flush speed: 112/73.65476
+Compaction idle: 0.0375/0.062963idle ratio: 0.595588
+Memtable speed: 42/54 / 127
+Flush speed: 80/74.05476
+Compaction idle: 0.0416667/0.0537037idle ratio: 0.775862
+Memtable speed: 56/55 / 127
+Flush speed: 68/73.95476
+Compaction idle: 0.0833333/0.0546296idle ratio: 1.52542
+Memtable speed: 22/54 / 127
+Flush speed: 35/78.4444476
+Compaction idle: 0.025/0.0532407idle ratio: 0.469565
+slow flush, decrease thread
+Memtable speed: 24/49 / 127
+Flush speed: 57/72.4444476
+Compaction idle: 0.0375/0.050463idle ratio: 0.743119
+slow flush, decrease thread
+Memtable speed: 27/46 / 127
+Flush speed: 80/72.6667476
+Compaction idle: 0.0875/0.0518519idle ratio: 1.6875
+Memtable speed: 44/43 / 127
+Flush speed: 60/71.5556476
+Compaction idle: 0.025/0.0476852idle ratio: 0.524272
+Memtable speed: 44/43 / 127
+Flush speed: 59/71476
+Compaction idle: 0.0375/0.0462963idle ratio: 0.81
+Memtable speed: 42/41 / 127
+Flush speed: 65/68.4444476
+Compaction idle: 0.00833333/0.0425926idle ratio: 0.195652
+Memtable speed: 42/38 / 127
+Flush speed: 61/62.7778476
+Compaction idle: 0.1/0.049537idle ratio: 2.01869
+Memtable speed: 26/36 / 127
+Flush speed: 84/63.2222476
+Compaction idle: 0.0833333/0.0541667idle ratio: 1.53846
+Memtable speed: 32/33 / 127
+Flush speed: 79/64.4444476
+Compaction idle: 0.0333333/0.0486111idle ratio: 0.685714
+Memtable speed: 40/35 / 127
+Flush speed: 58/67476
+Compaction idle: 0.0375/0.05idle ratio: 0.75
+Memtable speed: 37/37 / 127
+Flush speed: 77/69.2222476
+Compaction idle: 0.025/0.0486111idle ratio: 0.514286
+Memtable speed: 39/38 / 127
+Flush speed: 51/66476
+Compaction idle: 0.05/0.0444444idle ratio: 1.125
+Memtable speed: 43/38 / 127
+Flush speed: 58/65.7778476
+Compaction idle: 0.0583333/0.0481481idle ratio: 1.21154
+Memtable speed: 33/37 / 127
+Flush speed: 48/64.5556476
+Compaction idle: 0.0625/0.0509259idle ratio: 1.22727
+Memtable speed: 40/36 / 127
+Flush speed: 50/62.8889476
+Compaction idle: 0.05/0.0555556idle ratio: 0.9
+Memtable speed: 70/40 / 127
+Flush speed: 103/67.5556476
+Compaction idle: 0.0875/0.0541667idle ratio: 1.61538
+Memtable speed: 36/41 / 127
+Flush speed: 71/66.1111476
+Compaction idle: 0.025/0.0476852idle ratio: 0.524272
+Memtable speed: 46/42 / 127
+Flush speed: 69/65476
+Compaction idle: 0.0916667/0.0541667idle ratio: 1.69231
+Memtable speed: 51/43 / 127
+Flush speed: 85/68476
+Compaction idle: 0.025/0.0527778idle ratio: 0.473684
+Memtable speed: 64/46 / 127
+Flush speed: 85/68.8889476
+Compaction idle: 0.025/0.0527778idle ratio: 0.473684
+Memtable speed: 46/47 / 127
+Flush speed: 89/73.1111476
+Compaction idle: 0.125/0.0611111idle ratio: 2.04545
+Memtable speed: 49/48 / 127
+Flush speed: 73/74.7778476
+Compaction idle: 0.0375/0.0587963idle ratio: 0.637795
+Memtable speed: 32/48 / 127
+Flush speed: 65/76.6667476
+Compaction idle: 0.0375/0.0560185idle ratio: 0.669421
+Memtable speed: 39/48 / 127
+Flush speed: 123/84.7778476
+Compaction idle: 0.0333333/0.0541667idle ratio: 0.615385
+Memtable speed: 26/43 / 127
+Flush speed: 37/77.4444476
+Compaction idle: 0.05/0.05idle ratio: 1
+Memtable speed: 24/41 / 127
+Flush speed: 69/77.2222476
+Compaction idle: 0.025/0.05idle ratio: 0.5
+Memtable speed: 25/39 / 127
+Flush speed: 55/75.6667476
+Compaction idle: 0.0625/0.0467593idle ratio: 1.33663
+Memtable speed: 42/38 / 127
+Flush speed: 98/77.1111476
+Compaction idle: 0.0833333/0.0532407idle ratio: 1.56522
+Memtable speed: 54/37 / 127
+Flush speed: 120/81476
+Compaction idle: 0.075/0.0587963idle ratio: 1.27559
+Memtable speed: 34/36 / 127
+Flush speed: 96/81.7778476
+Compaction idle: 0.0416667/0.049537idle ratio: 0.841121
+Memtable speed: 40/35 / 127
+Flush speed: 89/83.5556476
+Compaction idle: 0.0333333/0.0490741idle ratio: 0.679245
+Memtable speed: 51/37 / 127
+Flush speed: 89/86.2222476
+Compaction idle: 0.0875/0.0546296idle ratio: 1.60169
+Memtable speed: 50/38 / 127
+Flush speed: 79/81.3333476
+Compaction idle: 0.0375/0.0550926idle ratio: 0.680672
+Memtable speed: 35/39 / 127
+Flush speed: 66/84.5556476
+Compaction idle: 0.0375/0.0537037idle ratio: 0.698276
+Memtable speed: 26/39 / 127
+Flush speed: 70/84.6667476
+Compaction idle: 0.05/0.0564815idle ratio: 0.885246
+Memtable speed: 25/39 / 127
+Flush speed: 79/87.3333476
+Compaction idle: 0.05/0.0550926idle ratio: 0.907563
+Memtable speed: 52/40 / 127
+Flush speed: 104/88476
+Compaction idle: 0.075/0.0541667idle ratio: 1.38462
+Memtable speed: 33/38 / 127
+Flush speed: 53/80.5556476
+Compaction idle: 0.0333333/0.049537idle ratio: 0.672897
+Memtable speed: 17/36 / 127
+Flush speed: 40/74.3333476
+Compaction idle: 0.05/0.050463idle ratio: 0.990826
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 25/34 / 127
+Flush speed: 44/69.3333476
+Compaction idle: 0.025/0.049537idle ratio: 0.504673
+Memtable speed: 35/33 / 127
+Flush speed: 97/70.2222476
+Compaction idle: 0.125/0.0537037idle ratio: 2.32759
+Memtable speed: 40/32 / 127
+Flush speed: 61/68.2222476
+Compaction idle: 0.05/0.0550926idle ratio: 0.907563
+Memtable speed: 59/34 / 127
+Flush speed: 74/69.1111476
+Compaction idle: 0.05/0.0564815idle ratio: 0.885246
+Memtable speed: 37/35 / 127
+Flush speed: 81/70.3333476
+Compaction idle: 0.025/0.0537037idle ratio: 0.465517
+Memtable speed: 23/35 / 127
+Flush speed: 63/68.5556476
+Compaction idle: 0.075/0.0564815idle ratio: 1.32787
+Memtable speed: 37/34 / 127
+Flush speed: 115/69.7778476
+Compaction idle: 0.1/0.0592593idle ratio: 1.6875
+Memtable speed: 26/33 / 127
+Flush speed: 62/70.7778476
+Compaction idle: 0.025/0.0583333idle ratio: 0.428571
+Memtable speed: 21/33 / 127
+Flush speed: 61/73.1111476
+Compaction idle: 0.05/0.0583333idle ratio: 0.857143
+Memtable speed: 28/34 / 127
+Flush speed: 77/76.7778476
+Compaction idle: 0.05/0.0611111idle ratio: 0.818182
+Memtable speed: 15/31 / 127
+Flush speed: 38/70.2222476
+Compaction idle: 0.0875/0.0569444idle ratio: 1.53659
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 27/30 / 127
+Flush speed: 50/69476
+Compaction idle: 0.0583333/0.0578704idle ratio: 1.008
+Memtable speed: 45/28 / 127
+Flush speed: 72/68.7778476
+Compaction idle: 0.0333333/0.0560185idle ratio: 0.595041
+Memtable speed: 37/28 / 127
+Flush speed: 69/67.4444476
+Compaction idle: 0.0583333/0.0597222idle ratio: 0.976744
+Memtable speed: 59/32 / 127
+Flush speed: 78/69.1111476
+Compaction idle: 0.05/0.0569444idle ratio: 0.878049
+Memtable speed: 79/37 / 127
+Flush speed: 120/69.6667476
+Compaction idle: 0.0416667/0.050463idle ratio: 0.825688
+Memtable speed: 39/38 / 127
+Flush speed: 77/71.3333476
+Compaction idle: 0.0833333/0.0569444idle ratio: 1.46341
+Memtable speed: 50/42 / 127
+Flush speed: 74/72.7778476
+Compaction idle: 0.1125/0.0638889idle ratio: 1.76087
+Memtable speed: 37/43 / 127
+Flush speed: 77/72.7778476
+Compaction idle: 0.0625/0.0652778idle ratio: 0.957447
+Memtable speed: 44/46 / 127
+Flush speed: 69/76.2222476
+Compaction idle: 0.0416667/0.0601852idle ratio: 0.692308
+Memtable speed: 35/47 / 127
+Flush speed: 81/79.6667476
+Compaction idle: 0.0416667/0.0583333idle ratio: 0.714286
+Memtable speed: 51/47 / 127
+Flush speed: 73/79.7778476
+Compaction idle: 0.05/0.0601852idle ratio: 0.830769
+Memtable speed: 41/48 / 127
+Flush speed: 67/79.5556476
+Compaction idle: 0.0625/0.0606481idle ratio: 1.03053
+Memtable speed: 26/44 / 127
+Flush speed: 47/76.1111476
+Compaction idle: 0.075/0.0634259idle ratio: 1.18248
+Memtable speed: 25/38 / 127
+Flush speed: 54/68.7778476
+Compaction idle: 0.0875/0.0685185idle ratio: 1.27703
+Memtable speed: 47/39 / 127
+Flush speed: 71/68.1111476
+Compaction idle: 0.025/0.062037idle ratio: 0.402985
+Memtable speed: 42/38 / 127
+Flush speed: 64/67476
+Compaction idle: 0.0625/0.0564815idle ratio: 1.10656
+Memtable speed: 64/41 / 127
+Flush speed: 62/65.3333476
+Compaction idle: 0.0583333/0.0560185idle ratio: 1.04132
+Memtable speed: 60/43 / 127
+Flush speed: 70/65.4444476
+Compaction idle: 0.05/0.0569444idle ratio: 0.878049
+Memtable speed: 46/44 / 127
+Flush speed: 82/65.5556476
+Compaction idle: 0.075/0.0606481idle ratio: 1.23664
+Memtable speed: 46/44 / 127
+Flush speed: 70/65.2222476
+Compaction idle: 0.0583333/0.0615741idle ratio: 0.947368
+Memtable speed: 42/44 / 127
+Flush speed: 71/65.6667476
+Compaction idle: 0.05/0.0601852idle ratio: 0.830769
+Memtable speed: 49/46 / 127
+Flush speed: 76/68.8889476
+Compaction idle: 0.1/0.062963idle ratio: 1.58824
+Memtable speed: 45/49 / 127
+Flush speed: 64/70476
+Compaction idle: 0.0583333/0.0597222idle ratio: 0.976744
+Memtable speed: 44/48 / 127
+Flush speed: 79/70.8889476
+Compaction idle: 0.0375/0.0611111idle ratio: 0.613636
+Memtable speed: 40/48 / 127
+Flush speed: 79/72.5556476
+Compaction idle: 0.025/0.0569444idle ratio: 0.439024
+Memtable speed: 35/45 / 127
+Flush speed: 66/73476
+Compaction idle: 0.05/0.0560185idle ratio: 0.892562
+Memtable speed: 54/44 / 127
+Flush speed: 85/74.6667476
+Compaction idle: 0.05/0.0560185idle ratio: 0.892562
+Memtable speed: 39/43 / 127
+Flush speed: 86/75.1111476
+Compaction idle: 0.05/0.0532407idle ratio: 0.93913
+Memtable speed: 56/44 / 127
+Flush speed: 80/76.2222476
+Compaction idle: 0.025/0.049537idle ratio: 0.504673
+Memtable speed: 32/43 / 127
+Flush speed: 42/73476
+Compaction idle: 0.0375/0.0481481idle ratio: 0.778846
+Memtable speed: 34/42 / 127
+Flush speed: 52/70.3333476
+Compaction idle: 0.1/0.0481481idle ratio: 2.07692
+Memtable speed: 25/39 / 127
+Flush speed: 77/71.7778476
+Compaction idle: 0.0333333/0.0453704idle ratio: 0.734694
+Memtable speed: 41/39 / 127
+Flush speed: 106/74.7778476
+Compaction idle: 0.0666667/0.0486111idle ratio: 1.37143
+Memtable speed: 59/41 / 127
+Flush speed: 97/76.7778476
+Compaction idle: 0.1125/0.0583333idle ratio: 1.92857
+Memtable speed: 82/46 / 127
+Flush speed: 128/83.6667476
+Compaction idle: 0.075/0.0611111idle ratio: 1.22727
+Memtable speed: 40/45 / 127
+Flush speed: 85/83.6667476
+Compaction idle: 0.1/0.0666667idle ratio: 1.5
+Memtable speed: 32/44 / 127
+Flush speed: 65/81.3333476
+Compaction idle: 0.1/0.0722222idle ratio: 1.38462
+Memtable speed: 21/40 / 127
+Flush speed: 70/80.2222476
+Compaction idle: 0.0166667/0.0712963idle ratio: 0.233766
+Memtable speed: 45/42 / 127
+Flush speed: 85/85476
+Compaction idle: 0.0333333/0.0708333idle ratio: 0.470588
+Memtable speed: 32/41 / 127
+Flush speed: 63/86.2222476
+Compaction idle: 0.05/0.0652778idle ratio: 0.765957
+Memtable speed: 41/43 / 127
+Flush speed: 133/92.4444476
+Compaction idle: 0.05/0.0671296idle ratio: 0.744828
+Memtable speed: 52/44 / 127
+Flush speed: 82/89.7778476
+Compaction idle: 0.0416667/0.0643519idle ratio: 0.647482
+Memtable speed: 34/42 / 127
+Flush speed: 85.5/79.65476
+Compaction idle: 0.0416667/0.0564815idle ratio: 0.737705
+Memtable speed: 58/39 / 127
+Flush speed: 76/74.45476
+Compaction idle: 0.0583333/0.0546296idle ratio: 1.0678
+Memtable speed: 42/39 / 127
+Flush speed: 82/74.15476
+Compaction idle: 0.0583333/0.05idle ratio: 1.16667
+Memtable speed: 23/38 / 127
+Flush speed: 27/70.35476
+Compaction idle: 0.025/0.0416667idle ratio: 0.6
+Memtable speed: 35/40 / 127
+Flush speed: 41/67.45476
+Compaction idle: 0.1/0.0509259idle ratio: 1.96364
+Memtable speed: 47/40 / 127
+Flush speed: 62/65.15476
+Compaction idle: 0.1/0.0583333idle ratio: 1.71429
+Memtable speed: 46/42 / 127
+Flush speed: 67/65.55476
+Compaction idle: 0.1125/0.0652778idle ratio: 1.7234
+Memtable speed: 33/41 / 127
+Flush speed: 39/56.15476
+Compaction idle: 0.025/0.0625idle ratio: 0.4
+Memtable speed: 31/38 / 127
+Flush speed: 50/52.95476
+Compaction idle: 0.025/0.0606481idle ratio: 0.412214
+Memtable speed: 41/39 / 127
+Flush speed: 98/60.2222476
+Compaction idle: 0.1/0.0671296idle ratio: 1.48966
+Memtable speed: 51/38 / 127
+Flush speed: 66/59.1111476
+Compaction idle: 0.0375/0.0648148idle ratio: 0.578571
+Memtable speed: 43/38 / 127
+Flush speed: 100/61.1111476
+Compaction idle: 0.05/0.0638889idle ratio: 0.782609
+Memtable speed: 27/39 / 127
+Flush speed: 60/64.7778476
+Compaction idle: 0.1125/0.0736111idle ratio: 1.5283
+Memtable speed: 27/38 / 127
+Flush speed: 55/66.3333476
+Compaction idle: 0.0625/0.0694444idle ratio: 0.9
+Memtable speed: 23/35 / 127
+Flush speed: 77/68476
+Compaction idle: 0.0416667/0.062963idle ratio: 0.661765
+Memtable speed: 37/34 / 127
+Flush speed: 102/71.8889476
+Compaction idle: 0.05/0.0560185idle ratio: 0.892562
+Memtable speed: 53/37 / 127
+Flush speed: 68/75.1111476
+Compaction idle: 0.025/0.0560185idle ratio: 0.446281
+Memtable speed: 52/39 / 127
+Flush speed: 86/79.1111476
+Compaction idle: 0.0375/0.0574074idle ratio: 0.653226
+Memtable speed: 37/38 / 127
+Flush speed: 61/75476
+Compaction idle: 0.075/0.0546296idle ratio: 1.37288
+Memtable speed: 28/36 / 127
+Flush speed: 34/71.4444476
+Compaction idle: 0.075/0.0587963idle ratio: 1.27559
+Memtable speed: 18/33 / 127
+Flush speed: 36/64.3333476
+Compaction idle: 0.0875/0.062963idle ratio: 1.38971
+Memtable speed: 30/33 / 127
+Flush speed: 37/61.7778476
+Compaction idle: 0.0333333/0.0541667idle ratio: 0.615385
+Memtable speed: 41/35 / 127
+Flush speed: 70/63.4444476
+Compaction idle: 0.05/0.0527778idle ratio: 0.947368
+Memtable speed: 38/37 / 127
+Flush speed: 71/62.7778476
+Compaction idle: 0.075/0.0564815idle ratio: 1.32787
+Memtable speed: 29/36 / 127
+Flush speed: 77/60476
+Compaction idle: 0.05/0.0564815idle ratio: 0.885246
+Memtable speed: 43/35 / 127
+Flush speed: 120/65.7778476
+Compaction idle: 0.0875/0.0634259idle ratio: 1.37956
+Memtable speed: 27/32 / 127
+Flush speed: 69/63.8889476
+Compaction idle: 0.125/0.0731481idle ratio: 1.70886
+Memtable speed: 33/31 / 127
+Flush speed: 87/66.7778476
+Compaction idle: 0.125/0.0787037idle ratio: 1.58824
+Memtable speed: 31/32 / 127
+Flush speed: 80/71.8889476
+Compaction idle: 0.125/0.0842593idle ratio: 1.48352
+Memtable speed: 24/32 / 127
+Flush speed: 86/77.4444476
+Compaction idle: 0.0875/0.0842593idle ratio: 1.03846
+Memtable speed: 26/32 / 127
+Flush speed: 150/90476
+Compaction idle: 0.075/0.0888889idle ratio: 0.84375
+Memtable speed: 36/31 / 127
+Flush speed: 108/94.2222476
+Compaction idle: 0.075/0.0916667idle ratio: 0.818182
+Memtable speed: 32/31 / 127
+Flush speed: 86/95.8889476
+Compaction idle: 0.0875/0.0930556idle ratio: 0.940299
+Memtable speed: 23/30 / 127
+Flush speed: 36/91.3333476
+Compaction idle: 0.0416667/0.0921296idle ratio: 0.452261
+Memtable speed: 29/29 / 127
+Flush speed: 46/83.1111476
+Compaction idle: 0.0416667/0.087037idle ratio: 0.478723
+Memtable speed: 23/28 / 127
+Flush speed: 48/80.7778476
+Compaction idle: 0.1125/0.0856481idle ratio: 1.31351
+Memtable speed: 42/29 / 127
+Flush speed: 83/80.3333476
+Compaction idle: 0.0583333/0.0782407idle ratio: 0.745562
+Memtable speed: 33/29 / 127
+Flush speed: 75/79.7778476
+Compaction idle: 0.05/0.0699074idle ratio: 0.715232
+Memtable speed: 34/30 / 127
+Flush speed: 97/81476
+Compaction idle: 0.05/0.0657407idle ratio: 0.760563
+Memtable speed: 32/31 / 127
+Flush speed: 74/72.5556476
+Compaction idle: 0.1125/0.0699074idle ratio: 1.60927
+Memtable speed: 27/30 / 127
+Flush speed: 93/70.8889476
+Compaction idle: 0/0.0615741idle ratio: 0
+Memtable speed: 56/33 / 127
+Flush speed: 101/72.5556476
+Compaction idle: 0.0666667/0.0592593idle ratio: 1.125
+Memtable speed: 57/37 / 127
+Flush speed: 93/78.8889476
+Compaction idle: 0.0416667/0.0592593idle ratio: 0.703125
+Memtable speed: 49/39 / 127
+Flush speed: 92/84476
+Compaction idle: 0.0875/0.0643519idle ratio: 1.35971
+Memtable speed: 31/40 / 127
+Flush speed: 70/86.4444476
+Compaction idle: 0.0375/0.0560185idle ratio: 0.669421
+Memtable speed: 51/41 / 127
+Flush speed: 80/86.1111476
+Compaction idle: 0.0333333/0.0532407idle ratio: 0.626087
+Memtable speed: 49/42 / 127
+Flush speed: 96/88.4444476
+Compaction idle: 0.125/0.0615741idle ratio: 2.03008
+Memtable speed: 21/41 / 127
+Flush speed: 43/82.4444476
+Compaction idle: 0.0625/0.062963idle ratio: 0.992647
+Memtable speed: 26/40 / 127
+Flush speed: 61/81476
+Compaction idle: 0.025/0.0532407idle ratio: 0.469565
+Memtable speed: 42/42 / 127
+Flush speed: 72/78.6667476
+Compaction idle: 0.0375/0.0574074idle ratio: 0.653226
+Memtable speed: 51/41 / 127
+Flush speed: 135/82.4444476
+Compaction idle: 0.0875/0.0597222idle ratio: 1.46512
+Memtable speed: 31/39 / 127
+Flush speed: 122/85.6667476
+Compaction idle: 0.075/0.0634259idle ratio: 1.18248
+Memtable speed: 49/39 / 127
+Flush speed: 124/89.2222476
+Compaction idle: 0.0875/0.0634259idle ratio: 1.37956
+Memtable speed: 50/41 / 127
+Flush speed: 140/97476
+Compaction idle: 0.1/0.0703704idle ratio: 1.42105
+Memtable speed: 37/39 / 127
+Flush speed: 103/99.5556476
+Compaction idle: 0.125/0.0805556idle ratio: 1.55172
+Memtable speed: 31/37 / 127
+Flush speed: 81/97.8889476
+Compaction idle: 0.0875/0.0763889idle ratio: 1.14545
+Memtable speed: 28/38 / 127
+Flush speed: 89/103476
+Compaction idle: 0.0375/0.0736111idle ratio: 0.509434
+Memtable speed: 25/38 / 127
+Flush speed: 76/104.667476
+Compaction idle: 0.0333333/0.074537idle ratio: 0.447205
+Memtable speed: 52/39 / 127
+Flush speed: 77/105.222476
+Compaction idle: 0.075/0.0787037idle ratio: 0.952941
+Memtable speed: 45/38 / 127
+Flush speed: 71/98.1111476
+Compaction idle: 0.0583333/0.075463idle ratio: 0.773006
+Memtable speed: 20/37 / 127
+Flush speed: 55/90.6667476
+Compaction idle: 0.0583333/0.0736111idle ratio: 0.792453
+Memtable speed: 33/35 / 127
+Flush speed: 50/82.4444476
+Compaction idle: 0.0625/0.0708333idle ratio: 0.882353
+Memtable speed: 34/33 / 127
+Flush speed: 87/76.5556476
+Compaction idle: 0.0875/0.0694444idle ratio: 1.26
+Memtable speed: 22/32 / 127
+Flush speed: 91/75.2222476
+Compaction idle: 0.0333333/0.0592593idle ratio: 0.5625
+Memtable speed: 58/35 / 127
+Flush speed: 82/75.3333476
+Compaction idle: 0.0333333/0.0532407idle ratio: 0.626087
+Memtable speed: 76/40 / 127
+Flush speed: 97/76.2222476
+Compaction idle: 0.075/0.0574074idle ratio: 1.30645
+Memtable speed: 63/44 / 127
+Flush speed: 85/77.2222476
+Compaction idle: 0.05/0.0592593idle ratio: 0.84375
+Memtable speed: 38/43 / 127
+Flush speed: 94/79.1111476
+Compaction idle: 0.125/0.0648148idle ratio: 1.92857
+Memtable speed: 74/46 / 127
+Flush speed: 143/87.1111476
+Compaction idle: 0.0875/0.0680556idle ratio: 1.28571
+Memtable speed: 43/49 / 127
+Flush speed: 82/90.1111476
+Compaction idle: 0.0416667/0.0662037idle ratio: 0.629371
+Memtable speed: 37/49 / 127
+Flush speed: 62/91.4444476
+Compaction idle: 0.025/0.062037idle ratio: 0.402985
+Memtable speed: 38/49 / 127
+Flush speed: 67/89.2222476
+Compaction idle: 0.05/0.0578704idle ratio: 0.864
+Memtable speed: 45/52 / 127
+Flush speed: 75/87.4444476
+Compaction idle: 0.025/0.0569444idle ratio: 0.439024
+Memtable speed: 47/51 / 127
+Flush speed: 90/88.3333476
+Compaction idle: 0.1125/0.0657407idle ratio: 1.71127
+Memtable speed: 31/46 / 127
+Flush speed: 68/85.1111476
+Compaction idle: 0.0375/0.0615741idle ratio: 0.609023
+Memtable speed: 28/42 / 127
+Flush speed: 78/84.3333476
+Compaction idle: 0.075/0.0643519idle ratio: 1.16547
+Memtable speed: 35/42 / 127
+Flush speed: 62/80.7778476
+Compaction idle: 0.05/0.0560185idle ratio: 0.892562
+Memtable speed: 34/37 / 127
+Flush speed: 76/73.3333476
+Compaction idle: 0.0416667/0.0509259idle ratio: 0.818182
+Memtable speed: 25/35 / 127
+Flush speed: 57/70.5556476
+Compaction idle: 0.05/0.0518519idle ratio: 0.964286
+Memtable speed: 33/35 / 127
+Flush speed: 161/81.5556476
+Compaction idle: 0.075/0.0574074idle ratio: 1.30645
+Memtable speed: 31/34 / 127
+Flush speed: 86/83.6667476
+Compaction idle: 0.025/0.0546296idle ratio: 0.457627
+Memtable speed: 25/32 / 127
+Flush speed: 74/83.5556476
+Compaction idle: 0.0416667/0.0564815idle ratio: 0.737705
+Memtable speed: 32/30 / 127
+Flush speed: 73/81.6667476
+Compaction idle: 0.0166667/0.0458333idle ratio: 0.363636
+Memtable speed: 31/30 / 127
+Flush speed: 75/82.4444476
+Compaction idle: 0.0583333/0.0481481idle ratio: 1.21154
+Memtable speed: 54/33 / 127
+Flush speed: 148/90.2222476
+Compaction idle: 0.05/0.0453704idle ratio: 1.10204
+Memtable speed: 49/34 / 127
+Flush speed: 133/98.1111476
+Compaction idle: 0.075/0.0481481idle ratio: 1.55769
+Memtable speed: 23/33 / 127
+Flush speed: 41/94.2222476
+Compaction idle: 0.0333333/0.0472222idle ratio: 0.705882
+Memtable speed: 30/34 / 127
+Flush speed: 54/93.8889476
+Compaction idle: 0.05/0.0472222idle ratio: 1.05882
+Memtable speed: 31/34 / 127
+Flush speed: 72/84476
+Compaction idle: 0.025/0.0416667idle ratio: 0.6
+Memtable speed: 48/35 / 127
+Flush speed: 58/80.8889476
+Compaction idle: 0.1375/0.0541667idle ratio: 2.53846
+Memtable speed: 47/38 / 127
+Flush speed: 79.5/73.35476
+Compaction idle: 0.05/0.0550926idle ratio: 0.907563
+Memtable speed: 53/40 / 127
+Flush speed: 76/73.65476
+Compaction idle: 0.0583333/0.0597222idle ratio: 0.976744
+Memtable speed: 42/41 / 127
+Flush speed: 84/74.55476
+Compaction idle: 0.025/0.0560185idle ratio: 0.446281
+Memtable speed: 44/40 / 127
+Flush speed: 68/66.55476
+Compaction idle: 0.1/0.0615741idle ratio: 1.62406
+Memtable speed: 52/41 / 127
+Flush speed: 80/61.25476
+Compaction idle: 0.1/0.0643519idle ratio: 1.55396
+Memtable speed: 39/42 / 127
+Flush speed: 54/62.55476
+Compaction idle: 0.025/0.0634259idle ratio: 0.394161
+Memtable speed: 46/44 / 127
+Flush speed: 60/63.15476
+Compaction idle: 0.0875/0.0675926idle ratio: 1.29452
+Memtable speed: 30/44 / 127
+Flush speed: 61/62.05476
+Compaction idle: 0.0333333/0.0685185idle ratio: 0.486486
+Memtable speed: 48/44 / 127
+Flush speed: 69/63.15476
+Compaction idle: 0.0583333/0.0597222idle ratio: 0.976744
+Memtable speed: 31/42 / 127
+Flush speed: 107/73.2222476
+Compaction idle: 0.0416667/0.0587963idle ratio: 0.708661
+Memtable speed: 66/44 / 127
+Flush speed: 101/76476
+Compaction idle: 0.1375/0.0675926idle ratio: 2.03425
+Memtable speed: 34/43 / 127
+Flush speed: 79.5/67.95476
+Compaction idle: 0.0333333/0.0685185idle ratio: 0.486486
+Memtable speed: 44/43 / 127
+Flush speed: 68/67.95476
+Compaction idle: 0.025/0.0601852idle ratio: 0.415385
+Memtable speed: 21/39 / 127
+Flush speed: 39/63.85476
+Compaction idle: 0.0416667/0.0537037idle ratio: 0.775862
+Memtable speed: 25/38 / 127
+Flush speed: 48/63.25476
+Compaction idle: 0.0375/0.0550926idle ratio: 0.680672
+Memtable speed: 29/36 / 127
+Flush speed: 46/61.85476
+Compaction idle: 0.0875/0.0550926idle ratio: 1.58824
+Memtable speed: 41/37 / 127
+Flush speed: 65/62.25476
+Compaction idle: 0.05/0.0569444idle ratio: 0.878049
+Memtable speed: 48/37 / 127
+Flush speed: 62/61.55476
+Compaction idle: 0.0125/0.0518519idle ratio: 0.241071
+Memtable speed: 46/39 / 127
+Flush speed: 69/57.75476
+Compaction idle: 0.0416667/0.0518519idle ratio: 0.803571
+Memtable speed: 44/36 / 127
+Flush speed: 64/54.05476
+Compaction idle: 0.0375/0.0407407idle ratio: 0.920455
+Memtable speed: 59/39 / 127
+Flush speed: 121/64.6667476
+Compaction idle: 0.1/0.0481481idle ratio: 2.07692
+Memtable speed: 48/40 / 127
+Flush speed: 70/64.8889476
+Compaction idle: 0.025/0.0481481idle ratio: 0.519231
+Memtable speed: 55/43 / 127
+Flush speed: 72/68.5556476
+Compaction idle: 0.025/0.0462963idle ratio: 0.54
+Memtable speed: 39/45 / 127
+Flush speed: 49/68.6667476
+Compaction idle: 0.05/0.0476852idle ratio: 1.04854
+Memtable speed: 55/48 / 127
+Flush speed: 63/70.5556476
+Compaction idle: 0.1/0.0490741idle ratio: 2.03774
+Memtable speed: 31/47 / 127
+Flush speed: 129/77.6667476
+Compaction idle: 0.0583333/0.05idle ratio: 1.16667
+Memtable speed: 24/44 / 127
+Flush speed: 61/77.5556476
+Compaction idle: 0.025/0.0513889idle ratio: 0.486486
+Memtable speed: 34/43 / 127
+Flush speed: 89/79.7778476
+Compaction idle: 0.0166667/0.0486111idle ratio: 0.342857
+Memtable speed: 66/45 / 127
+Flush speed: 82/81.7778476
+Compaction idle: 0.0333333/0.0481481idle ratio: 0.692308
+Memtable speed: 69/46 / 127
+Flush speed: 173/87.5556476
+Compaction idle: 0.075/0.0453704idle ratio: 1.65306
+Memtable speed: 36/45 / 127
+Flush speed: 72/87.7778476
+Compaction idle: 0.05/0.0481481idle ratio: 1.03846
+Memtable speed: 28/42 / 127
+Flush speed: 41/84.3333476
+Compaction idle: 0.0375/0.049537idle ratio: 0.757009
+Memtable speed: 26/41 / 127
+Flush speed: 32/82.4444476
+Compaction idle: 0.0333333/0.0476852idle ratio: 0.699029
+Memtable speed: 17/36 / 127
+Flush speed: 48/80.7778476
+Compaction idle: 0.05/0.0421296idle ratio: 1.18681
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 20/35 / 127
+Flush speed: 36/70.4444476
+Compaction idle: 0.025/0.0384259idle ratio: 0.650602
+Memtable speed: 22/35 / 127
+Flush speed: 36/67.6667476
+Compaction idle: 0.0166667/0.0375idle ratio: 0.444444
+Memtable speed: 61/38 / 127
+Flush speed: 78/66.4444476
+Compaction idle: 0.1125/0.0481481idle ratio: 2.33654
+Memtable speed: 45/36 / 127
+Flush speed: 93.5/60.95476
+Compaction idle: 0.125/0.0583333idle ratio: 2.14286
+Memtable speed: 39/32 / 127
+Flush speed: 77/46.6818476
+Compaction idle: 0.0625/0.0569444idle ratio: 1.09756
+Memtable speed: 51/34 / 127
+Flush speed: 59/45.5476
+Compaction idle: 0.025/0.0541667idle ratio: 0.461538
+Memtable speed: 60/37 / 127
+Flush speed: 73/48.4091476
+Compaction idle: 0.025/0.0527778idle ratio: 0.473684
+Memtable speed: 52/40 / 127
+Flush speed: 52/50.2273476
+Compaction idle: 0.0625/0.0560185idle ratio: 1.1157
+Memtable speed: 48/44 / 127
+Flush speed: 55/50.8636476
+Compaction idle: 0.0333333/0.0541667idle ratio: 0.615385
+Memtable speed: 30/45 / 127
+Flush speed: 72.5/49.6667476
+Compaction idle: 0.0583333/0.0578704idle ratio: 1.008
+Memtable speed: 44/47 / 127
+Flush speed: 48/50.6667476
+Compaction idle: 0.075/0.0643519idle ratio: 1.16547
+Memtable speed: 55/47 / 127
+Flush speed: 60/49.1667476
+Compaction idle: 0.0416667/0.0564815idle ratio: 0.737705
+Memtable speed: 64/49 / 127
+Flush speed: 63/50.8636476
+Compaction idle: 0.075/0.0509259idle ratio: 1.47273
+Memtable speed: 68/52 / 127
+Flush speed: 75/50.6818476
+Compaction idle: 0.05/0.049537idle ratio: 1.00935
+Memtable speed: 15/48 / 127
+Flush speed: 57/50.5476
+Compaction idle: 0.0666667/0.0541667idle ratio: 1.23077
+slow flush, decrease thread
+idle threads, keep the threads
+lo/ro, increase thread
+Memtable speed: 12/43 / 127
+Flush speed: 60/49.3182476
+Compaction idle: 0.1125/0.0638889idle ratio: 1.76087
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 33/41 / 127
+Flush speed: 71/51.0455476
+Compaction idle: 0.0375/0.0611111idle ratio: 0.613636
+Memtable speed: 16/37 / 127
+Flush speed: 19/47.7727476
+Compaction idle: 0.0916667/0.0675926idle ratio: 1.35616
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 10/35 / 127
+Flush speed: 21/47.4476
+Compaction idle: 0.05/0.0666667idle ratio: 0.75
+slow flush, decrease thread
+Memtable speed: 32/33 / 127
+Flush speed: 47/47.3476
+Compaction idle: 0.05/0.0638889idle ratio: 0.782609
+Memtable speed: 22/30 / 127
+Flush speed: 84/49.7476
+Compaction idle: 0.1125/0.0717593idle ratio: 1.56774
+Memtable speed: 23/25 / 127
+Flush speed: 65/49.9476
+Compaction idle: 0.025/0.0662037idle ratio: 0.377622
+Memtable speed: 36/22 / 127
+Flush speed: 71/55476
+Compaction idle: 0.0125/0.062037idle ratio: 0.201493
+Memtable speed: 38/24 / 127
+Flush speed: 49/54.1111476
+Compaction idle: 0.1/0.0657407idle ratio: 1.52113
+Memtable speed: 46/28 / 127
+Flush speed: 66/54.7778476
+Compaction idle: 0.0875/0.062963idle ratio: 1.38971
+Memtable speed: 36/28 / 127
+Flush speed: 55/53476
+Compaction idle: 0.025/0.0615741idle ratio: 0.406015
+Memtable speed: 53/32 / 127
+Flush speed: 86/60.4444476
+Compaction idle: 0.0375/0.0555556idle ratio: 0.675
+Memtable speed: 28/34 / 127
+Flush speed: 71/66476
+Compaction idle: 0.075/0.0583333idle ratio: 1.28571
+Memtable speed: 30/34 / 127
+Flush speed: 92/71476
+Compaction idle: 0.0166667/0.0546296idle ratio: 0.305085
+Memtable speed: 25/35 / 127
+Flush speed: 68/69.2222476
+Compaction idle: 0.05/0.0476852idle ratio: 1.04854
+Memtable speed: 32/36 / 127
+Flush speed: 133/76.7778476
+Compaction idle: 0.025/0.0476852idle ratio: 0.524272
+Memtable speed: 44/36 / 127
+Flush speed: 114/81.5556476
+Compaction idle: 0.1125/0.0587963idle ratio: 1.91339
+Memtable speed: 29/35 / 127
+Flush speed: 46/81.2222476
+Compaction idle: 0.025/0.050463idle ratio: 0.495413
+Memtable speed: 31/34 / 127
+Flush speed: 72/81.8889476
+Compaction idle: 0.025/0.0435185idle ratio: 0.574468
+Memtable speed: 28/33 / 127
+Flush speed: 88/85.5556476
+Compaction idle: 0.0875/0.050463idle ratio: 1.73394
+Memtable speed: 37/31 / 127
+Flush speed: 50/81.5556476
+Compaction idle: 0.0625/0.0532407idle ratio: 1.17391
+Memtable speed: 65/35 / 127
+Flush speed: 66/81476
+Compaction idle: 0.05/0.050463idle ratio: 0.990826
+Memtable speed: 59/38 / 127
+Flush speed: 77/79.3333476
+Compaction idle: 0.0125/0.05idle ratio: 0.25
+Memtable speed: 39/40 / 127
+Flush speed: 58/78.2222476
+Compaction idle: 0.025/0.0472222idle ratio: 0.529412
+Memtable speed: 42/41 / 127
+Flush speed: 60/70.1111476
+Compaction idle: 0.0333333/0.0481481idle ratio: 0.692308
+Memtable speed: 52/42 / 127
+Flush speed: 96/68.1111476
+Compaction idle: 0.0625/0.0425926idle ratio: 1.46739
+Memtable speed: 29/42 / 127
+Flush speed: 74/71.2222476
+Compaction idle: 0.05/0.0453704idle ratio: 1.10204
+Memtable speed: 40/43 / 127
+Flush speed: 138/78.5556476
+Compaction idle: 0.0416667/0.0472222idle ratio: 0.882353
+Memtable speed: 38/44 / 127
+Flush speed: 49/74.2222476
+Compaction idle: 0.025/0.0402778idle ratio: 0.62069
+Memtable speed: 23/43 / 127
+Flush speed: 57/75476
+Compaction idle: 0.0333333/0.037037idle ratio: 0.9
+Memtable speed: 25/38 / 127
+Flush speed: 64/74.7778476
+Compaction idle: 0.0375/0.0356481idle ratio: 1.05195
+Memtable speed: 70/39 / 127
+Flush speed: 131/80.7778476
+Compaction idle: 0.075/0.0425926idle ratio: 1.76087
+Memtable speed: 40/39 / 127
+Flush speed: 87/84476
+Compaction idle: 0.0375/0.0439815idle ratio: 0.852632
+Memtable speed: 59/41 / 127
+Flush speed: 104/88.8889476
+Compaction idle: 0.075/0.0486111idle ratio: 1.54286
+Memtable speed: 37/40 / 127
+Flush speed: 41/82.7778476
+Compaction idle: 0.0875/0.0513889idle ratio: 1.7027
+Memtable speed: 25/39 / 127
+Flush speed: 48/79.8889476
+Compaction idle: 0.05/0.0513889idle ratio: 0.972973
+Memtable speed: 25/38 / 127
+Flush speed: 58/71476
+Compaction idle: 0.025/0.049537idle ratio: 0.504673
+Memtable speed: 28/36 / 127
+Flush speed: 51/71.2222476
+Compaction idle: 0.0666667/0.0541667idle ratio: 1.23077
+Memtable speed: 38/38 / 127
+Flush speed: 90/74.8889476
+Compaction idle: 0.0625/0.0574074idle ratio: 1.08871
+Memtable speed: 54/41 / 127
+Flush speed: 94/78.2222476
+Compaction idle: 0.0625/0.0601852idle ratio: 1.03846
+Memtable speed: 47/39 / 127
+Flush speed: 69/71.3333476
+Compaction idle: 0.0625/0.0587963idle ratio: 1.06299
+Memtable speed: 49/40 / 127
+Flush speed: 69/69.3333476
+Compaction idle: 0.0625/0.0615741idle ratio: 1.01504
+Memtable speed: 31/37 / 127
+Flush speed: 60/64.4444476
+Compaction idle: 0.025/0.0560185idle ratio: 0.446281
+Memtable speed: 40/37 / 127
+Flush speed: 103/71.3333476
+Compaction idle: 0.0416667/0.0509259idle ratio: 0.818182
+Memtable speed: 37/38 / 127
+Flush speed: 76/74.4444476
+Compaction idle: 0.00833333/0.0462963idle ratio: 0.18
+Memtable speed: 44/40 / 127
+Flush speed: 62/74.8889476
+Compaction idle: 0.0583333/0.05idle ratio: 1.16667
+Memtable speed: 60/44 / 127
+Flush speed: 160/87476
+Compaction idle: 0.075/0.0509259idle ratio: 1.47273
+Memtable speed: 37/44 / 127
+Flush speed: 72/85476
+Compaction idle: 0.0416667/0.0486111idle ratio: 0.857143
+Memtable speed: 47/43 / 127
+Flush speed: 68/82.1111476
+Compaction idle: 0.05/0.0472222idle ratio: 1.05882
+Memtable speed: 31/41 / 127
+Flush speed: 67/81.8889476
+Compaction idle: 0.05/0.0458333idle ratio: 1.09091
+Memtable speed: 45/41 / 127
+Flush speed: 64/81.3333476
+Compaction idle: 0.0375/0.0430556idle ratio: 0.870968
+Memtable speed: 49/43 / 127
+Flush speed: 106/86.4444476
+Compaction idle: 0.075/0.0486111idle ratio: 1.54286
+Memtable speed: 56/45 / 127
+Flush speed: 71/82.8889476
+Compaction idle: 0.0916667/0.0541667idle ratio: 1.69231
+Memtable speed: 24/43 / 127
+Flush speed: 49/79.8889476
+Compaction idle: 0.05/0.0587963idle ratio: 0.850394
+Memtable speed: 16/40 / 127
+Flush speed: 36/77476
+Compaction idle: 0.0416667/0.0569444idle ratio: 0.731707
+slow flush, decrease thread
+Memtable speed: 35/37 / 127
+Flush speed: 60/65.8889476
+Compaction idle: 0.025/0.0513889idle ratio: 0.486486
+Memtable speed: 53/39 / 127
+Flush speed: 66/65.2222476
+Compaction idle: 0.0666667/0.0541667idle ratio: 1.23077
+Memtable speed: 53/40 / 127
+Flush speed: 69/65.3333476
+Compaction idle: 0.0416667/0.0532407idle ratio: 0.782609
+Memtable speed: 45/41 / 127
+Flush speed: 66/65.2222476
+Compaction idle: 0.1125/0.0601852idle ratio: 1.86923
+Memtable speed: 43/41 / 127
+Flush speed: 79/66.8889476
+Compaction idle: 0.0333333/0.0597222idle ratio: 0.55814
+Memtable speed: 46/41 / 127
+Flush speed: 84/64.4444476
+Compaction idle: 0/0.0513889idle ratio: 0
+Memtable speed: 38/39 / 127
+Flush speed: 59/63.1111476
+Compaction idle: 0.025/0.0439815idle ratio: 0.568421
+Memtable speed: 46/41 / 127
+Flush speed: 66/65476
+Compaction idle: 0.1125/0.0509259idle ratio: 2.20909
+Memtable speed: 48/45 / 127
+Flush speed: 74/69.2222476
+Compaction idle: 0.075/0.0546296idle ratio: 1.37288
+Memtable speed: 57/47 / 127
+Flush speed: 104/74.1111476
+Compaction idle: 0.1/0.062963idle ratio: 1.58824
+Memtable speed: 45/46 / 127
+Flush speed: 77/75.3333476
+Compaction idle: 0.05/0.0611111idle ratio: 0.818182
+Memtable speed: 34/44 / 127
+Flush speed: 61/74.4444476
+Compaction idle: 0.0416667/0.0611111idle ratio: 0.681818
+Memtable speed: 37/43 / 127
+Flush speed: 59/73.6667476
+Compaction idle: 0.0333333/0.0523148idle ratio: 0.637168
+Memtable speed: 33/42 / 127
+Flush speed: 61/71.6667476
+Compaction idle: 0.025/0.0513889idle ratio: 0.486486
+Memtable speed: 20/39 / 127
+Flush speed: 59/68.8889476
+Compaction idle: 0.0375/0.0555556idle ratio: 0.675
+Memtable speed: 35/39 / 127
+Flush speed: 51/68476
+Compaction idle: 0.1/0.0638889idle ratio: 1.56522
+Memtable speed: 21/36 / 127
+Flush speed: 82/69.7778476
+Compaction idle: 0.025/0.0541667idle ratio: 0.461538
+Memtable speed: 20/33 / 127
+Flush speed: 45/66.5556476
+Compaction idle: 0.0375/0.05idle ratio: 0.75
+Memtable speed: 24/29 / 127
+Flush speed: 49/60.4444476
+Compaction idle: 0.00833333/0.0398148idle ratio: 0.209302
+Memtable speed: 44/29 / 127
+Flush speed: 80/60.7778476
+Compaction idle: 0.075/0.0425926idle ratio: 1.76087
+Memtable speed: 46/31 / 127
+Flush speed: 64/61.1111476
+Compaction idle: 0.0625/0.0449074idle ratio: 1.39175
+Memtable speed: 60/33 / 127
+Flush speed: 72/62.5556476
+Compaction idle: 0.0333333/0.0449074idle ratio: 0.742268
+Memtable speed: 61/36 / 127
+Flush speed: 72/63.7778476
+Compaction idle: 0.0875/0.0518519idle ratio: 1.6875
+Memtable speed: 60/41 / 127
+Flush speed: 155/74.4444476
+Compaction idle: 0.0333333/0.0513889idle ratio: 0.648649
+Memtable speed: 48/42 / 127
+Flush speed: 73/76.8889476
+Compaction idle: 0.125/0.0541667idle ratio: 2.30769
+Memtable speed: 42/45 / 127
+Flush speed: 64/74.8889476
+Compaction idle: 0.05/0.0569444idle ratio: 0.878049
+Memtable speed: 53/48 / 127
+Flush speed: 82/79476
+Compaction idle: 0.0583333/0.0592593idle ratio: 0.984375
+Memtable speed: 57/52 / 127
+Flush speed: 70/81.3333476
+Compaction idle: 0.0333333/0.062037idle ratio: 0.537313
+Memtable speed: 50/53 / 127
+Flush speed: 90/82.4444476
+Compaction idle: 0.0666667/0.0611111idle ratio: 1.09091
+Memtable speed: 43/52 / 127
+Flush speed: 80/84.2222476
+Compaction idle: 0.025/0.0569444idle ratio: 0.439024
+Memtable speed: 43/50 / 127
+Flush speed: 70/84476
+Compaction idle: 0.05/0.0587963idle ratio: 0.850394
+Memtable speed: 33/47 / 127
+Flush speed: 66/83.3333476
+Compaction idle: 0.0375/0.0532407idle ratio: 0.704348
+Memtable speed: 40/45 / 127
+Flush speed: 62/73476
+Compaction idle: 0.0375/0.0537037idle ratio: 0.698276
+Memtable speed: 35/44 / 127
+Flush speed: 71/72.7778476
+Compaction idle: 0.0625/0.0467593idle ratio: 1.33663
+Memtable speed: 49/44 / 127
+Flush speed: 84/75476
+Compaction idle: 0.025/0.0439815idle ratio: 0.568421
+Memtable speed: 34/42 / 127
+Flush speed: 70/73.6667476
+Compaction idle: 0.0333333/0.0412037idle ratio: 0.808989
+Memtable speed: 38/40 / 127
+Flush speed: 56/72.1111476
+Compaction idle: 0.0583333/0.0439815idle ratio: 1.32632
+Memtable speed: 69/42 / 127
+Flush speed: 127/76.2222476
+Compaction idle: 0.1/0.0476852idle ratio: 2.09709
+Memtable speed: 24/40 / 127
+Flush speed: 63/74.3333476
+Compaction idle: 0.05/0.050463idle ratio: 0.990826
+Memtable speed: 21/38 / 127
+Flush speed: 44/71.4444476
+Compaction idle: 0.0833333/0.0541667idle ratio: 1.53846
+Memtable speed: 39/38 / 127
+Flush speed: 77/72.6667476
+Compaction idle: 0.0833333/0.0592593idle ratio: 1.40625
+Memtable speed: 41/38 / 127
+Flush speed: 109/77.8889476
+Compaction idle: 0.0333333/0.0587963idle ratio: 0.566929
+Memtable speed: 42/39 / 127
+Flush speed: 124/83.7778476
+Compaction idle: 0.0875/0.0615741idle ratio: 1.42105
+Memtable speed: 41/38 / 127
+Flush speed: 102/85.7778476
+Compaction idle: 0.025/0.0615741idle ratio: 0.406015
+Memtable speed: 48/40 / 127
+Flush speed: 86/87.5556476
+Compaction idle: 0.0375/0.062037idle ratio: 0.604478
+Memtable speed: 52/41 / 127
+Flush speed: 74/89.5556476
+Compaction idle: 0.075/0.0638889idle ratio: 1.17391
+Memtable speed: 57/40 / 127
+Flush speed: 80/84.3333476
+Compaction idle: 0.075/0.0611111idle ratio: 1.22727
+Memtable speed: 44/42 / 127
+Flush speed: 82/86.4444476
+Compaction idle: 0.0375/0.0597222idle ratio: 0.627907
+Memtable speed: 52/46 / 127
+Flush speed: 73/89.6667476
+Compaction idle: 0.0375/0.0546296idle ratio: 0.686441
+Memtable speed: 41/46 / 127
+Flush speed: 69/88.7778476
+Compaction idle: 0.0333333/0.0490741idle ratio: 0.679245
+Memtable speed: 80/50 / 127
+Flush speed: 169/95.4444476
+Compaction idle: 0.0625/0.0523148idle ratio: 1.19469
+Memtable speed: 58/52 / 127
+Flush speed: 91/91.7778476
+Compaction idle: 0.0875/0.0523148idle ratio: 1.67257
+Memtable speed: 59/54 / 127
+Flush speed: 79/89.2222476
+Compaction idle: 0.0375/0.0537037idle ratio: 0.698276
+Memtable speed: 37/53 / 127
+Flush speed: 61/86.4444476
+Compaction idle: 0.025/0.0523148idle ratio: 0.477876
+Memtable speed: 39/51 / 127
+Flush speed: 64/85.3333476
+Compaction idle: 0.025/0.0467593idle ratio: 0.534653
+Memtable speed: 35/49 / 127
+Flush speed: 74/84.6667476
+Compaction idle: 0.1/0.049537idle ratio: 2.01869
+Memtable speed: 43/49 / 127
+Flush speed: 62/82.4444476
+Compaction idle: 0.0375/0.049537idle ratio: 0.757009
+Memtable speed: 20/45 / 127
+Flush speed: 65/81.5556476
+Compaction idle: 0.0416667/0.05idle ratio: 0.833333
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 52/47 / 127
+Flush speed: 67/81.3333476
+Compaction idle: 0.0375/0.050463idle ratio: 0.743119
+Memtable speed: 62/45 / 127
+Flush speed: 93/72.8889476
+Compaction idle: 0.0333333/0.0472222idle ratio: 0.705882
+Memtable speed: 24/41 / 127
+Flush speed: 39/67.1111476
+Compaction idle: 0.0416667/0.0421296idle ratio: 0.989011
+Memtable speed: 19/36 / 127
+Flush speed: 38/62.5556476
+Compaction idle: 0.025/0.0407407idle ratio: 0.613636
+Memtable speed: 28/35 / 127
+Flush speed: 62/62.6667476
+Compaction idle: 0.05/0.0435185idle ratio: 1.14894
+Memtable speed: 17/33 / 127
+Flush speed: 34/59.3333476
+Compaction idle: 0.05/0.0462963idle ratio: 1.08
+Memtable speed: 49/34 / 127
+Flush speed: 113/63.6667476
+Compaction idle: 0.0625/0.0421296idle ratio: 1.48352
+Memtable speed: 41/34 / 127
+Flush speed: 62/63.6667476
+Compaction idle: 0.075/0.0462963idle ratio: 1.62
+Memtable speed: 47/37 / 127
+Flush speed: 57/62.7778476
+Compaction idle: 0.0583333/0.0481481idle ratio: 1.21154
+Memtable speed: 52/37 / 127
+Flush speed: 66/62.6667476
+Compaction idle: 0.0166667/0.0458333idle ratio: 0.363636
+Memtable speed: 33/34 / 127
+Flush speed: 85/61.7778476
+Compaction idle: 0.025/0.0449074idle ratio: 0.556701
+Memtable speed: 37/35 / 127
+Flush speed: 87/67.1111476
+Compaction idle: 0.0583333/0.0467593idle ratio: 1.24752
+Memtable speed: 44/38 / 127
+Flush speed: 121/76.3333476
+Compaction idle: 0.0875/0.0537037idle ratio: 1.62931
+Memtable speed: 31/39 / 127
+Flush speed: 114/82.1111476
+Compaction idle: 0.0375/0.0523148idle ratio: 0.716814
+Memtable speed: 29/40 / 127
+Flush speed: 76/86.7778476
+Compaction idle: 0.05/0.0523148idle ratio: 0.955752
+Memtable speed: 41/39 / 127
+Flush speed: 85/83.6667476
+Compaction idle: 0.1125/0.0578704idle ratio: 1.944
+Memtable speed: 32/38 / 127
+Flush speed: 124/81.5476
+Compaction idle: 0.0666667/0.0569444idle ratio: 1.17073
+Memtable speed: 26/36 / 127
+Flush speed: 83/84.1476
+Compaction idle: 0.075/0.0587963idle ratio: 1.27559
+Memtable speed: 77/38 / 127
+Flush speed: 143/91.8476
+Compaction idle: 0.05/0.0625idle ratio: 0.8
+Memtable speed: 43/40 / 127
+Flush speed: 87/92476
+Compaction idle: 0.0333333/0.0634259idle ratio: 0.525547
+Memtable speed: 43/40 / 127
+Flush speed: 91/92.4476
+Compaction idle: 0.075/0.0652778idle ratio: 1.14894
+Memtable speed: 41/40 / 127
+Flush speed: 72/87.5476
+Compaction idle: 0.075/0.0638889idle ratio: 1.17391
+Memtable speed: 46/42 / 127
+Flush speed: 83/84.4476
+Compaction idle: 0.0333333/0.0634259idle ratio: 0.525547
+Memtable speed: 24/41 / 127
+Flush speed: 48/81.6476
+Compaction idle: 0.0625/0.0648148idle ratio: 0.964286
+Memtable speed: 21/39 / 127
+Flush speed: 50/78.1476
+Compaction idle: 0.0625/0.0592593idle ratio: 1.05469
+Memtable speed: 27/38 / 127
+Flush speed: 64/80.1111476
+Compaction idle: 0.1/0.062963idle ratio: 1.58824
+Memtable speed: 38/40 / 127
+Flush speed: 86/80.4444476
+Compaction idle: 0.0625/0.0615741idle ratio: 1.01504
+Memtable speed: 44/36 / 127
+Flush speed: 106/76.3333476
+Compaction idle: 0.1125/0.0685185idle ratio: 1.64189
+Memtable speed: 42/36 / 127
+Flush speed: 101/77.8889476
+Compaction idle: 0.0333333/0.0685185idle ratio: 0.486486
+Memtable speed: 30/34 / 127
+Flush speed: 93/78.1111476
+Compaction idle: 0.0416667/0.0648148idle ratio: 0.642857
+Memtable speed: 29/33 / 127
+Flush speed: 80/79476
+Compaction idle: 0.025/0.0592593idle ratio: 0.421875
+Memtable speed: 31/31 / 127
+Flush speed: 82/78.8889476
+Compaction idle: 0.0333333/0.0592593idle ratio: 0.5625
+Memtable speed: 58/35 / 127
+Flush speed: 84/82.8889476
+Compaction idle: 0.025/0.0550926idle ratio: 0.453782
+Memtable speed: 46/38 / 127
+Flush speed: 87/87476
+Compaction idle: 0.0375/0.0523148idle ratio: 0.716814
+Memtable speed: 51/41 / 127
+Flush speed: 112/92.3333476
+Compaction idle: 0.0875/0.0509259idle ratio: 1.71818
+Memtable speed: 44/41 / 127
+Flush speed: 74/91476
+Compaction idle: 0.025/0.0467593idle ratio: 0.534653
+Memtable speed: 36/40 / 127
+Flush speed: 61/86476
+Compaction idle: 0/0.0342593idle ratio: 0
+Memtable speed: 37/40 / 127
+Flush speed: 76/83.2222476
+Compaction idle: 0.0625/0.0375idle ratio: 1.66667
+Memtable speed: 46/42 / 127
+Flush speed: 69/80.5556476
+Compaction idle: 0.0583333/0.0393519idle ratio: 1.48235
+Memtable speed: 48/44 / 127
+Flush speed: 89/81.5556476
+Compaction idle: 0.05/0.0421296idle ratio: 1.18681
+Memtable speed: 23/43 / 127
+Flush speed: 72/80.4444476
+Compaction idle: 0.0875/0.0481481idle ratio: 1.81731
+Memtable speed: 52/42 / 127
+Flush speed: 90/81.1111476
+Compaction idle: 0.1/0.0564815idle ratio: 1.77049
+Memtable speed: 22/39 / 127
+Flush speed: 31/74.8889476
+Compaction idle: 0.00833333/0.0532407idle ratio: 0.156522
+Memtable speed: 49/39 / 127
+Flush speed: 59/69476
+Compaction idle: 0.0875/0.0532407idle ratio: 1.64348
+Memtable speed: 32/38 / 127
+Flush speed: 44/65.6667476
+Compaction idle: 0.025/0.0532407idle ratio: 0.469565
+Memtable speed: 33/38 / 127
+Flush speed: 49/64.3333476
+Compaction idle: 0.0625/0.0601852idle ratio: 1.03846
+Memtable speed: 39/38 / 127
+Flush speed: 49/61.3333476
+Compaction idle: 0.00833333/0.0541667idle ratio: 0.153846
+Memtable speed: 28/36 / 127
+Flush speed: 34/57.4444476
+Compaction idle: 0.025/0.050463idle ratio: 0.495413
+Memtable speed: 36/34 / 127
+Flush speed: 96/58.2222476
+Compaction idle: 0.0875/0.0546296idle ratio: 1.60169
+Memtable speed: 30/35 / 127
+Flush speed: 62/57.1111476
+Compaction idle: 0.05/0.050463idle ratio: 0.990826
+Memtable speed: 39/34 / 127
+Flush speed: 83/56.3333476
+Compaction idle: 0.075/0.0476852idle ratio: 1.57282
+Memtable speed: 42/36 / 127
+Flush speed: 106/64.6667476
+Compaction idle: 0.0375/0.0509259idle ratio: 0.736364
+Memtable speed: 44/35 / 127
+Flush speed: 64/65.2222476
+Compaction idle: 0.0416667/0.0458333idle ratio: 0.909091
+Memtable speed: 52/38 / 127
+Flush speed: 79/69.1111476
+Compaction idle: 0.0375/0.0472222idle ratio: 0.794118
+Memtable speed: 46/39 / 127
+Flush speed: 113/76.2222476
+Compaction idle: 0.025/0.0430556idle ratio: 0.580645
+Memtable speed: 49/40 / 127
+Flush speed: 94/81.2222476
+Compaction idle: 0.0375/0.0462963idle ratio: 0.81
+Memtable speed: 42/42 / 127
+Flush speed: 79/86.2222476
+Compaction idle: 0.025/0.0462963idle ratio: 0.54
+Memtable speed: 55/44 / 127
+Flush speed: 88/85.3333476
+Compaction idle: 0.025/0.0393519idle ratio: 0.635294
+Memtable speed: 48/46 / 127
+Flush speed: 65/85.6667476
+Compaction idle: 0.0666667/0.0412037idle ratio: 1.61798
+Memtable speed: 68/49 / 127
+Flush speed: 86/86476
+Compaction idle: 0.025/0.0356481idle ratio: 0.701299
+Memtable speed: 69/52 / 127
+Flush speed: 115/87476
+Compaction idle: 0.125/0.0453704idle ratio: 2.7551
+Memtable speed: 52/53 / 127
+Flush speed: 107/91.7778476
+Compaction idle: 0.05/0.0462963idle ratio: 1.08
+Memtable speed: 15/49 / 127
+Flush speed: 92/93.2222476
+Compaction idle: 0.025/0.0449074idle ratio: 0.556701
+slow flush, decrease thread
+lo/ro, increase thread
+Memtable speed: 21/46 / 127
+Flush speed: 31/84.1111476
+Compaction idle: 0.1/0.0532407idle ratio: 1.87826
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 36/45 / 127
+Flush speed: 42/78.3333476
+Compaction idle: 0.0333333/0.0527778idle ratio: 0.631579
+Memtable speed: 23/43 / 127
+Flush speed: 26/72.4444476
+Compaction idle: 0.1/0.0611111idle ratio: 1.63636
+Memtable speed: 15/38 / 127
+Flush speed: 21/65476
+Compaction idle: 0.075/0.0666667idle ratio: 1.125
+slow flush, decrease thread
+idle threads, keep the threads
+lo/ro, increase thread
+Memtable speed: 31/36 / 127
+Flush speed: 22/60.2222476
+Compaction idle: 0.0666667/0.0666667idle ratio: 1
+Memtable speed: 43/33 / 127
+Flush speed: 94.5/55.05476
+Compaction idle: 0.05/0.0694444idle ratio: 0.72
+Memtable speed: 67/33 / 127
+Flush speed: 73/50.85476
+Compaction idle: 0.075/0.0638889idle ratio: 1.17391
+Memtable speed: 20/30 / 127
+Flush speed: 51.5/41.1818476
+Compaction idle: 0.075/0.0666667idle ratio: 1.125
+Memtable speed: 18/30 / 127
+Flush speed: 37/36.1818476
+Compaction idle: 0.025/0.0666667idle ratio: 0.375
+Memtable speed: 16/29 / 127
+Flush speed: 23/35.4545476
+Compaction idle: 0.0416667/0.0601852idle ratio: 0.692308
+Memtable speed: 38/30 / 127
+Flush speed: 60/37.0909476
+Compaction idle: 0.0375/0.0606481idle ratio: 0.618321
+Memtable speed: 80/36 / 127
+Flush speed: 167/49.9091476
+Compaction idle: 0.0625/0.0564815idle ratio: 1.10656
+Memtable speed: 20/37 / 127
+Flush speed: 30/50.7273476
+Compaction idle: 0.075/0.0564815idle ratio: 1.32787
+Memtable speed: 16/35 / 127
+Flush speed: 34/51.8182476
+Compaction idle: 0.075/0.0574074idle ratio: 1.30645
+slow flush, decrease thread
+idle threads, keep the threads
+lo/ro, increase thread
+Memtable speed: 12/31 / 127
+Flush speed: 56/53.15476
+Compaction idle: 0.0125/0.0532407idle ratio: 0.234783
+slow flush, decrease thread
+lo/ro, increase thread
+Memtable speed: 30/27 / 127
+Flush speed: 139/59.75476
+Compaction idle: 0.05/0.050463idle ratio: 0.990826
+Memtable speed: 10/26 / 127
+Flush speed: 14/62.2222476
+Compaction idle: 0.05/0.0476852idle ratio: 1.04854
+slow flush, decrease thread
+idle threads, keep the threads
+lo/ro, increase thread
+Memtable speed: 43/29 / 127
+Flush speed: 82/67.2222476
+Compaction idle: 0.05/0.050463idle ratio: 0.990826
+Memtable speed: 11/28 / 127
+Flush speed: 20/66.8889476
+Compaction idle: 0.0416667/0.050463idle ratio: 0.825688
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 21/27 / 127
+Flush speed: 41/64.7778476
+Compaction idle: 0.0666667/0.0537037idle ratio: 1.24138
+Memtable speed: 13/19 / 127
+Flush speed: 19/48.3333476
+Compaction idle: 0.0375/0.0509259idle ratio: 0.736364
+Memtable speed: 15/19 / 127
+Flush speed: 18/47476
+Compaction idle: 0.325/0.0787037idle ratio: 4.12941
+Memtable speed: 15/18 / 127
+Flush speed: 29/46.4444476
+Compaction idle: 0.025/0.0731481idle ratio: 0.341772
+Memtable speed: 13/19 / 127
+Flush speed: 14/41.7778476
+Compaction idle: 0.0916667/0.0819444idle ratio: 1.11864
+Memtable speed: 10/16 / 127
+Flush speed: 50/31.8889476
+Compaction idle: 0.1/0.0875idle ratio: 1.14286
+Memtable speed: 16/17 / 127
+Flush speed: 22/32.7778476
+Compaction idle: 0.1125/0.0944444idle ratio: 1.19118
+Memtable speed: 11/13 / 127
+Flush speed: 20/25.8889476
+Compaction idle: 0.175/0.108333idle ratio: 1.61538
+Memtable speed: 12/14 / 127
+Flush speed: 17/25.5556476
+Compaction idle: 0.0375/0.10787idle ratio: 0.347639
+Memtable speed: 9/12 / 127
+Flush speed: 17/22.8889476
+Compaction idle: 0.0875/0.110185idle ratio: 0.794118
+Memtable speed: 0/11 / 127
+Flush speed: 16.5/20.35476
+Compaction idle: 0.0166667/0.10787idle ratio: 0.154506
+slow flush, decrease thread
+lo/ro, increase thread
+applying changes
+Memtable speed: 9/10 / 127
+Flush speed: 21/20.65476
+Compaction idle: 0.0666667/0.0791667idle ratio: 0.842105
+Memtable speed: 11/10 / 127
+Flush speed: 15/19.25476
+Compaction idle: 0.175/0.0958333idle ratio: 1.82609
+Memtable speed: 17/10 / 127
+Flush speed: 34/21.25476
+Compaction idle: 0.0625/0.0925926idle ratio: 0.675
+Memtable speed: 10/10 / 127
+Flush speed: 23/18.55476
+Compaction idle: 0.0375/0.0856481idle ratio: 0.437838
+Memtable speed: 9/9 / 127
+Flush speed: 20/18.35476
+Compaction idle: 0.125/0.087037idle ratio: 1.43617
+Memtable speed: 6/9 / 127
+Flush speed: 26/18.95476
+Compaction idle: 0.1625/0.0856481idle ratio: 1.8973
+Memtable speed: 9/8 / 127
+Flush speed: 12/18.45476
+Compaction idle: 0.0875/0.0912037idle ratio: 0.959391
+Memtable speed: 28/11 / 127
+Flush speed: 38/20.55476
+Compaction idle: 0.175/0.100926idle ratio: 1.73394
+Memtable speed: 29/14 / 127
+Flush speed: 21/23.3333476
+Compaction idle: 0.0916667/0.109259idle ratio: 0.838983
+Memtable speed: 30/16 / 127
+Flush speed: 34/24.7778476
+Compaction idle: 0.0416667/0.106481idle ratio: 0.391304
+Memtable speed: 35/19 / 127
+Flush speed: 36/27.1111476
+Compaction idle: 0.075/0.0953704idle ratio: 0.786408
+Memtable speed: 49/22 / 127
+Flush speed: 55/29.4444476
+Compaction idle: 0.0875/0.0981481idle ratio: 0.891509
+Memtable speed: 46/26 / 127
+Flush speed: 46/32476
+Compaction idle: 0.075/0.102315idle ratio: 0.733032
+Memtable speed: 40/30 / 127
+Flush speed: 61/36.5556476
+Compaction idle: 0.0875/0.0981481idle ratio: 0.891509
+Memtable speed: 8/30 / 127
+Flush speed: 20/35.8889476
+Compaction idle: 0.0875/0.0898148idle ratio: 0.974227
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 7/30 / 127
+Flush speed: 26/37.4444476
+Compaction idle: 0.0833333/0.0893519idle ratio: 0.932642
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 26/30 / 127
+Flush speed: 34.5/33.35476
+Compaction idle: 0.0875/0.0796296idle ratio: 1.09884
+Memtable speed: 27/29 / 127
+Flush speed: 35/34.75476
+Compaction idle: 0.1125/0.0819444idle ratio: 1.37288
+Memtable speed: 2/26 / 127
+Flush speed: 63/34.2273476
+Compaction idle: 0.0875/0.087037idle ratio: 1.00532
+slow flush, decrease thread
+idle threads, keep the threads
+applying changes
+Memtable speed: 31/26 / 127
+Flush speed: 60/36.4091476
+Compaction idle: 0.025/0.0814815idle ratio: 0.306818
+Memtable speed: 6/21 / 127
+Flush speed: 29/34.0455476
+Compaction idle: 0.075/0.0800926idle ratio: 0.936416
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 1/16 / 127
+Flush speed: 26/29.5417476
+Compaction idle: 0.15/0.0884259idle ratio: 1.69634
+slow flush, decrease thread
+idle threads, keep the threads
+applying changes
+Memtable speed: 1/12 / 127
+Flush speed: 26.5/24.6154476
+Compaction idle: 0.075/0.087037idle ratio: 0.861702
+slow flush, decrease thread
+idle threads, keep the threads
+applying changes
+Memtable speed: 39/15 / 127
+Flush speed: 29.5/23.5357476
+Compaction idle: 1/0.188426idle ratio: 5.30713
+Memtable speed: 1/14 / 127
+Flush speed: 29.5/22.2476
+Compaction idle: 1/0.290278idle ratio: 3.44498
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 46/17 / 127
+Flush speed: 62/25.75476
+Compaction idle: 0.05/0.286111idle ratio: 0.174757
+Memtable speed: 45/19 / 127
+Flush speed: 65/27.8929476
+Compaction idle: 0.1/0.284722idle ratio: 0.35122
+Memtable speed: 31/22 / 127
+Flush speed: 34/27.8077476
+Compaction idle: 0.0875/0.284722idle ratio: 0.307317
+Memtable speed: 24/21 / 127
+Flush speed: 33/25.7308476
+Compaction idle: 0.05/0.2875idle ratio: 0.173913
+Memtable speed: 39/25 / 127
+Flush speed: 54.5/25.7143476
+Compaction idle: 0.0416667/0.283796idle ratio: 0.146819
+Memtable speed: 40/29 / 127
+Flush speed: 62.5/28.3214476
+Compaction idle: 0.075/0.275463idle ratio: 0.272269
+Memtable speed: 3/29 / 127
+Flush speed: 68.3333/29.2222476
+Compaction idle: 0.05/0.272685idle ratio: 0.183362
+slow flush, decrease thread
+applying changes
+Memtable speed: 17/27 / 127
+Flush speed: 32/31.4881476
+Compaction idle: 0.125/0.175463idle ratio: 0.712401
+Memtable speed: 1/27 / 127
+Flush speed: 33.5/31.7738476
+Compaction idle: 0/0.0643519idle ratio: 0
+slow flush, decrease thread
+applying changes
+Memtable speed: 25/25 / 127
+Flush speed: 48/30.7738476
+Compaction idle: 0.025/0.0615741idle ratio: 0.406015
+Memtable speed: 34/23 / 127
+Flush speed: 49/29.631476
+Compaction idle: 0.0166667/0.0523148idle ratio: 0.318584
+Memtable speed: 24/23 / 127
+Flush speed: 82/33.0595476
+Compaction idle: 0.075/0.0509259idle ratio: 1.47273
+Memtable speed: 43/25 / 127
+Flush speed: 51/34.3452476
+Compaction idle: 0.075/0.0537037idle ratio: 1.39655
+Memtable speed: 35/24 / 127
+Flush speed: 66/37.8718476
+Compaction idle: 0.0625/0.0560185idle ratio: 1.1157
+Memtable speed: 34/24 / 127
+Flush speed: 49/39.9028476
+Compaction idle: 0.0583333/0.0541667idle ratio: 1.07692
+Memtable speed: 28/26 / 127
+Flush speed: 37/44.75476
+Compaction idle: 0.075/0.0569444idle ratio: 1.31707
+Memtable speed: 41/29 / 127
+Flush speed: 49/46.45476
+Compaction idle: 0.05/0.0486111idle ratio: 1.02857
+Memtable speed: 38/33 / 127
+Flush speed: 44/52.7778476
+Compaction idle: 0.025/0.0513889idle ratio: 0.486486
+Memtable speed: 49/36 / 127
+Flush speed: 58/53.8889476
+Compaction idle: 0.05/0.0541667idle ratio: 0.923077
+Memtable speed: 38/36 / 127
+Flush speed: 43/53.2222476
+Compaction idle: 0.0416667/0.0569444idle ratio: 0.731707
+Memtable speed: 27/37 / 127
+Flush speed: 34/47.8889476
+Compaction idle: 0.0875/0.0583333idle ratio: 1.5
+Memtable speed: 24/34 / 127
+Flush speed: 51/47.8889476
+Compaction idle: 0.0333333/0.0537037idle ratio: 0.62069
+Memtable speed: 35/34 / 127
+Flush speed: 65/47.7778476
+Compaction idle: 0.075/0.0550926idle ratio: 1.36134
+Memtable speed: 45/36 / 127
+Flush speed: 66/49.6667476
+Compaction idle: 0.1/0.0597222idle ratio: 1.67442
+Memtable speed: 32/36 / 127
+Flush speed: 50/51.1111476
+Compaction idle: 0.1125/0.0638889idle ratio: 1.76087
+Memtable speed: 34/35 / 127
+Flush speed: 49/51.1111476
+Compaction idle: 0.0375/0.0625idle ratio: 0.6
+Memtable speed: 36/35 / 127
+Flush speed: 42/50.8889476
+Compaction idle: 0.0583333/0.0662037idle ratio: 0.881119
+Memtable speed: 12/31 / 127
+Flush speed: 54/50.4444476
+Compaction idle: 0.125/0.074537idle ratio: 1.67702
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 15/28 / 127
+Flush speed: 101/56.8889476
+Compaction idle: 0.125/0.0837963idle ratio: 1.49171
+Memtable speed: 19/28 / 127
+Flush speed: 86/56.4476
+Compaction idle: 0.0416667/0.0787037idle ratio: 0.529412
+Memtable speed: 24/28 / 127
+Flush speed: 64/57.7476
+Compaction idle: 0.1/0.0861111idle ratio: 1.16129
+Memtable speed: 25/26 / 127
+Flush speed: 84.5/54.2273476
+Compaction idle: 0.025/0.0805556idle ratio: 0.310345
+Memtable speed: 28/25 / 127
+Flush speed: 77/55.2273476
+Compaction idle: 0.0583333/0.0759259idle ratio: 0.768293
+Memtable speed: 15/23 / 127
+Flush speed: 82/58.1364476
+Compaction idle: 0.05/0.0689815idle ratio: 0.724832
+Memtable speed: 28/22 / 127
+Flush speed: 95/62.3182476
+Compaction idle: 0.075/0.0731481idle ratio: 1.02532
+Memtable speed: 23/21 / 127
+Flush speed: 30/61.2273476
+Compaction idle: 0.05/0.0722222idle ratio: 0.692308
+Memtable speed: 48/25 / 127
+Flush speed: 50/60.8636476
+Compaction idle: 0.15/0.075idle ratio: 2
+Memtable speed: 27/26 / 127
+Flush speed: 43/55.5909476
+Compaction idle: 0.0416667/0.0657407idle ratio: 0.633803
+Memtable speed: 37/28 / 127
+Flush speed: 49/57.45476
+Compaction idle: 0.0666667/0.0685185idle ratio: 0.972973
+Memtable speed: 30/29 / 127
+Flush speed: 70/58.05476
+Compaction idle: 0.025/0.0601852idle ratio: 0.415385
+Memtable speed: 28/29 / 127
+Flush speed: 72/63.1111476
+Compaction idle: 0.025/0.0601852idle ratio: 0.415385
+Memtable speed: 38/30 / 127
+Flush speed: 53/60.4444476
+Compaction idle: 0.075/0.062037idle ratio: 1.20896
+Memtable speed: 37/32 / 127
+Flush speed: 56/57.5556476
+Compaction idle: 0.1125/0.0689815idle ratio: 1.63087
+Memtable speed: 28/32 / 127
+Flush speed: 56/53.2222476
+Compaction idle: 0.0166667/0.0625idle ratio: 0.266667
+Memtable speed: 57/36 / 127
+Flush speed: 81/58.8889476
+Compaction idle: 0.0833333/0.0662037idle ratio: 1.25874
+Memtable speed: 46/36 / 127
+Flush speed: 56/59.5556476
+Compaction idle: 0.0625/0.0564815idle ratio: 1.10656
+Memtable speed: 51/39 / 127
+Flush speed: 79/63.5556476
+Compaction idle: 0.05/0.0574074idle ratio: 0.870968
+Memtable speed: 42/39 / 127
+Flush speed: 56/64.3333476
+Compaction idle: 0.00833333/0.0509259idle ratio: 0.163636
+Memtable speed: 25/39 / 127
+Flush speed: 60/63.2222476
+Compaction idle: 0.025/0.0509259idle ratio: 0.490909
+Memtable speed: 27/39 / 127
+Flush speed: 57/61.5556476
+Compaction idle: 0.075/0.0564815idle ratio: 1.32787
+Memtable speed: 34/38 / 127
+Flush speed: 56/61.8889476
+Compaction idle: 0.025/0.0509259idle ratio: 0.490909
+Memtable speed: 12/35 / 127
+Flush speed: 43/60.4444476
+Compaction idle: 0.05/0.0439815idle ratio: 1.13684
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 11/33 / 127
+Flush speed: 68/61.7778476
+Compaction idle: 0.075/0.050463idle ratio: 1.48624
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 1/27 / 127
+Flush speed: 28/50.3476
+Compaction idle: 0.0125/0.0425926idle ratio: 0.293478
+slow flush, decrease thread
+lo/ro, increase thread
+applying changes
+Memtable speed: 21/24 / 127
+Flush speed: 36/48.3476
+Compaction idle: 0.1/0.0467593idle ratio: 2.13861
+Memtable speed: 28/22 / 127
+Flush speed: 49/45.3476
+Compaction idle: 0/0.0412037idle ratio: 0
+Memtable speed: 49/23 / 127
+Flush speed: 71/46.8476
+Compaction idle: 0.0375/0.0444444idle ratio: 0.84375
+Memtable speed: 9/21 / 127
+Flush speed: 31/43.9476
+Compaction idle: 0.1/0.0527778idle ratio: 1.89474
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 16/20 / 127
+Flush speed: 23/40.5476
+Compaction idle: 0.1375/0.0597222idle ratio: 2.30233
+Memtable speed: 12/17 / 127
+Flush speed: 43/39.2476
+Compaction idle: 0.1/0.0680556idle ratio: 1.46939
+Memtable speed: 1/16 / 127
+Flush speed: 26/34.0909476
+Compaction idle: 0.0125/0.0638889idle ratio: 0.195652
+slow flush, decrease thread
+applying changes
+Memtable speed: 15/16 / 127
+Flush speed: 26/30.2727476
+Compaction idle: 0.05/0.0611111idle ratio: 0.818182
+Memtable speed: 59/23 / 127
+Flush speed: 68/37.3476
+Compaction idle: 0.075/0.0680556idle ratio: 1.10204
+Memtable speed: 52/26 / 127
+Flush speed: 66/40.3476
+Compaction idle: 0.1/0.0680556idle ratio: 1.46939
+Memtable speed: 34/27 / 127
+Flush speed: 73/42.7476
+Compaction idle: 0.075/0.0763889idle ratio: 0.981818
+Memtable speed: 20/24 / 127
+Flush speed: 62/41.8476
+Compaction idle: 0.0333333/0.0759259idle ratio: 0.439024
+Memtable speed: 40/27 / 127
+Flush speed: 60/44.7476
+Compaction idle: 0.0875/0.074537idle ratio: 1.17391
+Memtable speed: 44/30 / 127
+Flush speed: 73/49.7476
+Compaction idle: 0.05/0.0648148idle ratio: 0.771429
+Memtable speed: 34/33 / 127
+Flush speed: 42/49.6476
+Compaction idle: 0.1125/0.0662037idle ratio: 1.6993
+Memtable speed: 45/38 / 127
+Flush speed: 60/58.8889476
+Compaction idle: 0.0583333/0.0712963idle ratio: 0.818182
+Memtable speed: 71/44 / 127
+Flush speed: 145/72.1111476
+Compaction idle: 0.0583333/0.0722222idle ratio: 0.807692
+Memtable speed: 41/42 / 127
+Flush speed: 66/71.8889476
+Compaction idle: 0.05/0.0694444idle ratio: 0.72
+Memtable speed: 44/41 / 127
+Flush speed: 59/71.1111476
+Compaction idle: 0.0666667/0.0657407idle ratio: 1.01408
+Memtable speed: 49/43 / 127
+Flush speed: 80/71.8889476
+Compaction idle: 0.05/0.062963idle ratio: 0.794118
+Memtable speed: 36/44 / 127
+Flush speed: 49/70.4444476
+Compaction idle: 0.0333333/0.062963idle ratio: 0.529412
+Memtable speed: 31/43 / 127
+Flush speed: 36/67.7778476
+Compaction idle: 0.05/0.0587963idle ratio: 0.850394
+Memtable speed: 31/42 / 127
+Flush speed: 49/65.1111476
+Compaction idle: 0.075/0.0615741idle ratio: 1.21805
+Memtable speed: 17/40 / 127
+Flush speed: 102/71.7778476
+Compaction idle: 0.0625/0.0560185idle ratio: 1.1157
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 43/40 / 127
+Flush speed: 60/71.7778476
+Compaction idle: 0.0875/0.0592593idle ratio: 1.47656
+Memtable speed: 41/37 / 127
+Flush speed: 55/55.6476
+Compaction idle: 0.1/0.0638889idle ratio: 1.56522
+Memtable speed: 29/35 / 127
+Flush speed: 88/57.8476
+Compaction idle: 0.0166667/0.0601852idle ratio: 0.276923
+Memtable speed: 73/38 / 127
+Flush speed: 115/63.4476
+Compaction idle: 0.1125/0.0652778idle ratio: 1.7234
+Memtable speed: 19/35 / 127
+Flush speed: 36/59476
+Compaction idle: 0.0375/0.0638889idle ratio: 0.586957
+Memtable speed: 59/38 / 127
+Flush speed: 85/62.6476
+Compaction idle: 0.0375/0.0643519idle ratio: 0.582734
+Memtable speed: 16/36 / 127
+Flush speed: 27/61.7476
+Compaction idle: 0.05/0.0643519idle ratio: 0.776978
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 14/34 / 127
+Flush speed: 26/59.4476
+Compaction idle: 0.0416667/0.0606481idle ratio: 0.687023
+slow flush, decrease thread
+Memtable speed: 26/35 / 127
+Flush speed: 50/54.2476
+Compaction idle: 0.05/0.0592593idle ratio: 0.84375
+Memtable speed: 26/33 / 127
+Flush speed: 43/52.5476
+Compaction idle: 0.05/0.0550926idle ratio: 0.907563
+Memtable speed: 34/32 / 127
+Flush speed: 42/56.8889476
+Compaction idle: 0.05/0.049537idle ratio: 1.00935
+Memtable speed: 59/36 / 127
+Flush speed: 86/56.6667476
+Compaction idle: 0.1/0.0587963idle ratio: 1.70079
+Memtable speed: 50/33 / 127
+Flush speed: 64/51476
+Compaction idle: 0.05/0.0518519idle ratio: 0.964286
+Memtable speed: 16/33 / 127
+Flush speed: 59/53.5556476
+Compaction idle: 0.025/0.050463idle ratio: 0.495413
+slow flush, decrease thread
+Memtable speed: 59/33 / 127
+Flush speed: 102/55.4444476
+Compaction idle: 0.0916667/0.0564815idle ratio: 1.62295
+Memtable speed: 45/36 / 127
+Flush speed: 82/61.5556476
+Compaction idle: 0.05/0.0564815idle ratio: 0.885246
+Memtable speed: 22/37 / 127
+Flush speed: 80/67.5556476
+Compaction idle: 0.05/0.0574074idle ratio: 0.870968
+Memtable speed: 29/37 / 127
+Flush speed: 60/68.6667476
+Compaction idle: 0.025/0.0546296idle ratio: 0.457627
+Memtable speed: 64/42 / 127
+Flush speed: 87/73.5556476
+Compaction idle: 0.075/0.0574074idle ratio: 1.30645
+Memtable speed: 63/45 / 127
+Flush speed: 62/75.7778476
+Compaction idle: 0.0333333/0.0555556idle ratio: 0.6
+Memtable speed: 45/43 / 127
+Flush speed: 58/72.6667476
+Compaction idle: 0.0875/0.0541667idle ratio: 1.61538
+Memtable speed: 43/42 / 127
+Flush speed: 64/72.6667476
+Compaction idle: 0.075/0.0569444idle ratio: 1.31707
+Memtable speed: 41/45 / 127
+Flush speed: 64/73.2222476
+Compaction idle: 0.025/0.0569444idle ratio: 0.439024
+Memtable speed: 30/42 / 127
+Flush speed: 62/68.7778476
+Compaction idle: 0.075/0.0550926idle ratio: 1.36134
+Memtable speed: 38/41 / 127
+Flush speed: 67/67.1111476
+Compaction idle: 0.05/0.0550926idle ratio: 0.907563
+Memtable speed: 35/43 / 127
+Flush speed: 69/65.8889476
+Compaction idle: 0.0583333/0.0560185idle ratio: 1.04132
+Memtable speed: 32/43 / 127
+Flush speed: 57/65.5556476
+Compaction idle: 0.0875/0.062963idle ratio: 1.38971
+Memtable speed: 23/38 / 127
+Flush speed: 69/63.5556476
+Compaction idle: 0.0333333/0.0583333idle ratio: 0.571429
+Memtable speed: 33/35 / 127
+Flush speed: 58/63.1111476
+Compaction idle: 0.025/0.0574074idle ratio: 0.435484
+Memtable speed: 23/33 / 127
+Flush speed: 73/64.7778476
+Compaction idle: 0.1/0.0587963idle ratio: 1.70079
+Memtable speed: 63/35 / 127
+Flush speed: 106/69.4444476
+Compaction idle: 0.1/0.0615741idle ratio: 1.62406
+Memtable speed: 79/39 / 127
+Flush speed: 91/72.4444476
+Compaction idle: 0.0916667/0.0689815idle ratio: 1.32886
+Memtable speed: 40/40 / 127
+Flush speed: 56/71.7778476
+Compaction idle: 0.025/0.0634259idle ratio: 0.394161
+Memtable speed: 41/41 / 127
+Flush speed: 43/69.1111476
+Compaction idle: 0.05/0.0634259idle ratio: 0.788321
+Memtable speed: 45/42 / 127
+Flush speed: 48/66.7778476
+Compaction idle: 0.075/0.0652778idle ratio: 1.14894
+Memtable speed: 27/41 / 127
+Flush speed: 71/68.3333476
+Compaction idle: 0.075/0.0638889idle ratio: 1.17391
+Memtable speed: 25/41 / 127
+Flush speed: 52/66.4444476
+Compaction idle: 0.0333333/0.0638889idle ratio: 0.521739
+Memtable speed: 29/41 / 127
+Flush speed: 89/69.8889476
+Compaction idle: 0.0333333/0.0648148idle ratio: 0.514286
+Memtable speed: 23/41 / 127
+Flush speed: 42/66.4444476
+Compaction idle: 0.0666667/0.0611111idle ratio: 1.09091
+Memtable speed: 41/38 / 127
+Flush speed: 97.5/58.95476
+Compaction idle: 0.05/0.0555556idle ratio: 0.9
+Memtable speed: 44/35 / 127
+Flush speed: 56/55.45476
+Compaction idle: 0.0125/0.0467593idle ratio: 0.267327
+Memtable speed: 38/34 / 127
+Flush speed: 53/55.15476
+Compaction idle: 0.0875/0.0537037idle ratio: 1.62931
+Memtable speed: 35/34 / 127
+Flush speed: 38/54.65476
+Compaction idle: 0.025/0.0509259idle ratio: 0.490909
+Memtable speed: 43/33 / 127
+Flush speed: 51/54.95476
+Compaction idle: 0.075/0.0509259idle ratio: 1.47273
+Memtable speed: 32/34 / 127
+Flush speed: 50/52.85476
+Compaction idle: 0.05/0.0481481idle ratio: 1.03846
+Memtable speed: 31/35 / 127
+Flush speed: 46/52.25476
+Compaction idle: 0.0375/0.0486111idle ratio: 0.771429
+Memtable speed: 32/35 / 127
+Flush speed: 49/48.25476
+Compaction idle: 0.0416667/0.049537idle ratio: 0.841121
+Memtable speed: 46/38 / 127
+Flush speed: 57/49.75476
+Compaction idle: 0.05/0.0476852idle ratio: 1.04854
+Memtable speed: 28/36 / 127
+Flush speed: 79/53.2222476
+Compaction idle: 0.0583333/0.0486111idle ratio: 1.2
+Memtable speed: 25/34 / 127
+Flush speed: 38/51.2222476
+Compaction idle: 0.0666667/0.0546296idle ratio: 1.22034
+Memtable speed: 36/34 / 127
+Flush speed: 63/52.3333476
+Compaction idle: 0.0375/0.0490741idle ratio: 0.764151
+Memtable speed: 50/35 / 127
+Flush speed: 64/55.2222476
+Compaction idle: 0.0875/0.0560185idle ratio: 1.56198
+Memtable speed: 47/36 / 127
+Flush speed: 83/58.7778476
+Compaction idle: 0.0416667/0.0523148idle ratio: 0.79646
+Memtable speed: 22/35 / 127
+Flush speed: 57/59.5556476
+Compaction idle: 0.0375/0.0509259idle ratio: 0.736364
+Memtable speed: 36/35 / 127
+Flush speed: 57/60.7778476
+Compaction idle: 0.1125/0.0592593idle ratio: 1.89844
+Memtable speed: 47/37 / 127
+Flush speed: 60/62476
+Compaction idle: 0.0583333/0.0611111idle ratio: 0.954545
+Memtable speed: 67/39 / 127
+Flush speed: 87/65.3333476
+Compaction idle: 0.1125/0.0680556idle ratio: 1.65306
+Memtable speed: 52/42 / 127
+Flush speed: 69/64.2222476
+Compaction idle: 0.0875/0.0712963idle ratio: 1.22727
+Memtable speed: 61/46 / 127
+Flush speed: 83/69.2222476
+Compaction idle: 0.0625/0.0708333idle ratio: 0.882353
+Memtable speed: 38/46 / 127
+Flush speed: 58/68.6667476
+Compaction idle: 0.05/0.0722222idle ratio: 0.692308
+Memtable speed: 37/45 / 127
+Flush speed: 54/67.5556476
+Compaction idle: 0.0416667/0.0671296idle ratio: 0.62069
+Memtable speed: 34/43 / 127
+Flush speed: 54/64.3333476
+Compaction idle: 0.025/0.0652778idle ratio: 0.382979
+Memtable speed: 20/43 / 127
+Flush speed: 49/63.4444476
+Compaction idle: 0.0583333/0.0675926idle ratio: 0.863014
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 14/41 / 127
+Flush speed: 67/64.5556476
+Compaction idle: 0.05/0.0606481idle ratio: 0.824427
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 30/39 / 127
+Flush speed: 47/63.1111476
+Compaction idle: 0.075/0.0625idle ratio: 1.2
+Memtable speed: 33/35 / 127
+Flush speed: 75/61.7778476
+Compaction idle: 0.1125/0.0625idle ratio: 1.8
+Memtable speed: 62/36 / 127
+Flush speed: 82/63.2222476
+Compaction idle: 0.05/0.0583333idle ratio: 0.857143
+Memtable speed: 43/34 / 127
+Flush speed: 69/61.6667476
+Compaction idle: 0.025/0.0541667idle ratio: 0.461538
+Memtable speed: 33/34 / 127
+Flush speed: 88/65476
+Compaction idle: 0.1625/0.0666667idle ratio: 2.4375
+Memtable speed: 24/32 / 127
+Flush speed: 118/72.1111476
+Compaction idle: 0.0375/0.0662037idle ratio: 0.566434
+Memtable speed: 20/31 / 127
+Flush speed: 51/71.7778476
+Compaction idle: 0.0125/0.0648148idle ratio: 0.192857
+Memtable speed: 22/31 / 127
+Flush speed: 45/71.3333476
+Compaction idle: 0.05/0.0638889idle ratio: 0.782609
+Memtable speed: 26/32 / 127
+Flush speed: 63/70.8889476
+Compaction idle: 0.0666667/0.0657407idle ratio: 1.01408
+Memtable speed: 21/31 / 127
+Flush speed: 36/69.6667476
+Compaction idle: 0.0625/0.0643519idle ratio: 0.971223
+Memtable speed: 30/31 / 127
+Flush speed: 37/65.4444476
+Compaction idle: 0.1/0.062963idle ratio: 1.58824
+Memtable speed: 42/29 / 127
+Flush speed: 62/63.2222476
+Compaction idle: 0.025/0.0601852idle ratio: 0.415385
+Memtable speed: 24/26 / 127
+Flush speed: 50/61.1111476
+Compaction idle: 0.025/0.0601852idle ratio: 0.415385
+Memtable speed: 46/28 / 127
+Flush speed: 73/59.4444476
+Compaction idle: 0.0583333/0.0486111idle ratio: 1.2
+Memtable speed: 29/28 / 127
+Flush speed: 63/53.3333476
+Compaction idle: 0.025/0.0472222idle ratio: 0.529412
+Memtable speed: 38/30 / 127
+Flush speed: 61/54.4444476
+Compaction idle: 0.075/0.0541667idle ratio: 1.38462
+Memtable speed: 59/35 / 127
+Flush speed: 103/60.8889476
+Compaction idle: 0.1375/0.0638889idle ratio: 2.15217
+Memtable speed: 32/35 / 127
+Flush speed: 46/59476
+Compaction idle: 0.05/0.062037idle ratio: 0.80597
+Memtable speed: 41/37 / 127
+Flush speed: 51/60.6667476
+Compaction idle: 0.025/0.0578704idle ratio: 0.432
+Memtable speed: 24/37 / 127
+Flush speed: 50/62.1111476
+Compaction idle: 0.0375/0.0509259idle ratio: 0.736364
+Memtable speed: 46/37 / 127
+Flush speed: 57/61.5556476
+Compaction idle: 0.1125/0.0606481idle ratio: 1.85496
+Memtable speed: 27/38 / 127
+Flush speed: 51/61.6667476
+Compaction idle: 0.0125/0.0592593idle ratio: 0.210938
+Memtable speed: 26/35 / 127
+Flush speed: 39/57.8889476
+Compaction idle: 0.0375/0.0569444idle ratio: 0.658537
+Memtable speed: 14/34 / 127
+Flush speed: 30/54.2222476
+Compaction idle: 0.0375/0.0583333idle ratio: 0.642857
+slow flush, decrease thread
+Memtable speed: 28/33 / 127
+Flush speed: 65/54.6667476
+Compaction idle: 0.0625/0.0569444idle ratio: 1.09756
+Memtable speed: 34/30 / 127
+Flush speed: 105/54.8889476
+Compaction idle: 0.05/0.0472222idle ratio: 1.05882
+Memtable speed: 47/31 / 127
+Flush speed: 76/58.2222476
+Compaction idle: 0.0625/0.0486111idle ratio: 1.28571
+Memtable speed: 34/31 / 127
+Flush speed: 88/62.3333476
+Compaction idle: 0.075/0.0541667idle ratio: 1.38462
+Memtable speed: 53/34 / 127
+Flush speed: 69/64.4444476
+Compaction idle: 0.05/0.0555556idle ratio: 0.9
+Memtable speed: 41/33 / 127
+Flush speed: 72/66.1111476
+Compaction idle: 0.025/0.0458333idle ratio: 0.545455
+Memtable speed: 24/33 / 127
+Flush speed: 55/66.5556476
+Compaction idle: 0.0166667/0.0462963idle ratio: 0.36
+Memtable speed: 41/35 / 127
+Flush speed: 49/67.6667476
+Compaction idle: 0.025/0.0449074idle ratio: 0.556701
+Memtable speed: 29/36 / 127
+Flush speed: 67/71.7778476
+Compaction idle: 0.05/0.0462963idle ratio: 1.08
+Memtable speed: 40/38 / 127
+Flush speed: 53/70.4444476
+Compaction idle: 0.1125/0.0518519idle ratio: 2.16964
+Memtable speed: 24/37 / 127
+Flush speed: 27/61.7778476
+Compaction idle: 0.0666667/0.0537037idle ratio: 1.24138
+Memtable speed: 19/33 / 127
+Flush speed: 35/57.2222476
+Compaction idle: 0.0375/0.0509259idle ratio: 0.736364
+Memtable speed: 37/34 / 127
+Flush speed: 47/52.6667476
+Compaction idle: 0.0333333/0.0462963idle ratio: 0.72
+Memtable speed: 41/32 / 127
+Flush speed: 54/51476
+Compaction idle: 0.0625/0.0476852idle ratio: 1.31068
+Memtable speed: 40/32 / 127
+Flush speed: 51/48.6667476
+Compaction idle: 0.0583333/0.0513889idle ratio: 1.13514
+Memtable speed: 55/36 / 127
+Flush speed: 55/48.6667476
+Compaction idle: 0.1375/0.0648148idle ratio: 2.12143
+Memtable speed: 64/38 / 127
+Flush speed: 73/51.3333476
+Compaction idle: 0.00833333/0.062963idle ratio: 0.132353
+Memtable speed: 43/40 / 127
+Flush speed: 54/49.8889476
+Compaction idle: 0.025/0.0601852idle ratio: 0.415385
+Memtable speed: 43/40 / 127
+Flush speed: 68/51.5556476
+Compaction idle: 0.05/0.0532407idle ratio: 0.93913
+Memtable speed: 36/42 / 127
+Flush speed: 56/54.7778476
+Compaction idle: 0.0375/0.05idle ratio: 0.75
+Memtable speed: 46/45 / 127
+Flush speed: 71/58.7778476
+Compaction idle: 0.125/0.0597222idle ratio: 2.09302
+Memtable speed: 35/44 / 127
+Flush speed: 89/63.4444476
+Compaction idle: 0.0666667/0.0634259idle ratio: 1.05109
+Memtable speed: 45/45 / 127
+Flush speed: 65/64.6667476
+Compaction idle: 0.025/0.0592593idle ratio: 0.421875
+Memtable speed: 42/45 / 127
+Flush speed: 53/64.8889476
+Compaction idle: 0.1/0.0638889idle ratio: 1.56522
+Memtable speed: 24/42 / 127
+Flush speed: 47/64476
+Compaction idle: 0.0375/0.0527778idle ratio: 0.710526
+Memtable speed: 31/38 / 127
+Flush speed: 47/61.1111476
+Compaction idle: 0.0625/0.0587963idle ratio: 1.06299
+Memtable speed: 16/35 / 127
+Flush speed: 48/60.4444476
+Compaction idle: 0.075/0.0643519idle ratio: 1.16547
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 24/33 / 127
+Flush speed: 62/59.7778476
+Compaction idle: 0.0333333/0.0625idle ratio: 0.533333
+Memtable speed: 27/32 / 127
+Flush speed: 92/63.7778476
+Compaction idle: 0.0875/0.0680556idle ratio: 1.28571
+Memtable speed: 32/30 / 127
+Flush speed: 49/61.3333476
+Compaction idle: 0.0375/0.0583333idle ratio: 0.642857
+Memtable speed: 25/29 / 127
+Flush speed: 54/57.4444476
+Compaction idle: 0.1375/0.0662037idle ratio: 2.07692
+Memtable speed: 32/28 / 127
+Flush speed: 117/63.2222476
+Compaction idle: 0.0583333/0.0699074idle ratio: 0.834437
+Memtable speed: 19/25 / 127
+Flush speed: 62/64.2222476
+Compaction idle: 0.05/0.0643519idle ratio: 0.776978
+Memtable speed: 26/25 / 127
+Flush speed: 71/66.8889476
+Compaction idle: 0.075/0.0685185idle ratio: 1.09459
+Memtable speed: 37/26 / 127
+Flush speed: 59/68.2222476
+Compaction idle: 0.1/0.0726852idle ratio: 1.3758
+Memtable speed: 22/27 / 127
+Flush speed: 41/67.4444476
+Compaction idle: 0.0666667/0.0717593idle ratio: 0.929032
+Memtable speed: 43/29 / 127
+Flush speed: 68/68.1111476
+Compaction idle: 0.0625/0.075idle ratio: 0.833333
+Memtable speed: 24/28 / 127
+Flush speed: 73/66476
+Compaction idle: 0.0875/0.075idle ratio: 1.16667
+Memtable speed: 36/29 / 127
+Flush speed: 49/66476
+Compaction idle: 0.0875/0.0805556idle ratio: 1.08621
+Memtable speed: 41/31 / 127
+Flush speed: 56/66.2222476
+Compaction idle: 0.075/0.0736111idle ratio: 1.01887
+Memtable speed: 59/34 / 127
+Flush speed: 102/64.5556476
+Compaction idle: 0.1/0.0782407idle ratio: 1.27811
+Memtable speed: 41/36 / 127
+Flush speed: 48/63476
+Compaction idle: 0.00833333/0.0736111idle ratio: 0.113208
+Memtable speed: 47/38 / 127
+Flush speed: 65/62.3333476
+Compaction idle: 0.05/0.0708333idle ratio: 0.705882
+Memtable speed: 37/38 / 127
+Flush speed: 51/61.4444476
+Compaction idle: 0.075/0.0680556idle ratio: 1.10204
+Memtable speed: 36/40 / 127
+Flush speed: 68/64.4444476
+Compaction idle: 0.0375/0.0648148idle ratio: 0.578571
+Memtable speed: 36/39 / 127
+Flush speed: 63/63.8889476
+Compaction idle: 0.0125/0.0592593idle ratio: 0.210938
+Memtable speed: 35/40 / 127
+Flush speed: 54/61.7778476
+Compaction idle: 0.0333333/0.0532407idle ratio: 0.626087
+Memtable speed: 42/41 / 127
+Flush speed: 61/63.1111476
+Compaction idle: 0.025/0.0462963idle ratio: 0.54
+Memtable speed: 31/40 / 127
+Flush speed: 38/61.1111476
+Compaction idle: 0.025/0.0407407idle ratio: 0.613636
+Memtable speed: 39/38 / 127
+Flush speed: 50/55.3333476
+Compaction idle: 0.0375/0.0337963idle ratio: 1.10959
+Memtable speed: 22/36 / 127
+Flush speed: 43/54.7778476
+Compaction idle: 0.05/0.0384259idle ratio: 1.3012
+Memtable speed: 26/33 / 127
+Flush speed: 90/57.5556476
+Compaction idle: 0.1375/0.0481481idle ratio: 2.85577
+Memtable speed: 40/34 / 127
+Flush speed: 46/57476
+Compaction idle: 0.0625/0.0467593idle ratio: 1.33663
+Memtable speed: 45/35 / 127
+Flush speed: 56/55.6667476
+Compaction idle: 0.0625/0.049537idle ratio: 1.26168
+Memtable speed: 36/35 / 127
+Flush speed: 55/54.7778476
+Compaction idle: 0.05/0.0537037idle ratio: 0.931034
+Memtable speed: 49/36 / 127
+Flush speed: 68/56.3333476
+Compaction idle: 0.0666667/0.0574074idle ratio: 1.16129
+Memtable speed: 60/38 / 127
+Flush speed: 84/58.8889476
+Compaction idle: 0.1125/0.0671296idle ratio: 1.67586
+Memtable speed: 29/38 / 127
+Flush speed: 56/60.8889476
+Compaction idle: 0.0583333/0.0708333idle ratio: 0.823529
+Memtable speed: 50/39 / 127
+Flush speed: 75/63.6667476
+Compaction idle: 0.0375/0.0708333idle ratio: 0.529412
+Memtable speed: 41/41 / 127
+Flush speed: 66/66.2222476
+Compaction idle: 0.0666667/0.0726852idle ratio: 0.917197
+Memtable speed: 29/42 / 127
+Flush speed: 63/63.2222476
+Compaction idle: 0.0333333/0.0611111idle ratio: 0.545455
+Memtable speed: 59/44 / 127
+Flush speed: 82/67.2222476
+Compaction idle: 0.075/0.0625idle ratio: 1.2
+Memtable speed: 35/43 / 127
+Flush speed: 45/66476
+Compaction idle: 0.075/0.0638889idle ratio: 1.17391
+Memtable speed: 27/42 / 127
+Flush speed: 46/65476
+Compaction idle: 0.0333333/0.062037idle ratio: 0.537313
+Memtable speed: 35/40 / 127
+Flush speed: 54/63.4444476
+Compaction idle: 0.0375/0.0587963idle ratio: 0.637795
+Memtable speed: 36/37 / 127
+Flush speed: 43/58.8889476
+Compaction idle: 0.0333333/0.05idle ratio: 0.666667
+Memtable speed: 34/38 / 127
+Flush speed: 45/57.6667476
+Compaction idle: 0.0375/0.0476852idle ratio: 0.786408
+Memtable speed: 31/36 / 127
+Flush speed: 65/56.5556476
+Compaction idle: 0.0416667/0.0481481idle ratio: 0.865385
+Memtable speed: 57/38 / 127
+Flush speed: 74/57.4444476
+Compaction idle: 0.0375/0.0449074idle ratio: 0.835052
+Memtable speed: 37/39 / 127
+Flush speed: 49/55.8889476
+Compaction idle: 0.0666667/0.0486111idle ratio: 1.37143
+Memtable speed: 53/38 / 127
+Flush speed: 89/56.6667476
+Compaction idle: 0.0875/0.05idle ratio: 1.75
+Memtable speed: 55/40 / 127
+Flush speed: 119.5/58.45476
+Compaction idle: 0.0333333/0.0453704idle ratio: 0.734694
+Memtable speed: 32/41 / 127
+Flush speed: 70/60.85476
+Compaction idle: 0.0375/0.0458333idle ratio: 0.818182
+Memtable speed: 41/41 / 127
+Flush speed: 59/61.35476
+Compaction idle: 0.0416667/0.0462963idle ratio: 0.9
+Memtable speed: 28/40 / 127
+Flush speed: 56/62.65476
+Compaction idle: 0.0166667/0.0444444idle ratio: 0.375
+Memtable speed: 62/44 / 127
+Flush speed: 100/68.15476
+Compaction idle: 0.1125/0.0527778idle ratio: 2.13158
+Memtable speed: 40/45 / 127
+Flush speed: 59/67.55476
+Compaction idle: 0.05/0.0537037idle ratio: 0.931034
+Memtable speed: 34/42 / 127
+Flush speed: 85/68.65476
+Compaction idle: 0.0875/0.0592593idle ratio: 1.47656
+Memtable speed: 32/41 / 127
+Flush speed: 50/68.75476
+Compaction idle: 0.0333333/0.0555556idle ratio: 0.6
+Memtable speed: 29/39 / 127
+Flush speed: 37/63.55476
+Compaction idle: 0.1125/0.0583333idle ratio: 1.92857
+Memtable speed: 15/34 / 127
+Flush speed: 61/64.1111476
+Compaction idle: 0.0875/0.0643519idle ratio: 1.35971
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 29/34 / 127
+Flush speed: 82/65.4444476
+Compaction idle: 0.1/0.0712963idle ratio: 1.4026
+Memtable speed: 34/33 / 127
+Flush speed: 46/64476
+Compaction idle: 0.00833333/0.0675926idle ratio: 0.123288
+Memtable speed: 37/34 / 127
+Flush speed: 58/64.2222476
+Compaction idle: 0.1125/0.0782407idle ratio: 1.43787
+Memtable speed: 41/32 / 127
+Flush speed: 45/58.1111476
+Compaction idle: 0.0166667/0.0675926idle ratio: 0.246575
+Memtable speed: 34/31 / 127
+Flush speed: 48/56.8889476
+Compaction idle: 0.075/0.0703704idle ratio: 1.06579
+Memtable speed: 46/33 / 127
+Flush speed: 83/56.6667476
+Compaction idle: 0.00833333/0.0615741idle ratio: 0.135338
+Memtable speed: 48/34 / 127
+Flush speed: 87/60.7778476
+Compaction idle: 0.0333333/0.0615741idle ratio: 0.541353
+Memtable speed: 42/36 / 127
+Flush speed: 63/63.6667476
+Compaction idle: 0.0416667/0.0537037idle ratio: 0.775862
+Memtable speed: 35/38 / 127
+Flush speed: 58/63.3333476
+Compaction idle: 0.0416667/0.0486111idle ratio: 0.857143
+Memtable speed: 55/41 / 127
+Flush speed: 92/64.4444476
+Compaction idle: 0/0.0375idle ratio: 0
+Memtable speed: 25/40 / 127
+Flush speed: 47/64.5556476
+Compaction idle: 0.05/0.0421296idle ratio: 1.18681
+Memtable speed: 30/39 / 127
+Flush speed: 45/63.1111476
+Compaction idle: 0.025/0.0324074idle ratio: 0.771429
+Memtable speed: 55/41 / 127
+Flush speed: 75/66.4444476
+Compaction idle: 0.0625/0.0375idle ratio: 1.66667
+Memtable speed: 22/39 / 127
+Flush speed: 48/66.4444476
+Compaction idle: 0.025/0.0319444idle ratio: 0.782609
+Memtable speed: 20/36 / 127
+Flush speed: 48/62.5556476
+Compaction idle: 0.125/0.0449074idle ratio: 2.78351
+Memtable speed: 17/33 / 127
+Flush speed: 50/58.4444476
+Compaction idle: 0.025/0.0439815idle ratio: 0.568421
+Memtable speed: 14/30 / 127
+Flush speed: 54/57.4444476
+Compaction idle: 0.05/0.0449074idle ratio: 1.1134
+slow flush, decrease thread
+idle threads, keep the threads
+Memtable speed: 14/28 / 127
+Flush speed: 34/54.7778476
+Compaction idle: 0.0916667/0.050463idle ratio: 1.81651
+Memtable speed: 27/24 / 127
+Flush speed: 36/48.5556476
+Compaction idle: 0.0333333/0.0541667idle ratio: 0.615385
+Memtable speed: 36/26 / 127
+Flush speed: 49/48.7778476
+Compaction idle: 0.075/0.0569444idle ratio: 1.31707
+Memtable speed: 18/24 / 127
+Flush speed: 29/47476
+Compaction idle: 0.0416667/0.0587963idle ratio: 0.708661
+Memtable speed: 48/24 / 127
+Flush speed: 116/51.5556476
+Compaction idle: 0.0875/0.0615741idle ratio: 1.42105
+Memtable speed: 21/23 / 127
+Flush speed: 30/49.5556476
+Compaction idle: 0.05/0.0643519idle ratio: 0.776978
+Memtable speed: 42/26 / 127
+Flush speed: 73/52.3333476
+Compaction idle: 0.0375/0.0546296idle ratio: 0.686441
+Memtable speed: 19/26 / 127
+Flush speed: 34/50.5556476
+Compaction idle: 0.05/0.0574074idle ratio: 0.870968
+Memtable speed: 22/27 / 127
+Flush speed: 60/51.2222476
+Compaction idle: 0.0875/0.0615741idle ratio: 1.42105
+Memtable speed: 14/27 / 127
+Flush speed: 27/50.4444476
+Compaction idle: 0.0875/0.0611111idle ratio: 1.43182
+Memtable speed: 18/26 / 127
+Flush speed: 23/49476
+Compaction idle: 0.0833333/0.0666667idle ratio: 1.25
+Memtable speed: 22/24 / 127
+Flush speed: 41/48.1111476
+Compaction idle: 0.0625/0.0652778idle ratio: 0.957447
+Memtable speed: 29/26 / 127
+Flush speed: 54/50.8889476
+Compaction idle: 0.0583333/0.0671296idle ratio: 0.868966
+Memtable speed: 18/22 / 127
+Flush speed: 27/41476
+Compaction idle: 0.05/0.062963idle ratio: 0.794118
+Memtable speed: 28/23 / 127
+Flush speed: 47/42.8889476
+Compaction idle: 0.0166667/0.0592593idle ratio: 0.28125
+Memtable speed: 19/21 / 127
+Flush speed: 32/38.3333476
+Compaction idle: 0.0625/0.062037idle ratio: 1.00746
+Memtable speed: 18/20 / 127
+Flush speed: 42/39.2222476
+Compaction idle: 0.0416667/0.0611111idle ratio: 0.681818
+Memtable speed: 19/20 / 127
+Flush speed: 27/35.5556476
+Compaction idle: 0.1125/0.0638889idle ratio: 1.76087
+Memtable speed: 12/20 / 127
+Flush speed: 36/36.5556476
+Compaction idle: 0.0416667/0.0587963idle ratio: 0.708661
+Memtable speed: 18/20 / 127
+Flush speed: 39/38.3333476
+Compaction idle: 0.125/0.0634259idle ratio: 1.9708
+Memtable speed: 1/18 / 127
+Flush speed: 20/32.4476
+Compaction idle: 0.0375/0.0606481idle ratio: 0.618321
+slow flush, decrease thread
+lo/ro, increase thread
+applying changes
+Memtable speed: 9/15 / 127
+Flush speed: 26/29.6476
+Compaction idle: 0.0833333/0.0634259idle ratio: 1.31387
+Memtable speed: 10/14 / 127
+Flush speed: 24/29.3476
+Compaction idle: 0.05/0.0634259idle ratio: 0.788321
+flags have been generated for:[ 1 3 2]
+fillrandom   :      32.790 micros/op 30496 ops/sec;   29.5 MB/s
+Microseconds per write:
+Count: 110064999 Average: 32.7902  StdDev: 31.52
+Min: 1  Median: 2.6645  Max: 20287775
+Percentiles: P50: 2.66 P75: 3.60 P99: 9.84 P99.9: 20.95 P99.99: 1133.00
+------------------------------------------------------
+[       0,       1 ]    64119   0.058%   0.058% 
+(       1,       2 ] 30202106  27.440%  27.499% #####
+(       2,       3 ] 37271856  33.863%  61.362% #######
+(       3,       4 ] 24964214  22.681%  84.043% #####
+(       4,       6 ] 12163980  11.052%  95.095% ##
+(       6,      10 ]  4481191   4.071%  99.166% #
+(      10,      15 ]   601524   0.547%  99.713% 
+(      15,      22 ]   242403   0.220%  99.933% 
+(      22,      34 ]    37124   0.034%  99.967% 
+(      34,      51 ]     6338   0.006%  99.973% 
+(      51,      76 ]     1245   0.001%  99.974% 
+(      76,     110 ]      988   0.001%  99.975% 
+(     110,     170 ]     1130   0.001%  99.976% 
+(     170,     250 ]      720   0.001%  99.976% 
+(     250,     380 ]      421   0.000%  99.977% 
+(     380,     580 ]      185   0.000%  99.977% 
+(     580,     870 ]      252   0.000%  99.977% 
+(     870,    1300 ]    23211   0.021%  99.998% 
+(    1300,    1900 ]       87   0.000%  99.998% 
+(    1900,    2900 ]       35   0.000%  99.998% 
+(    2900,    4400 ]       41   0.000%  99.998% 
+(    4400,    6600 ]       59   0.000%  99.998% 
+(    6600,    9900 ]      100   0.000%  99.998% 
+(    9900,   14000 ]      140   0.000%  99.999% 
+(   14000,   22000 ]      186   0.000%  99.999% 
+(   22000,   33000 ]      157   0.000%  99.999% 
+(   33000,   50000 ]      103   0.000%  99.999% 
+(   50000,   75000 ]       30   0.000%  99.999% 
+(   75000,  110000 ]       14   0.000%  99.999% 
+(  110000,  170000 ]       24   0.000%  99.999% 
+(  170000,  250000 ]       14   0.000%  99.999% 
+(  250000,  380000 ]       19   0.000%  99.999% 
+(  380000,  570000 ]       43   0.000%  99.999% 
+(  570000,  860000 ]       71   0.000%  99.999% 
+(  860000, 1200000 ]       71   0.000%  99.999% 
+( 1200000, 1900000 ]      102   0.000%  99.999% 
+( 1900000, 2900000 ]      243   0.000% 100.000% 
+( 2900000, 4300000 ]      228   0.000% 100.000% 
+( 4300000, 6500000 ]      151   0.000% 100.000% 
+( 6500000, 9800000 ]       49   0.000% 100.000% 
+( 9800000, 14000000 ]       20   0.000% 100.000% 
+( 14000000, 22000000 ]        5   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      7/6   734.83 MB   0.5     65.1     0.0     65.1     170.3    105.2       0.0   1.6     23.6     61.7   2827.12            492.38      1149    2.461     67M   518K
+  L1     10/2   602.32 MB   1.8    154.3   104.5     49.7     151.7    101.9       0.0   1.5    122.3    120.3   1291.57            430.07        86   15.018    160M  2633K
+  L2    115/17   6.61 GB   2.3    377.4    98.9    278.5     365.5     87.0       2.5   3.7     53.6     51.9   7207.41            921.17      1624    4.438    392M    12M
+  L3    588/20  32.01 GB   1.2    298.3    76.4    221.9     263.4     41.5       6.4   3.4     39.9     35.3   7648.53            775.78      1252    6.109    310M    36M
+  L4    286/0   15.92 GB   0.1      0.0     0.0      0.0       0.0      0.0      15.9   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum   1006/45  55.84 GB   0.0    895.1   279.8    615.3     951.0    335.6      24.8   9.0     48.3     51.3  18974.63           2619.40      4111    4.616    931M    51M
+ Int      0/0    0.00 KB   0.0      1.4     0.3      1.1       1.4      0.4       0.0  12.1     24.8     25.5     57.90              4.71         6    9.650   1461K    85K
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0    895.1   279.8    615.3     845.2    229.9       0.0   0.0     53.6     50.6  17097.70           2282.49      3066    5.577    931M    51M
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0     105.7    105.7       0.0   0.0      0.0     57.7   1876.93            336.91      1045    1.796       0      0
+Uptime(secs): 3609.1 total, 9.0 interval
+Flush(GB): cumulative 105.728, interval 0.120
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 950.97 GB write, 269.82 MB/s write, 895.13 GB read, 253.97 MB/s read, 18974.6 seconds
+Interval compaction: 1.44 GB write, 163.24 MB/s write, 1.41 GB read, 159.02 MB/s read, 57.9 seconds
+Stalls(count): 37 level0_slowdown, 25 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 3812 memtable_compaction, 0 memtable_slowdown, interval 9 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 3609.1 total, 9.0 interval
+Cumulative writes: 110M writes, 110M keys, 110M commit groups, 1.0 writes per commit group, ingest: 105.79 GB, 30.01 MB/s
+Cumulative WAL: 110M writes, 0 syncs, 110064999.00 writes per sync, written: 105.79 GB, 30.01 MB/s
+Cumulative stall: 00:53:6.004 H:M:S, 88.3 percent
+Cumulative L0 stall: 00:00:36.045 H:M:S
+Cumulative Mem stall: 00:52:29.959 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 199 writes, 199 keys, 199 commit groups, 1.0 writes per commit group, ingest: 0.20 MB, 0.02 MB/s
+Interval WAL: 199 writes, 0 syncs, 199.00 writes per sync, written: 0.00 MB, 0.02 MB/s
+Interval stall: 00:00:11.900 H:M:S, 131.5 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:11.900 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

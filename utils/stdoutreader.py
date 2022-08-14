@@ -26,6 +26,11 @@ SEEK_LATENCY = "Microseconds per seek:"
 STALL_INFLUENCE_HEADERS = ["max pending bytes", "stops with pending bytes", "stops with Total SST file size"]
 
 
+def format_device(device):
+    return device.replace("NVMeSSD", "NVMe SSD").replace("SATASSD", "SATA SSD").replace("SATAHDD", "SATA HDD").replace(
+        "StorageMaterial.", "")
+
+
 def get_level_size_entry(line):
     line_splitter = line.split()
     data = line_splitter[2]
@@ -181,6 +186,10 @@ class StdoutReader:
 
             if "Cumulative stall:" in line:
                 self.stall_duration = line.split(",")[0].replace("Cumulative stall: ", "")
+                duration = self.stall_duration.split(":")
+                self.stall_percent = line.split(" ")[-2]
+                self.stall_duration_sec = float(duration[2].split(" ")[0]) + int(duration[1]) * 60 + int(
+                    duration[0]) * 3600
             if READING_LINE in line:
                 level_key = "level" + line[9]
                 self.read_latency_map[level_key].update(process_stat_line(self.filelines[line_counter + 1]))
@@ -238,6 +247,9 @@ class StdoutReader:
 
         return results
 
+    def get_benchmark_ops(self, benchmark_name):
+        return int(self.benchmark_results[benchmark_name][1].split(" ")[0])
+
     def __init__(self, input_file, with_hist=False, multi_tasks=False):
         input_file = pathlib.Path(input_file).absolute()
         input_file = str(input_file)
@@ -249,7 +261,7 @@ class StdoutReader:
         self.flush_task_waiting_time = {}
         # add basic information
         base_info = self.stdout_file.split(os.sep)
-        self.cpu_count = base_info[-3]
+        self.cpu_count = base_info[-3].replace("CPU", "")
         self.batch_size = base_info[-2]
         self.device = base_info[-4].replace("StorageMaterial.", "")
         self.stall_reasons = {}
@@ -273,7 +285,8 @@ class StdoutReader:
 
         self.stall_influence_data = {}
         self.stall_duration = []
-
+        self.stall_duration_sec = 0
+        self.stall_percent = 0.0
         # handle the file
         self.split_the_file()
         return

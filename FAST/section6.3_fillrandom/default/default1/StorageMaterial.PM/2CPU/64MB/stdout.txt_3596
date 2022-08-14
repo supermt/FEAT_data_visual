@@ -1,0 +1,67 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_pm
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46817.3 MB (estimated)
+FileSize:   23777.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+no tuner
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_pm
+DB path: [/home/supermt/rocksdb_pm]
+flags have been generated for:[ 1 5 8]
+fillrandom   :      14.361 micros/op 69631 ops/sec;   67.5 MB/s
+Microseconds per write:
+Count: 250672999 Average: 14.3613  StdDev: 15.38
+Min: 1  Median: 3.0114  Max: 3224863
+Percentiles: P50: 3.01 P75: 3.97 P99: 18.84 P99.9: 1223.15 P99.99: 1294.42
+------------------------------------------------------
+[       0,       1 ]    69703   0.028%   0.028% 
+(       1,       2 ] 54725541  21.831%  21.859% ####
+(       2,       3 ] 69800758  27.845%  49.705% ######
+(       3,       4 ] 65169779  25.998%  75.703% #####
+(       4,       6 ] 35427468  14.133%  89.835% ###
+(       6,      10 ] 16167318   6.450%  96.285% #
+(      10,      15 ]  5560428   2.218%  98.503% 
+(      15,      22 ]  2269095   0.905%  99.408% 
+(      22,      34 ]   100106   0.040%  99.448% 
+(      34,      51 ]     4424   0.002%  99.450% 
+(      51,      76 ]     1837   0.001%  99.451% 
+(      76,     110 ]     1293   0.001%  99.451% 
+(     110,     170 ]     3876   0.002%  99.453% 
+(     170,     250 ]      933   0.000%  99.453% 
+(     250,     380 ]      921   0.000%  99.454% 
+(     380,     580 ]      620   0.000%  99.454% 
+(     580,     870 ]      403   0.000%  99.454% 
+(     870,    1300 ]  1361094   0.543%  99.997% 
+(    1300,    1900 ]      643   0.000%  99.997% 
+(    1900,    2900 ]     4671   0.002%  99.999% 
+(    2900,    4400 ]      269   0.000%  99.999% 
+(    4400,    6600 ]       28   0.000%  99.999% 
+(    9900,   14000 ]        7   0.000%  99.999% 
+(   14000,   22000 ]       11   0.000%  99.999% 
+(   22000,   33000 ]        8   0.000%  99.999% 
+(   33000,   50000 ]        6   0.000%  99.999% 
+(   50000,   75000 ]       14   0.000%  99.999% 
+(   75000,  110000 ]       29   0.000%  99.999% 
+(  170000,  250000 ]       43   0.000%  99.999% 
+(  250000,  380000 ]      249   0.000%  99.999% 
+(  380000,  570000 ]      636   0.000% 100.000% 
+(  570000,  860000 ]      367   0.000% 100.000% 
+(  860000, 1200000 ]      322   0.000% 100.000% 
+( 1200000, 1900000 ]       81   0.000% 100.000% 
+( 1900000, 2900000 ]       15   0.000% 100.000% 
+( 2900000, 4300000 ]        3   0.000% 100.000% 
+
