@@ -93,4 +93,22 @@ if __name__ == '__main__':
         rows.append(row)
 
     result_pd = pd.DataFrame(rows, columns=["device", "# of Threads", "Normalized CPU Utilization"])
-    result_pd.to_csv("csv_results/section3_idle_resource/cpu_util.csv", sep=" ", index=False)
+    result_pd.to_csv("csv_results/section3_idle_resource/cpu_util_64MB.csv", sep=" ", index=False)
+
+    log_dir_prefix = "Eurosys/pm_server_512MB_traverse"
+
+    dirs = get_log_dirs(log_dir_prefix)
+    rows = []
+    for log_dir in dirs:
+        stdout_file, LOG_file, report_csv, stat_csv = get_log_and_std_files(log_dir, with_stat_csv=True)
+        std_info = utils.stdoutreader.StdoutReader(stdout_file)
+        stat_df = pd.read_csv(stat_csv)
+        avg_normalized_util = stat_df["cpu_percent"].mean()
+        cpu_count = std_info.cpu_count.replace("CPU", "")
+        avg_normalized_util /= int(cpu_count)
+        avg_normalized_util = round(avg_normalized_util, 2)
+        row = [std_info.device, cpu_count, avg_normalized_util]
+        rows.append(row)
+
+    result_pd = pd.DataFrame(rows, columns=["device", "# of Threads", "Normalized CPU Utilization"])
+    result_pd.to_csv("csv_results/section3_idle_resource/cpu_util_512MB.csv", sep=" ", index=False)
