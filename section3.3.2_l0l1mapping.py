@@ -75,9 +75,10 @@ def plot_with_thread_num(thread_num, batch_size, start_time, end_time):
         axes[i].set_yticks([0, 300])  # ["L0 Comp", "LO", "RO", "MO"])
         # axes[i].set_ylabel("kOps/sec")
         event_ax.set_yticks([])
+        event_ax.set_ylabel(media.replace("SATA", "SATA ").replace("NVMe", "NVMe "))
         event_ax.set_xlim(start_time, end_time)
         # temp_ax.set_ylabel("l0 com")
-        axes[i].set_title(key_seq[i].replace("SATA", "SATA ").replace("NVMe", "NVMe "))
+        # axes[i].set_title(key_seq[i].replace("SATA", "SATA ").replace("NVMe", "NVMe "))
     axes[i].set_xlabel("elapsed time (sec)", fontsize=20)
 
     fig.text(0, 0.5, 'System Throughput (kOps/Sec)', va='center', rotation='vertical')
@@ -95,6 +96,7 @@ def plot_with_thread_num(thread_num, batch_size, start_time, end_time):
                      ncol=3, frameon=False,
                      shadow=False)
     fig.subplots_adjust(bottom=0.2)
+    fig.show()
     plt.savefig("fig_results/%d_threads_mapping_%d_to_%d.pdf" % (thread_num, start_time, end_time))
     plt.savefig("fig_results/%d_threads_mapping_%d_to_%d.png" % (thread_num, start_time, end_time))
 
