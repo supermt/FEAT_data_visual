@@ -1,0 +1,439 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46817.3 MB (estimated)
+FileSize:   23777.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+DB path: [/home/supermt/rocksdb_hdd]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is NOT triggered
+TEA is triggered
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+flags have been generated for:[ 1 3 1]
+fillrandom   :      65.458 micros/op 15277 ops/sec;   14.8 MB/s
+Microseconds per write:
+Count: 55026999 Average: 65.4575  StdDev: 46.20
+Min: 1  Median: 2.9755  Max: 54481125
+Percentiles: P50: 2.98 P75: 4.01 P99: 32.53 P99.9: 1242.92 P99.99: 1296.35
+------------------------------------------------------
+[       0,       1 ]    19779   0.036%   0.036% 
+(       1,       2 ] 12919236  23.478%  23.514% #####
+(       2,       3 ] 14940761  27.152%  50.666% #####
+(       3,       4 ] 13359429  24.278%  74.944% #####
+(       4,       6 ]  6559198  11.920%  86.864% ##
+(       6,      10 ]  3538698   6.431%  93.294% #
+(      10,      15 ]  2027272   3.684%  96.979% #
+(      15,      22 ]   754852   1.372%  98.350% 
+(      22,      34 ]   407476   0.741%  99.091% 
+(      34,      51 ]    94723   0.172%  99.263% 
+(      51,      76 ]     3473   0.006%  99.269% 
+(      76,     110 ]      577   0.001%  99.270% 
+(     110,     170 ]      456   0.001%  99.271% 
+(     170,     250 ]      142   0.000%  99.271% 
+(     250,     380 ]      136   0.000%  99.272% 
+(     380,     580 ]       89   0.000%  99.272% 
+(     580,     870 ]       14   0.000%  99.272% 
+(     870,    1300 ]   398572   0.724%  99.996% 
+(    1300,    1900 ]      286   0.001%  99.997% 
+(    1900,    2900 ]      146   0.000%  99.997% 
+(    2900,    4400 ]       81   0.000%  99.997% 
+(    4400,    6600 ]       33   0.000%  99.997% 
+(    6600,    9900 ]       14   0.000%  99.997% 
+(    9900,   14000 ]       26   0.000%  99.997% 
+(   14000,   22000 ]       57   0.000%  99.997% 
+(   22000,   33000 ]       38   0.000%  99.997% 
+(   33000,   50000 ]       52   0.000%  99.997% 
+(   50000,   75000 ]       69   0.000%  99.998% 
+(   75000,  110000 ]      121   0.000%  99.998% 
+(  110000,  170000 ]       87   0.000%  99.998% 
+(  170000,  250000 ]       90   0.000%  99.998% 
+(  250000,  380000 ]      171   0.000%  99.998% 
+(  380000,  570000 ]      157   0.000%  99.999% 
+(  570000,  860000 ]       97   0.000%  99.999% 
+(  860000, 1200000 ]      133   0.000%  99.999% 
+( 1200000, 1900000 ]      150   0.000%  99.999% 
+( 1900000, 2900000 ]      121   0.000% 100.000% 
+( 2900000, 4300000 ]       37   0.000% 100.000% 
+( 4300000, 6500000 ]       44   0.000% 100.000% 
+( 6500000, 9800000 ]       37   0.000% 100.000% 
+( 9800000, 14000000 ]       29   0.000% 100.000% 
+( 14000000, 22000000 ]       20   0.000% 100.000% 
+( 22000000, 33000000 ]       12   0.000% 100.000% 
+( 33000000, 49000000 ]        6   0.000% 100.000% 
+( 49000000, 74000000 ]        2   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0     11/0    2.63 GB  10.5     65.0     0.0     65.0     117.5     52.5       0.0   2.2     18.5     33.4   3603.31            313.59       889    4.053     67M   349K
+  L1     53/4    3.29 GB  12.1     88.0    49.9     38.1      83.5     45.4       0.0   1.7     30.8     29.3   2922.65            208.17        21  139.174     91M  4671K
+  L2     60/4    3.47 GB   1.3     32.7    18.5     14.2      31.6     17.5      23.6   1.7     22.4     21.7   1495.18             84.07       206    7.258     33M  1085K
+  L3    440/0   24.98 GB   1.0    108.5    33.2     75.3      98.9     23.6       4.4   3.0     13.6     12.4   8155.57            302.40       535   15.244    112M  9964K
+  L4     52/0    3.05 GB   0.0      0.0     0.0      0.0       0.0      0.0       3.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum    616/8   37.41 GB   0.0    294.2   101.6    192.6     331.6    139.0      31.1   6.3     18.6     21.0  16176.71            908.23      1651    9.798    305M    16M
+ Int      0/0    0.00 KB   0.0      0.1     0.1      0.0       0.2      0.2       0.0   1.9     15.0     30.5      7.46              0.70         2    3.732    113K   7106
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0    294.2   101.6    192.6     278.7     86.1       0.0   0.0     21.1     20.0  14286.60            744.45       927   15.412    305M    16M
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      52.9     52.9       0.0   0.0      0.0     28.6   1890.10            163.78       724    2.611       0      0
+Uptime(secs): 3602.0 total, 1.9 interval
+Flush(GB): cumulative 52.875, interval 0.120
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 331.60 GB write, 94.27 MB/s write, 294.20 GB read, 83.64 MB/s read, 16176.7 seconds
+Interval compaction: 0.22 GB write, 117.60 MB/s write, 0.11 GB read, 57.91 MB/s read, 7.5 seconds
+Stalls(count): 238 level0_slowdown, 238 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 1702 memtable_compaction, 0 memtable_slowdown, interval 1 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 3602.0 total, 1.9 interval
+Cumulative writes: 55M writes, 55M keys, 55M commit groups, 1.0 writes per commit group, ingest: 52.89 GB, 15.04 MB/s
+Cumulative WAL: 55M writes, 0 syncs, 55026999.00 writes per sync, written: 52.89 GB, 15.04 MB/s
+Cumulative stall: 00:51:19.677 H:M:S, 85.5 percent
+Cumulative L0 stall: 00:10:10.214 H:M:S
+Cumulative Mem stall: 00:41:9.463 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 620 writes, 620 keys, 620 commit groups, 1.0 writes per commit group, ingest: 0.61 MB, 0.32 MB/s
+Interval WAL: 620 writes, 0 syncs, 620.00 writes per sync, written: 0.00 MB, 0.32 MB/s
+Interval stall: 00:00:4.928 H:M:S, 254.6 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:4.928 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

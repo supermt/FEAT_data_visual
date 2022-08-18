@@ -1,0 +1,119 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_pm
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46817.3 MB (estimated)
+FileSize:   23777.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_pm
+DB path: [/home/supermt/rocksdb_pm]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is triggered
+TEA is triggered
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+flags have been generated for:[ 11 15 16]
+fillrandom   :       5.017 micros/op 199328 ops/sec;  193.1 MB/s
+Microseconds per write:
+Count: 717583999 Average: 5.0168  StdDev: 5.36
+Min: 1  Median: 3.3010  Max: 3452246
+Percentiles: P50: 3.30 P75: 4.26 P99: 9.51 P99.9: 21.92 P99.99: 1244.78
+------------------------------------------------------
+[       0,       1 ]    11945   0.002%   0.002% 
+(       1,       2 ] 42384526   5.907%   5.908% #
+(       2,       3 ] 248879793  34.683%  40.591% #######
+(       3,       4 ] 224275485  31.254%  71.845% ######
+(       4,       6 ] 174533243  24.322%  96.168% #####
+(       6,      10 ] 23192498   3.232%  99.400% #
+(      10,      15 ]  2432192   0.339%  99.739% 
+(      15,      22 ]  1169674   0.163%  99.902% 
+(      22,      34 ]   145362   0.020%  99.922% 
+(      34,      51 ]     6497   0.001%  99.923% 
+(      51,      76 ]     4437   0.001%  99.924% 
+(      76,     110 ]     3950   0.001%  99.924% 
+(     110,     170 ]     1637   0.000%  99.924% 
+(     170,     250 ]      308   0.000%  99.924% 
+(     250,     380 ]     1480   0.000%  99.925% 
+(     380,     580 ]      684   0.000%  99.925% 
+(     580,     870 ]      652   0.000%  99.925% 
+(     870,    1300 ]   536813   0.075% 100.000% 
+(    1300,    1900 ]       87   0.000% 100.000% 
+(    1900,    2900 ]     2514   0.000% 100.000% 
+(    2900,    4400 ]       15   0.000% 100.000% 
+(    4400,    6600 ]       29   0.000% 100.000% 
+(    6600,    9900 ]        6   0.000% 100.000% 
+(    9900,   14000 ]        1   0.000% 100.000% 
+(   33000,   50000 ]        2   0.000% 100.000% 
+(   50000,   75000 ]        3   0.000% 100.000% 
+(   75000,  110000 ]        8   0.000% 100.000% 
+(  110000,  170000 ]       13   0.000% 100.000% 
+(  170000,  250000 ]       26   0.000% 100.000% 
+(  250000,  380000 ]       20   0.000% 100.000% 
+(  380000,  570000 ]       29   0.000% 100.000% 
+(  570000,  860000 ]       24   0.000% 100.000% 
+(  860000, 1200000 ]        9   0.000% 100.000% 
+( 1200000, 1900000 ]        6   0.000% 100.000% 
+( 1900000, 2900000 ]       29   0.000% 100.000% 
+( 2900000, 4300000 ]        2   0.000% 100.000% 
+
