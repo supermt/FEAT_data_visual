@@ -2,7 +2,7 @@ import os
 import re
 import pathlib
 
-BENCHMARK_RESULT_REGEX = r"[a-zA-z]+\s*:\s*[0-9]+\.[0-9]+\smicros\/op\s[0-9]+\sops\/sec;.*"
+BENCHMARK_RESULT_REGEX = r"[a-zA-z]+\s*:\s*[0-9]+\.[0-9]+\smicros\/op.*[0-9]+\sop.*"
 LEVEL_SIZE_RESULT_REGEX = r".*L[0-9]\s+[0-9]+\/[0-9]+\s+[0-9]+\.[0-9]+ (GB|MB).*"
 
 COMPACTION_STAT_METRICS = ["Flush(GB)", "Cumulative compaction", "Interval compaction", "Stalls(count)"]
