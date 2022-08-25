@@ -1,0 +1,70 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    60000000
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    58136.0 MB (estimated)
+FileSize:   29525.8 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+no tuner
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+DB path: [/home/supermt/rocksdb_hdd]
+flags have been generated for:[ 1 0 0]
+fillrandom   :      29.698 micros/op 33671 ops/sec;   32.6 MB/s
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0     19/17  14.25 GB   1.2     15.8     0.0     15.8      35.0     19.3       0.0   1.8     15.5     34.5   1038.85             44.83        97   10.710     16M   106K
+  L1     14/14   3.32 GB   0.0      8.3     5.0      3.3       8.1      4.8       0.0   1.6     39.6     38.8    213.87              7.94         3   71.291   8604K   181K
+  L2      6/0    1.51 GB   0.2      0.0     0.0      0.0       0.0      0.0       1.5   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum     39/31  19.08 GB   0.0     24.0     5.0     19.0      43.1     24.1       1.5   2.2     19.7     35.3   1252.72             52.77       100   12.527     25M   287K
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0     24.0     5.0     19.0      23.8      4.7       0.0   0.0     41.0     40.5    600.53             21.32        19   31.607     25M   287K
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      19.4     19.4       0.0   0.0      0.0     30.4    652.19             31.45        81    8.052       0      0
+Uptime(secs): 606.5 total, 6.4 interval
+Flush(GB): cumulative 19.357, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 43.13 GB write, 72.81 MB/s write, 24.05 GB read, 40.60 MB/s read, 1252.7 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 7 level0_slowdown, 7 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 74 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 606.5 total, 6.4 interval
+Cumulative writes: 20M writes, 20M keys, 20M commit groups, 1.0 writes per commit group, ingest: 19.63 GB, 33.14 MB/s
+Cumulative WAL: 20M writes, 0 syncs, 20419999.00 writes per sync, written: 19.63 GB, 33.14 MB/s
+Cumulative stall: 00:08:25.239 H:M:S, 83.3 percent
+Cumulative L0 stall: 00:02:3.539 H:M:S
+Cumulative Mem stall: 00:06:21.700 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 213 writes, 213 keys, 213 commit groups, 1.0 writes per commit group, ingest: 0.21 MB, 0.03 MB/s
+Interval WAL: 213 writes, 0 syncs, 213.00 writes per sync, written: 0.00 MB, 0.03 MB/s
+Interval stall: 00:00:19.159 H:M:S, 297.4 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:19.159 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

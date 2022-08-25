@@ -136,7 +136,7 @@ if __name__ == '__main__':
     # exit(-1)
     devices = ["PM", "NVMeSSD", "SATASSD", "SATAHDD"]
 
-    base_log_prefix = "Eurosys/section6_hyper_parameters/PM_results_hyper_parameters"
+    base_log_prefix = "FAST/section6.2_hyper_parameters/PM_results_hyper_parameters"
     hyper_parameters = ["flush_gap", "idle_rate", "slow_flush", "time_window"]
 
     group_names = ["/", "_1/", "_2/"]

@@ -1,0 +1,1651 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    60000000
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    58136.0 MB (estimated)
+FileSize:   29525.8 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+DB path: [/home/supermt/rocksdb_hdd]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is triggered
+TEA is triggered
+slow flush decrease, thread
+0.625407/0.23147
+long gap, reduce
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+1.27047/0.348144
+long gap, reduce
+no input, don't change the batch size
+slow flushing, increase
+1.65517/1.16334
+slow flush decrease, thread
+1.65517/1.16334
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+2.1157/2.34038
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+2.64828/2.31632
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+3.1555/3.75211
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+3.63121/3.79821
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.27925/5.60802
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.25681/6.2731
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.24803/6.16238
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.23315/6.074
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.33723/8.41187
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.32565/8.95501
+no input, don't change the batch size
+slow flushing, increase
+4.31197/8.7548
+slow flush decrease, thread
+4.31197/8.7548
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.31309/8.57074
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.40165/10.5348
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.48518/10.903
+no input, don't change the batch size
+slow flushing, increase
+4.56087/10.8474
+slow flush decrease, thread
+4.56087/10.8474
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.67123/10.7829
+no input, don't change the batch size
+slow flushing, increase
+4.77581/10.9297
+slow flush decrease, thread
+4.77581/10.9297
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.87001/11.0325
+slow flushing, increase
+slow flush decrease, thread
+4.87001/11.0325
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.91089/11.0761
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+4.97994/13.2327
+no input, don't change the batch size
+slow flushing, increase
+5.04659/13.4628
+slow flush decrease, thread
+5.04659/13.4628
+no input, don't change the batch size
+slow flushing, increase
+5.15182/13.3458
+slow flush decrease, thread
+5.15182/13.3458
+no input, don't change the batch size
+slow flush decrease, thread
+5.15182/13.3458
+no input, don't change the batch size
+slow flushing, increase
+5.26749/13.4876
+slow flush decrease, thread
+5.26749/13.4876
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.2171/14.898
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.27541/16.6545
+no input, don't change the batch size
+slow flushing, increase
+5.32749/16.7767
+slow flush decrease, thread
+5.32749/16.7767
+no input, don't change the batch size
+slow flushing, increase
+5.41579/16.584
+slow flush decrease, thread
+5.41579/16.584
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.50982/16.5715
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.57113/17.2909
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.62343/19.6477
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.66984/19.6987
+no input, don't change the batch size
+slow flushing, increase
+5.71922/19.4677
+slow flush decrease, thread
+5.71922/19.4677
+no input, don't change the batch size
+slow flushing, increase
+5.80792/19.2501
+slow flush decrease, thread
+5.80792/19.2501
+no input, don't change the batch size
+slow flush decrease, thread
+5.80792/19.2501
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.77255/20.3816
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+5.73909/20.4413
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.78123/22.4904
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+idle threads decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.85075/22.4647
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.93554/22.3207
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+5.93554/22.3207
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+idle threads decrease, thread
+6.04584/22.603
+slow flush decrease, thread
+6.15584/22.2042
+no input, don't change the batch size
+slow flush decrease, thread
+6.15584/22.2042
+no input, don't change the batch size
+slow flushing, increase
+6.26264/24.2833
+slow flush decrease, thread
+6.26264/24.2833
+no input, don't change the batch size
+slow flush decrease, thread
+6.26264/24.2833
+no input, don't change the batch size
+slow flush decrease, thread
+6.26264/24.2833
+no input, don't change the batch size
+slow flush decrease, thread
+6.26264/24.2833
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+6.36318/25.1949
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+6.46316/25.5781
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+6.5581/25.9593
+slow flushing, increase
+slow flush decrease, thread
+6.5581/25.9593
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+6.62069/26.1644
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+idle threads decrease, thread
+lo/ro increase, thread
+6.68377/25.9846
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+6.68377/25.9846
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+6.73684/28.3255
+no input, don't change the batch size
+slow flushing, increase
+6.8373/28.3375
+slow flush decrease, thread
+6.8373/28.3375
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+6.9389/27.9068
+slow flushing, increase
+slow flush decrease, thread
+6.9389/27.9068
+no input, don't change the batch size
+slow flushing, increase
+idle threads decrease, thread
+6.99207/28.6816
+slow flush decrease, thread
+lo/ro increase, thread
+6.99207/28.6816
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+7.05358/28.461
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+7.12658/30.4239
+no input, don't change the batch size
+slow flushing, increase
+7.21127/30.7215
+slow flush decrease, thread
+7.21127/30.7215
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+7.25773/30.7604
+no input, don't change the batch size
+slow flushing, increase
+7.23255/30.5038
+slow flush decrease, thread
+7.23255/30.5038
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+7.29284/30.1505
+slow flushing, increase
+slow flush decrease, thread
+7.29284/30.1505
+no input, don't change the batch size
+slow flushing, increase
+7.35387/29.973
+slow flush decrease, thread
+7.35387/29.973
+no input, don't change the batch size
+slow flushing, increase
+7.40037/29.8454
+slow flush decrease, thread
+7.40037/29.8454
+no input, don't change the batch size
+slow flushing, increase
+7.42484/29.691
+slow flush decrease, thread
+7.42484/29.691
+no input, don't change the batch size
+slow flushing, increase
+7.51253/29.4207
+slow flush decrease, thread
+7.51253/29.4207
+no input, don't change the batch size
+slow flush decrease, thread
+7.51253/29.4207
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+idle threads decrease, thread
+7.57212/29.7286
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.57212/29.7286
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+idle threads decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.5776/29.5848
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.66314/29.4718
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.66314/29.4718
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+7.66314/29.4718
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+7.7084/30.4177
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+7.88003/30.0668
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.86161/30.4075
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+7.8603/30.2375
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+7.93267/30.5592
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+8.00916/30.9799
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.02568/31.2099
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.02837/30.9623
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+8.08621/30.712
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+8.15861/30.8578
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+8.21088/30.9306
+no input, don't change the batch size
+slow flushing, increase
+8.2279/30.807
+slow flush decrease, thread
+8.2279/30.807
+no input, don't change the batch size
+slow flushing, increase
+8.30169/30.5797
+slow flush decrease, thread
+8.30169/30.5797
+no input, don't change the batch size
+slow flush decrease, thread
+8.30169/30.5797
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+idle threads decrease, thread
+8.34934/30.7129
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.34934/30.7129
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.34683/30.5781
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+slow flush decrease, thread
+8.41293/30.8336
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+8.46055/31.2108
+no input, don't change the batch size
+slow flushing, increase
+8.5288/31.1026
+slow flush decrease, thread
+8.5288/31.1026
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53633/31.1798
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+idle threads decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+8.53778/30.9655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.53778/30.9655
+no input, don't change the batch size
+slow flush decrease, thread
+8.60124/31.2914
+no input, don't change the batch size
+slow flush decrease, thread
+8.66859/31.6243
+no input, don't change the batch size
+slow flush decrease, thread
+8.73688/31.9569
+no input, don't change the batch size
+slow flush decrease, thread
+8.79791/32.2967
+no input, don't change the batch size
+slow flush decrease, thread
+8.86374/32.6092
+no input, don't change the batch size
+slow flush decrease, thread
+9.40128/33.9858
+no input, don't change the batch size
+slow flushing, increase
+9.59528/34.2687
+slow flush decrease, thread
+9.76506/34.6124
+no input, don't change the batch size
+slow flushing, increase
+9.91986/34.768
+slow flush decrease, thread
+10.071/35.1441
+no input, don't change the batch size
+slow flushing, increase
+10.0036/34.8461
+slow flush decrease, thread
+10.1885/35.0054
+no input, don't change the batch size
+slow flush decrease, thread
+10.1885/35.0054
+no input, don't change the batch size
+slow flush decrease, thread
+10.1885/35.0054
+no input, don't change the batch size
+slow flush decrease, thread
+10.3727/35.3475
+no input, don't change the batch size
+slow flushing, increase
+10.6641/35.3881
+slow flush decrease, thread
+10.6641/35.3881
+no input, don't change the batch size
+slow flush decrease, thread
+10.8991/35.7669
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+10.9071/35.952
+slow flushing, increase
+slow flush decrease, thread
+10.9429/35.9683
+no input, don't change the batch size
+slow flushing, increase
+10.8533/35.694
+slow flush decrease, thread
+11.0851/35.9072
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+11.6584/36.4731
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+11.7476/36.6092
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+11.6644/36.3807
+no input, don't change the batch size
+slow flushing, increase
+11.794/36.2339
+slow flush decrease, thread
+12.0707/36.6135
+no input, don't change the batch size
+slow flushing, increase
+12.1768/36.2597
+slow flush decrease, thread
+12.1768/36.2597
+no input, don't change the batch size
+slow flush decrease, thread
+12.4444/36.6397
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+12.4771/36.9173
+slow flushing, increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.5424/36.6702
+no input, don't change the batch size
+slow flushing, increase
+lo/ro increase
+idle threads decrease, thread
+lo/ro increase, thread
+12.4806/36.4373
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.4806/36.4373
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.5498/36.6317
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.5498/36.6317
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.5498/36.6317
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.5498/36.6317
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6326/36.9597
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6326/36.9597
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6326/36.9597
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6326/36.9597
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6326/36.9597
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.623/37.3002
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.623/37.3002
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.623/37.3002
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.623/37.3002
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6208/37.575
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6208/37.575
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6208/37.575
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6208/37.575
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6208/37.575
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6381/37.8695
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6381/37.8695
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6381/37.8695
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6381/37.8695
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.6381/37.8695
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.7879/38.1921
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.7879/38.1921
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.7879/38.1921
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.7879/38.1921
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8618/37.655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8618/37.655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8618/37.655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8618/37.655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8618/37.655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8618/37.655
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9386/37.8736
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9386/37.8736
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9386/37.8736
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9386/37.8736
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9386/37.8736
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9019/38.2471
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9019/38.2471
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9019/38.2471
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9019/38.2471
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9019/38.2471
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.9019/38.2471
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8299/38.5129
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8299/38.5129
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8299/38.5129
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8299/38.5129
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+12.8299/38.5129
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.2383/38.165
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.2383/38.165
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.2383/38.165
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.2383/38.165
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.2383/38.165
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.2383/38.165
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.3295/37.5934
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.3295/37.5934
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.3295/37.5934
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.3295/37.5934
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.3295/37.5934
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.3295/37.5934
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.4393/37.8198
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.4393/37.8198
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.4393/37.8198
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+lo/ro increase, thread
+13.4393/37.8198
+no input, don't change the batch size
+lo/ro increase
+slow flush decrease, thread
+13.4393/37.8198
+no input, don't change the batch size
+slow flush decrease, thread
+13.4239/38.222
+no input, don't change the batch size
+slow flush decrease, thread
+13.4239/38.222
+no input, don't change the batch size
+slow flush decrease, thread
+13.4239/38.222
+no input, don't change the batch size
+slow flush decrease, thread
+13.4239/38.222
+no input, don't change the batch size
+slow flush decrease, thread
+13.4239/38.222
+no input, don't change the batch size
+slow flush decrease, thread
+13.3831/38.5382
+no input, don't change the batch size
+slow flush decrease, thread
+13.3831/38.5382
+no input, don't change the batch size
+slow flush decrease, thread
+13.3831/38.5382
+no input, don't change the batch size
+slow flush decrease, thread
+13.3831/38.5382
+no input, don't change the batch size
+slow flush decrease, thread
+13.448/38.4291
+no input, don't change the batch size
+slow flush decrease, thread
+13.448/38.4291
+no input, don't change the batch size
+slow flush decrease, thread
+13.448/38.4291
+no input, don't change the batch size
+slow flush decrease, thread
+13.448/38.4291
+no input, don't change the batch size
+slow flush decrease, thread
+13.448/38.4291
+no input, don't change the batch size
+slow flush decrease, thread
+13.448/38.4291
+no input, don't change the batch size
+slow flush decrease, thread
+13.5418/37.2843
+no input, don't change the batch size
+slow flush decrease, thread
+13.5418/37.2843
+no input, don't change the batch size
+slow flush decrease, thread
+13.5418/37.2843
+no input, don't change the batch size
+slow flush decrease, thread
+13.5418/37.2843
+no input, don't change the batch size
+slow flush decrease, thread
+13.8039/39.4994
+no input, don't change the batch size
+slow flushing, increase
+13.5965/39.4768
+slow flush decrease, thread
+14.0216/38.9947
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+14.0475/38.5231
+slow flushing, increase
+slow flush decrease, thread
+14.0475/38.5231
+no input, don't change the batch size
+slow flush decrease, thread
+14.0475/38.5231
+no input, don't change the batch size
+slow flush decrease, thread
+14.5092/38.7554
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+14.6286/38.4393
+slow flushing, increase
+slow flush decrease, thread
+14.7757/37.2218
+no input, don't change the batch size
+slow flushing, increase
+idle threads decrease, thread
+14.7608/37.1898
+slow flush decrease, thread
+14.7757/37.4316
+no input, don't change the batch size
+slow flushing, increase
+slow flush decrease, thread
+14.5665/37.1009
+no input, don't change the batch size
+slow flushing, increase
+flags have been generated for:[ 4 0 1]
+fillrandom   :      56.851 micros/op 17589 ops/sec;   17.0 MB/s
+Microseconds per write:
+Count: 65029999 Average: 56.8508  StdDev: 52.91
+Min: 1  Median: 2.9365  Max: 175523555
+Percentiles: P50: 2.94 P75: 3.77 P99: 8.70 P99.9: 16.87 P99.99: 23.64
+------------------------------------------------------
+[       0,       1 ]      806   0.001%   0.001% 
+(       1,       2 ]  7653533  11.769%  11.770% ##
+(       2,       3 ] 26545201  40.820%  52.590% ########
+(       3,       4 ] 18846291  28.981%  81.571% ######
+(       4,       6 ] 10441787  16.057%  97.628% ###
+(       6,      10 ]  1319263   2.029%  99.657% 
+(      10,      15 ]   136987   0.211%  99.868% 
+(      15,      22 ]    79021   0.122%  99.989% 
+(      22,      34 ]     4448   0.007%  99.996% 
+(      34,      51 ]      330   0.001%  99.996% 
+(      51,      76 ]      438   0.001%  99.997% 
+(      76,     110 ]      902   0.001%  99.998% 
+(     110,     170 ]      464   0.001%  99.999% 
+(     170,     250 ]       99   0.000%  99.999% 
+(     250,     380 ]       20   0.000%  99.999% 
+(     380,     580 ]       16   0.000%  99.999% 
+(     580,     870 ]        9   0.000%  99.999% 
+(     870,    1300 ]        2   0.000%  99.999% 
+(    1300,    1900 ]        2   0.000%  99.999% 
+(    1900,    2900 ]        1   0.000%  99.999% 
+(    2900,    4400 ]        2   0.000%  99.999% 
+(    4400,    6600 ]        1   0.000%  99.999% 
+(    6600,    9900 ]        3   0.000%  99.999% 
+(    9900,   14000 ]        4   0.000%  99.999% 
+(   14000,   22000 ]        4   0.000%  99.999% 
+(   22000,   33000 ]       11   0.000%  99.999% 
+(   33000,   50000 ]        3   0.000%  99.999% 
+(   50000,   75000 ]        8   0.000%  99.999% 
+(   75000,  110000 ]       14   0.000%  99.999% 
+(  110000,  170000 ]       16   0.000% 100.000% 
+(  170000,  250000 ]       21   0.000% 100.000% 
+(  250000,  380000 ]       36   0.000% 100.000% 
+(  380000,  570000 ]       37   0.000% 100.000% 
+(  570000,  860000 ]       38   0.000% 100.000% 
+(  860000, 1200000 ]       26   0.000% 100.000% 
+( 1200000, 1900000 ]       18   0.000% 100.000% 
+( 1900000, 2900000 ]       13   0.000% 100.000% 
+( 2900000, 4300000 ]        9   0.000% 100.000% 
+( 4300000, 6500000 ]       14   0.000% 100.000% 
+( 6500000, 9800000 ]       21   0.000% 100.000% 
+( 9800000, 14000000 ]       22   0.000% 100.000% 
+( 14000000, 22000000 ]       21   0.000% 100.000% 
+( 22000000, 33000000 ]        4   0.000% 100.000% 
+( 33000000, 49000000 ]       14   0.000% 100.000% 
+( 49000000, 74000000 ]        9   0.000% 100.000% 
+( 74000000, 110000000 ]        6   0.000% 100.000% 
+( 110000000, 160000000 ]        2   0.000% 100.000% 
+( 160000000, 250000000 ]        2   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      5/0    2.94 GB   1.5      0.0     0.0      0.0      62.2     62.2       0.0   1.0      0.0     27.2   2345.86            198.35       117   20.050       0      0
+  L1     11/1    2.12 GB   0.9     97.6    59.3     38.3      94.1     55.8       0.0   1.6     78.4     75.7   1273.91            319.42        21   60.662    101M  3568K
+  L2     53/3   21.01 GB   1.0    180.3    50.0    130.3     167.7     37.4       3.7   3.4     16.5     15.3  11200.02            519.74       126   88.889    187M    13M
+  L3     49/0   20.05 GB   0.1      0.0     0.0      0.0       0.0      0.0      20.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum    118/4   46.11 GB   0.0    277.9   109.3    168.6     324.0    155.4      23.7   5.2     19.2     22.4  14819.79           1037.51       264   56.136    289M    16M
+ Int      0/0    0.00 KB   0.0     10.1     2.5      7.7      10.3      2.6       0.5  10.5     19.8     20.0    524.66             32.29         7   74.951     10M   889K
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0    277.9   109.3    168.6     261.8     93.2       0.0   0.0     22.8     21.5  12473.93            839.16       147   84.857    289M    16M
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      62.2     62.2       0.0   0.0      0.0     27.2   2345.86            198.35       117   20.050       0      0
+Uptime(secs): 3697.1 total, 97.0 interval
+Flush(GB): cumulative 62.198, interval 0.976
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 323.99 GB write, 89.74 MB/s write, 277.88 GB read, 76.97 MB/s read, 14819.8 seconds
+Interval compaction: 10.26 GB write, 108.35 MB/s write, 10.14 GB read, 107.06 MB/s read, 524.7 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 359 memtable_compaction, 0 memtable_slowdown, interval 8 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 3697.1 total, 97.0 interval
+Cumulative writes: 65M writes, 65M keys, 65M commit groups, 1.0 writes per commit group, ingest: 62.50 GB, 17.31 MB/s
+Cumulative WAL: 65M writes, 0 syncs, 65029999.00 writes per sync, written: 62.50 GB, 17.31 MB/s
+Cumulative stall: 00:49:0.487 H:M:S, 79.5 percent
+Cumulative L0 stall: 00:00:0.000 H:M:S
+Cumulative Mem stall: 00:49:0.487 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 671 writes, 671 keys, 671 commit groups, 1.0 writes per commit group, ingest: 0.66 MB, 0.01 MB/s
+Interval WAL: 671 writes, 0 syncs, 671.00 writes per sync, written: 0.00 MB, 0.01 MB/s
+Interval stall: 00:01:38.270 H:M:S, 101.3 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:01:38.270 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

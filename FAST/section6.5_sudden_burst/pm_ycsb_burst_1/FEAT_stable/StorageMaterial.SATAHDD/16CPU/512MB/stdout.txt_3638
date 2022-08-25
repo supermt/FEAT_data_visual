@@ -1,0 +1,784 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46817.3 MB (estimated)
+FileSize:   23777.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+DB path: [/home/supermt/rocksdb_hdd]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is triggered
+TEA is triggered
+insert start:0
+record count:60000000
+op count:60000000
+new keys:0
+max fs:166current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:33current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:51current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:61current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:41current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:50current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:55current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:53current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:38current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:44current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:56current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:54current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:41current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:39current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:36current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:26current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:38current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:29current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:29current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:25current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:40current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:48current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:37current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:34current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:30current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:36current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:37current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:27current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:50current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:51current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:38current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:42current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:30current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:38current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:40current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:35current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:42current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:32current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:32current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:26current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:25current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:29current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:27current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:15current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:13current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:10current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:9current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:18current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:23current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:36current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:37current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:29current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:33current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:49current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:27current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:27current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:22current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:21current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:32current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:29current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:43current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:30current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:29current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:30current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:34current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:50current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:42current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:24current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:20current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:21current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:28current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:20current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:23current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:24current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:23current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:20current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:26current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:30current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:27current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:47current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+lo/ro increase, thread
+slow flushing, increase batch
+lo, increase  batch
+max fs:206current fs:0current_idle rate :0
+lo/ro increase, thread
+slow flushing, increase batch
+lo, increase  batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:25current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:18current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:46current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:47current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:47current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:31current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:33current_idle rate :0
+slow flush, decrease thread
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:32current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:25current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:26current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:25current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+lo/ro increase, thread
+slow flushing, increase batch
+lo, increase  batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:9current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:14current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+max fs:206current fs:49current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:24current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+max fs:206current fs:24current_idle rate :0
+slow flush, decrease thread
+slow flushing, increase batch
+max fs:206current fs:0current_idle rate :0
+slow flushing, increase batch
+bgYCSBrun    :      13.617 micros/op 73434 ops/sec;   26.8 MB/s
+Microseconds per update:
+Count: 132258150 Average: 21.1324  StdDev: 20.52
+Min: 2  Median: 3.9610  Max: 97892661
+Percentiles: P50: 3.96 P75: 5.25 P99: 18.54 P99.9: 30.63 P99.99: 57.86
+------------------------------------------------------
+(       1,       2 ]   639129   0.483%   0.483% 
+(       2,       3 ] 22911286  17.323%  17.806% ###
+(       3,       4 ] 44304609  33.499%  51.305% #######
+(       4,       6 ] 50058673  37.849%  89.154% ########
+(       6,      10 ]  9511099   7.191%  96.346% #
+(      10,      15 ]  2546061   1.925%  98.271% 
+(      15,      22 ]  1907949   1.443%  99.713% 
+(      22,      34 ]   343575   0.260%  99.973% 
+(      34,      51 ]    19360   0.015%  99.988% 
+(      51,      76 ]    11607   0.009%  99.996% 
+(      76,     110 ]     2347   0.002%  99.998% 
+(     110,     170 ]     1409   0.001%  99.999% 
+(     170,     250 ]      216   0.000%  99.999% 
+(     250,     380 ]       74   0.000%  99.999% 
+(     380,     580 ]       24   0.000%  99.999% 
+(     580,     870 ]        9   0.000%  99.999% 
+(     870,    1300 ]        3   0.000%  99.999% 
+(    1300,    1900 ]        3   0.000%  99.999% 
+(    1900,    2900 ]        2   0.000%  99.999% 
+(    2900,    4400 ]        4   0.000%  99.999% 
+(    4400,    6600 ]        7   0.000%  99.999% 
+(    6600,    9900 ]        8   0.000%  99.999% 
+(    9900,   14000 ]       18   0.000%  99.999% 
+(   14000,   22000 ]       16   0.000%  99.999% 
+(   22000,   33000 ]       20   0.000% 100.000% 
+(   33000,   50000 ]       16   0.000% 100.000% 
+(   50000,   75000 ]       26   0.000% 100.000% 
+(   75000,  110000 ]       20   0.000% 100.000% 
+(  110000,  170000 ]       18   0.000% 100.000% 
+(  170000,  250000 ]       35   0.000% 100.000% 
+(  250000,  380000 ]       58   0.000% 100.000% 
+(  380000,  570000 ]      100   0.000% 100.000% 
+(  570000,  860000 ]      129   0.000% 100.000% 
+(  860000, 1200000 ]       45   0.000% 100.000% 
+( 1200000, 1900000 ]       47   0.000% 100.000% 
+( 1900000, 2900000 ]       20   0.000% 100.000% 
+( 2900000, 4300000 ]       30   0.000% 100.000% 
+( 4300000, 6500000 ]       41   0.000% 100.000% 
+( 6500000, 9800000 ]       27   0.000% 100.000% 
+( 9800000, 14000000 ]        6   0.000% 100.000% 
+( 14000000, 22000000 ]        2   0.000% 100.000% 
+( 22000000, 33000000 ]        7   0.000% 100.000% 
+( 33000000, 49000000 ]        3   0.000% 100.000% 
+( 49000000, 74000000 ]        8   0.000% 100.000% 
+( 74000000, 110000000 ]        4   0.000% 100.000% 
+
+Microseconds per read:
+Count: 132264849 Average: 6.1030  StdDev: 15.81
+Min: 0  Median: 4.5684  Max: 131508
+Percentiles: P50: 4.57 P75: 9.09 P99: 19.77 P99.9: 31.45 P99.99: 49.86
+------------------------------------------------------
+[       0,       1 ] 16113557  12.183%  12.183% ##
+(       1,       2 ] 28131366  21.269%  33.452% ####
+(       2,       3 ] 11095141   8.389%  41.840% ##
+(       3,       4 ]  6415960   4.851%  46.691% #
+(       4,       6 ] 15399196  11.643%  58.334% ##
+(       6,      10 ] 28578781  21.607%  79.941% ####
+(      10,      15 ] 23236988  17.569%  97.510% ####
+(      15,      22 ]  2891200   2.186%  99.696% 
+(      22,      34 ]   343265   0.260%  99.955% 
+(      34,      51 ]    49494   0.037%  99.993% 
+(      51,      76 ]     6374   0.005%  99.997% 
+(      76,     110 ]     1844   0.001%  99.999% 
+(     110,     170 ]     1512   0.001% 100.000% 
+(     170,     250 ]      129   0.000% 100.000% 
+(     250,     380 ]       22   0.000% 100.000% 
+(     380,     580 ]        4   0.000% 100.000% 
+(     580,     870 ]        4   0.000% 100.000% 
+(    6600,    9900 ]        2   0.000% 100.000% 
+(    9900,   14000 ]        3   0.000% 100.000% 
+(   14000,   22000 ]        2   0.000% 100.000% 
+(   22000,   33000 ]        1   0.000% 100.000% 
+(   50000,   75000 ]        3   0.000% 100.000% 
+(  110000,  170000 ]        1   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0     11/8    7.36 GB   0.8     78.1     0.0     78.1     152.5     74.5       0.0   1.8     15.0     29.2   5343.27            456.17       318   16.803     80M  8483K
+  L1      7/7    3.34 GB   0.0     94.0    67.1     26.9      81.8     55.0       0.0   1.2     85.9     74.8   1120.10            222.49        16   70.006     97M    12M
+  L2     44/0   19.79 GB   1.0    175.3    47.9    127.4     161.5     34.1       3.7   3.4     21.2     19.6   8455.65            480.55        99   85.411    181M    14M
+  L3     42/0   18.03 GB   0.1      0.0     0.0      0.0       0.0      0.0      18.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum    104/15  48.52 GB   0.0    347.4   115.0    232.3     395.9    163.6      21.7   4.8     23.8     27.2  14919.02           1159.21       433   34.455    358M    35M
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.3      0.3       0.0   1.0      0.0     23.9     12.64              1.05         1   12.643       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0    347.4   115.0    232.3     313.2     80.9       0.0   0.0     29.5     26.6  12045.82            888.16       168   71.701    358M    35M
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      82.7     82.7       0.0   0.0      0.0     29.5   2873.21            271.05       265   10.842       0      0
+Uptime(secs): 3602.2 total, 2.1 interval
+Flush(GB): cumulative 82.704, interval 0.295
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 395.90 GB write, 112.54 MB/s write, 347.38 GB read, 98.75 MB/s read, 14919.0 seconds
+Interval compaction: 0.30 GB write, 141.35 MB/s write, 0.00 GB read, 0.00 MB/s read, 12.6 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 419 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 3602.2 total, 2.1 interval
+Cumulative writes: 139M writes, 139M keys, 139M commit groups, 1.0 writes per commit group, ingest: 135.26 GB, 38.45 MB/s
+Cumulative WAL: 139M writes, 0 syncs, 139607459.00 writes per sync, written: 135.26 GB, 38.45 MB/s
+Cumulative stall: 00:30:36.424 H:M:S, 51.0 percent
+Cumulative L0 stall: 00:00:0.000 H:M:S
+Cumulative Mem stall: 00:30:36.424 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 196 writes, 196 keys, 195 commit groups, 1.0 writes per commit group, ingest: 0.20 MB, 0.09 MB/s
+Interval WAL: 196 writes, 0 syncs, 196.00 writes per sync, written: 0.00 MB, 0.09 MB/s
+Interval stall: 00:00:6.386 H:M:S, 298.6 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:6.386 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

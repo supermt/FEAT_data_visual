@@ -1,0 +1,2018 @@
+----->>>>> Set priority 0 for -1 threads
+------> TOTAL THREADS LIMIT total_threads_limit_ 0
+
+PRIORITY Pool 0 : 0
+PRIORITY Pool 1 : 1
+PRIORITY Pool 2 : 2
+----->>>>> Set priority 2 for -1 threads
+------> TOTAL THREADS LIMIT total_threads_limit_ 0
+
+PRIORITY Pool 0 : 0
+PRIORITY Pool 1 : 1
+PRIORITY Pool 2 : 2
+HLL-9900------> TOTAL THREADS LIMIT total_threads_limit_ 1
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 1
+
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+>>>> WriteController rate limiter low_pri_rate_limiter_
+>>>> DBImpl constructor low_pri_write_rate_limiter_
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+Keys:       10 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46540.8 MB (estimated)
+FileSize:   23500.8 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+>>>> WriteController rate limiter low_pri_rate_limiter_
+>>>> DBImpl constructor low_pri_write_rate_limiter_
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+DB path: [/home/supermt/rocksdb_hdd]
+insert start:0
+record count:60000000
+op count:60000000
+new keys:0
+[COMPACTION-QUEUES] Compactions waiting: 0 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 0 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=-0.002765 size=4
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=-0.017818 size=4
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=-0.011018 size=1
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.010106 size=2
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.010106 size=2
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.010106 size=2
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.016107 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.016107 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=-0.019823 size=4
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.011430 size=2
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.017171 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.017171 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=-0.015897 size=4
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.014917 size=3
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.014917 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=-0.024776 size=4
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.016117 size=3
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=-0.017806 size=4
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=0.003017 size=2
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=0.003017 size=2
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=0.003017 size=2
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=0.003017 size=2
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=0.011688 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=0.011688 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=0.011688 size=3
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+delayed reclaim ratio=0.005115 size=4
+[COMPACTION-QUEUES] Compactions waiting: 0 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 8 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 8 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 8 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 8 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 2
+
+ycsb_load    :      64.714 micros/op 15452 ops/sec;   15.1 MB/s
+Microseconds per write:
+Count: 60000000 Average: 64.7137  StdDev: 62.51
+Min: 2  Median: 5.5850  Max: 156985304
+Percentiles: P50: 5.58 P75: 6.56 P90: 7.56 P99: 10.12 P99.9: 21.67 P99.99: 29.40
+------------------------------------------------------
+[       1,       2 )      291   0.000%   0.000% 
+[       2,       3 )   210482   0.351%   0.351% 
+[       3,       4 )  4221640   7.036%   7.387% #
+[       4,       5 ) 14621251  24.369%  31.756% #####
+[       5,       6 ) 18712641  31.188%  62.944% ######
+[       6,       7 ) 12929171  21.549%  84.492% ####
+[       7,       8 )  5900469   9.834%  94.327% ##
+[       8,       9 )  2103368   3.506%  97.832% #
+[       9,      10 )   680707   1.135%  98.967% 
+[      10,      12 )   329440   0.549%  99.516% 
+[      12,      14 )    82799   0.138%  99.654% 
+[      14,      16 )    51568   0.086%  99.740% 
+[      16,      18 )    46610   0.078%  99.817% 
+[      18,      20 )    25791   0.043%  99.860% 
+[      20,      25 )    71019   0.118%  99.979% 
+[      25,      30 )     7670   0.013%  99.992% 
+[      30,      35 )     1037   0.002%  99.993% 
+[      35,      40 )      459   0.001%  99.994% 
+[      40,      45 )      523   0.001%  99.995% 
+[      45,      50 )      395   0.001%  99.996% 
+[      50,      60 )      584   0.001%  99.997% 
+[      60,      70 )      585   0.001%  99.998% 
+[      70,      80 )      546   0.001%  99.998% 
+[      80,      90 )      191   0.000%  99.999% 
+[      90,     100 )      122   0.000%  99.999% 
+[     100,     120 )      144   0.000%  99.999% 
+[     120,     140 )       46   0.000%  99.999% 
+[     140,     160 )       27   0.000%  99.999% 
+[     160,     180 )       22   0.000%  99.999% 
+[     180,     200 )       14   0.000%  99.999% 
+[     200,     250 )       64   0.000%  99.999% 
+[     250,     300 )       13   0.000%  99.999% 
+[     300,     350 )        9   0.000%  99.999% 
+[     350,     400 )        8   0.000% 100.000% 
+[     400,     450 )        7   0.000% 100.000% 
+[     450,     500 )        7   0.000% 100.000% 
+[     500,     600 )       12   0.000% 100.000% 
+[     600,     700 )        5   0.000% 100.000% 
+[     700,     800 )        3   0.000% 100.000% 
+[     800,     900 )        3   0.000% 100.000% 
+[     900,    1000 )        4   0.000% 100.000% 
+[    1000,    1200 )        5   0.000% 100.000% 
+[    1200,    1400 )        2   0.000% 100.000% 
+[    1400,    1600 )        3   0.000% 100.000% 
+[    1600,    1800 )        1   0.000% 100.000% 
+[    1800,    2000 )        4   0.000% 100.000% 
+[    2000,    2500 )        5   0.000% 100.000% 
+[    2500,    3000 )        6   0.000% 100.000% 
+[    3000,    3500 )        3   0.000% 100.000% 
+[    3500,    4000 )        4   0.000% 100.000% 
+[    4000,    4500 )        4   0.000% 100.000% 
+[    4500,    5000 )        2   0.000% 100.000% 
+[    5000,    6000 )        6   0.000% 100.000% 
+[    6000,    7000 )        2   0.000% 100.000% 
+[    7000,    8000 )        2   0.000% 100.000% 
+[    8000,    9000 )        1   0.000% 100.000% 
+[   10000,   12000 )        7   0.000% 100.000% 
+[   12000,   14000 )        3   0.000% 100.000% 
+[   14000,   16000 )        1   0.000% 100.000% 
+[   16000,   18000 )        3   0.000% 100.000% 
+[   18000,   20000 )        4   0.000% 100.000% 
+[   20000,   25000 )        3   0.000% 100.000% 
+[   25000,   30000 )        8   0.000% 100.000% 
+[   35000,   40000 )        1   0.000% 100.000% 
+[   40000,   45000 )        3   0.000% 100.000% 
+[   50000,   60000 )        3   0.000% 100.000% 
+[   60000,   70000 )        2   0.000% 100.000% 
+[   70000,   80000 )        4   0.000% 100.000% 
+[   80000,   90000 )        3   0.000% 100.000% 
+[   90000,  100000 )        1   0.000% 100.000% 
+[  100000,  120000 )        4   0.000% 100.000% 
+[  120000,  140000 )       11   0.000% 100.000% 
+[  140000,  160000 )        9   0.000% 100.000% 
+[  160000,  180000 )        3   0.000% 100.000% 
+[  180000,  200000 )        4   0.000% 100.000% 
+[  200000,  250000 )        4   0.000% 100.000% 
+[  250000,  300000 )        7   0.000% 100.000% 
+[  300000,  350000 )        6   0.000% 100.000% 
+[  350000,  400000 )        3   0.000% 100.000% 
+[  400000,  450000 )        2   0.000% 100.000% 
+[  500000,  600000 )        2   0.000% 100.000% 
+[  900000, 1000000 )        1   0.000% 100.000% 
+[ 1400000, 1600000 )        1   0.000% 100.000% 
+[ 2500000, 3000000 )        1   0.000% 100.000% 
+[ 3000000, 3500000 )        1   0.000% 100.000% 
+[ 3500000, 4000000 )        1   0.000% 100.000% 
+[ 4500000, 5000000 )        1   0.000% 100.000% 
+[ 5000000, 6000000 )        2   0.000% 100.000% 
+[ 6000000, 7000000 )        3   0.000% 100.000% 
+[ 7000000, 8000000 )        6   0.000% 100.000% 
+[ 8000000, 9000000 )        3   0.000% 100.000% 
+[ 9000000, 10000000 )        4   0.000% 100.000% 
+[ 10000000, 12000000 )        4   0.000% 100.000% 
+[ 12000000, 14000000 )        4   0.000% 100.000% 
+[ 14000000, 16000000 )        1   0.000% 100.000% 
+[ 16000000, 18000000 )       22   0.000% 100.000% 
+[ 18000000, 20000000 )        6   0.000% 100.000% 
+[ 20000000, 25000000 )        9   0.000% 100.000% 
+[ 25000000, 30000000 )        3   0.000% 100.000% 
+[ 30000000, 35000000 )        1   0.000% 100.000% 
+[ 35000000, 40000000 )        2   0.000% 100.000% 
+[ 40000000, 45000000 )        3   0.000% 100.000% 
+[ 45000000, 50000000 )        2   0.000% 100.000% 
+[ 50000000, 60000000 )        2   0.000% 100.000% 
+[ 60000000, 70000000 )        3   0.000% 100.000% 
+[ 70000000, 80000000 )        2   0.000% 100.000% 
+[ 80000000, 90000000 )        3   0.000% 100.000% 
+[ 100000000, 120000000 )        5   0.000% 100.000% 
+[ 120000000, 140000000 )        1   0.000% 100.000% 
+[ 140000000, 160000000 )        5   0.000% 100.000% 
+
+DB path: [/home/supermt/rocksdb_hdd]
+insert start:0
+record count:60000000
+op count:60000000
+new keys:0
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 7 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 6 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.008400 size=3
+[COMPACTION-QUEUES] Compactions waiting: 5 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 5 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.008400 size=3
+[COMPACTION-QUEUES] Compactions waiting: 4 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 4 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.008400 size=3
+[COMPACTION-QUEUES] Compactions waiting: 3 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 3 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.008400 size=3
+[COMPACTION-QUEUES] Compactions waiting: 2 
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 2 
+------> TOTAL THREADS LIMIT total_threads_limit_ 6
+
+delayed reclaim ratio=-0.008400 size=3
+[COMPACTION-QUEUES] Compactions waiting: 1 
+[COMPACTION-QUEUES] Compactions waiting: 0 
+ycsb_run     :      78.307 micros/op 12770 ops/sec;   12.5 MB/s
+Microseconds per read:
+Count: 45972999 Average: 78.3069  StdDev: 78.87
+Min: 1  Median: 14.4632  Max: 1708946
+Percentiles: P50: 14.46 P75: 21.20 P90: 27.34 P99: 63.35 P99.9: 10599.76 P99.99: 17678.52
+------------------------------------------------------
+[       0,       1 )      243   0.001%   0.001% 
+[       1,       2 )    39653   0.086%   0.087% 
+[       2,       3 )   553779   1.205%   1.291% 
+[       3,       4 )   783596   1.704%   2.996% 
+[       4,       5 )  1294935   2.817%   5.813% #
+[       5,       6 )  1350658   2.938%   8.750% #
+[       6,       7 )  1012921   2.203%  10.954% 
+[       7,       8 )  1617611   3.519%  14.472% #
+[       8,       9 )  2900178   6.308%  20.781% #
+[       9,      10 )  3487325   7.586%  28.366% ##
+[      10,      12 )  4749609  10.331%  38.698% ##
+[      12,      14 )  4272896   9.294%  47.992% ##
+[      14,      16 )  3985461   8.669%  56.661% ##
+[      16,      18 )  3622564   7.880%  64.541% ##
+[      18,      20 )  3255912   7.082%  71.623% #
+[      20,      25 )  6466226  14.065%  85.688% ###
+[      25,      30 )  4226455   9.193%  94.882% ##
+[      30,      35 )   968059   2.106%  96.988% 
+[      35,      40 )   391673   0.852%  97.840% 
+[      40,      45 )   260428   0.566%  98.406% 
+[      45,      50 )   135941   0.296%  98.702% 
+[      50,      60 )    84348   0.183%  98.885% 
+[      60,      70 )   157535   0.343%  99.228% 
+[      70,      80 )    19961   0.043%  99.271% 
+[      80,      90 )     8652   0.019%  99.290% 
+[      90,     100 )     3241   0.007%  99.297% 
+[     100,     120 )     1248   0.003%  99.300% 
+[     120,     140 )      134   0.000%  99.300% 
+[     140,     160 )       28   0.000%  99.300% 
+[     160,     180 )        8   0.000%  99.300% 
+[     180,     200 )      125   0.000%  99.300% 
+[     200,     250 )      681   0.001%  99.302% 
+[     250,     300 )     1504   0.003%  99.305% 
+[     300,     350 )      442   0.001%  99.306% 
+[     350,     400 )       54   0.000%  99.306% 
+[     400,     450 )       45   0.000%  99.306% 
+[     450,     500 )       37   0.000%  99.306% 
+[     500,     600 )       71   0.000%  99.307% 
+[     600,     700 )       32   0.000%  99.307% 
+[     700,     800 )       37   0.000%  99.307% 
+[     800,     900 )       24   0.000%  99.307% 
+[    1000,    1200 )       19   0.000%  99.307% 
+[    1200,    1400 )        4   0.000%  99.307% 
+[    1400,    1600 )       19   0.000%  99.307% 
+[    1600,    1800 )      153   0.000%  99.307% 
+[    1800,    2000 )      370   0.001%  99.308% 
+[    2000,    2500 )     1832   0.004%  99.312% 
+[    2500,    3000 )     4232   0.009%  99.321% 
+[    3000,    3500 )     8590   0.019%  99.340% 
+[    3500,    4000 )    15749   0.034%  99.374% 
+[    4000,    4500 )    18474   0.040%  99.414% 
+[    4500,    5000 )    18664   0.041%  99.455% 
+[    5000,    6000 )    37485   0.082%  99.537% 
+[    6000,    7000 )    37472   0.082%  99.618% 
+[    7000,    8000 )    37395   0.081%  99.699% 
+[    8000,    9000 )    37966   0.083%  99.782% 
+[    9000,   10000 )    37673   0.082%  99.864% 
+[   10000,   12000 )    55352   0.120%  99.984% 
+[   12000,   14000 )     1613   0.004%  99.988% 
+[   14000,   16000 )      580   0.001%  99.989% 
+[   16000,   18000 )      512   0.001%  99.990% 
+[   18000,   20000 )      481   0.001%  99.991% 
+[   20000,   25000 )      437   0.001%  99.992% 
+[   25000,   30000 )      418   0.001%  99.993% 
+[   30000,   35000 )      353   0.001%  99.994% 
+[   35000,   40000 )      226   0.000%  99.994% 
+[   40000,   45000 )      218   0.000%  99.995% 
+[   45000,   50000 )      228   0.000%  99.995% 
+[   50000,   60000 )      330   0.001%  99.996% 
+[   60000,   70000 )      255   0.001%  99.997% 
+[   70000,   80000 )      203   0.000%  99.997% 
+[   80000,   90000 )      218   0.000%  99.998% 
+[   90000,  100000 )      166   0.000%  99.998% 
+[  100000,  120000 )      180   0.000%  99.998% 
+[  120000,  140000 )       82   0.000%  99.998% 
+[  140000,  160000 )       63   0.000%  99.999% 
+[  160000,  180000 )       48   0.000%  99.999% 
+[  180000,  200000 )       45   0.000%  99.999% 
+[  200000,  250000 )      101   0.000%  99.999% 
+[  250000,  300000 )       67   0.000%  99.999% 
+[  300000,  350000 )       61   0.000%  99.999% 
+[  350000,  400000 )       36   0.000%  99.999% 
+[  400000,  450000 )       36   0.000%  99.999% 
+[  450000,  500000 )       42   0.000% 100.000% 
+[  500000,  600000 )       56   0.000% 100.000% 
+[  600000,  700000 )       37   0.000% 100.000% 
+[  700000,  800000 )       16   0.000% 100.000% 
+[  800000,  900000 )       15   0.000% 100.000% 
+[  900000, 1000000 )        9   0.000% 100.000% 
+[ 1000000, 1200000 )       18   0.000% 100.000% 
+[ 1200000, 1400000 )       11   0.000% 100.000% 
+[ 1400000, 1600000 )       55   0.000% 100.000% 
+[ 1600000, 1800000 )        4   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      3/0    2.40 GB   1.2     24.5     0.0     24.5      82.5     58.1       0.0   1.4     11.6     39.2      2156       111   19.421     25M      0
+  L1      5/0    2.13 GB   1.1     88.8    55.7     33.2      88.8     55.6       0.0   1.6     53.5     53.5      1699        12  141.602     91M      0
+  L2     47/0   22.20 GB   1.1    155.3    45.7    109.6     155.3     45.7       7.8   3.4     16.0     16.0      9914        86  115.281    160M      0
+  L3     62/0   31.28 GB   0.2     43.9    14.1     29.8      43.9     14.1      17.2   3.1     25.8     25.7      1746        24   72.730     45M      0
+ Sum    117/0   58.01 GB   0.0    312.5   115.5    197.0     370.5    173.5      25.0   6.4     20.6     24.5     15515       233   66.587    322M      0
+ Int      0/0    0.00 KB   0.0     45.1    11.6     33.5      45.6     12.1       6.1  95.0     15.8     15.9      2929        17  172.288     46M      0
+Uptime(secs): 7482.9 total, 3604.7 interval
+Flush(GB): cumulative 58.063, interval 0.480
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 370.50 GB write, 50.70 MB/s write, 312.49 GB read, 42.76 MB/s read, 15514.7 seconds
+Interval compaction: 45.57 GB write, 12.94 MB/s write, 45.09 GB read, 12.81 MB/s read, 2928.9 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 219 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** DB Stats **
+Uptime(secs): 7482.9 total, 3604.7 interval
+Cumulative writes: 60M writes, 60M keys, 60M commit groups, 1.0 writes per commit group, ingest: 58.08 GB, 7.95 MB/s
+Cumulative WAL: 60M writes, 0 syncs, 60000000.00 writes per sync, written: 58.08 GB, 7.95 MB/s
+Cumulative stall: 00:58:0.907 H:M:S, 46.5 percent
+Interval writes: 596K writes, 596K keys, 596K commit groups, 1.0 writes per commit group, ingest: 591.07 MB, 0.16 MB/s
+Interval WAL: 596K writes, 0 syncs, 596287.00 writes per sync, written: 0.58 MB, 0.16 MB/s
+Interval stall: 00:01:9.730 H:M:S, 1.9 percent
+

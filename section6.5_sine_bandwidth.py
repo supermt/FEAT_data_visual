@@ -1,8 +1,10 @@
+import os
+
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
-import plotly.graph_objs as go
 
+import utils.log_class
 from utils.stdoutreader import StdoutReader
 from utils.traversal import get_log_dirs, get_log_and_std_files
 
@@ -31,17 +33,6 @@ def stdout_to_dict(stdout_recorder):
     temp_dict.update(aggreate_stall_type(stdout_recorder.stall_reasons))
 
     return temp_dict
-
-
-def prettify_the_fig(fig, font_size=20):
-    fig.update_layout(showlegend=False, font={"size": font_size}, paper_bgcolor='rgba(0,0,0,0)',
-                      plot_bgcolor='rgba(0,0,0,0)')
-    fig.update_layout(
-        margin=go.layout.Margin(
-            t=30,
-            b=0,  # bottom margin
-        )
-    )
 
 
 def pick_the_most_frequent_set(tuning_steps):
@@ -82,7 +73,17 @@ def get_plot_dict(log_dir):
         # print(avg_speed)
         qps_df["avg_qps"] = int(avg_speed) / 1000
         report_dict[basic_info.device] = qps_df
-        print(qps_df)
+        # print(qps_df)
+        flush_speed = []  # MiB/s
+        log_info = utils.log_class.LogRecorder(LOG_file)
+        for flush_job in log_info.flush_df.iloc:
+            flush_speed.append(flush_job["flush_size"] / (flush_job["end_time"] - flush_job["start_time"]))
+
+        flush_speed_pd = pd.DataFrame(flush_speed, columns=["speed"])
+        avg_flush_speed = flush_speed_pd["speed"].mean()
+        avg_l0_speed = log_info.l0_compaction_df["processing_speed"].mean()
+        avg_compaction_speed = log_info.compaction_df["processing_speed"].mean()
+        print(log_dir.split(os.sep)[-4], basic_info.device, avg_flush_speed, avg_l0_speed, avg_compaction_speed)
 
     return report_dict
 
@@ -92,8 +93,8 @@ if __name__ == '__main__':
     temp = {}
     devices = ["PM", "NVMeSSD", "SATASSD", "SATAHDD"]
 
-    Tuned_dir = "Eurosys/pm_fillrandom_dynamic_bandwidth/tuned"
-    FEAT_dir = "Eurosys/pm_fillrandom_dynamic_bandwidth/FEAT"
+    Tuned_dir = "FAST/section6_PM_bandwidth_limitation/pm_fillrandom_dynamic_bandwidth_1/tuned"
+    FEAT_dir = "FAST/section6_PM_bandwidth_limitation/pm_fillrandom_dynamic_bandwidth_1/FEAT"
 
     Tuned_changes = get_plot_dict(Tuned_dir)
     FEAT_changes = get_plot_dict(FEAT_dir)

@@ -1,0 +1,162 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46817.3 MB (estimated)
+FileSize:   23777.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+no tuner
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+DB path: [/home/supermt/rocksdb_hdd]
+insert start:0
+record count:60000000
+op count:60000000
+new keys:0
+bgYCSBrun    :      14.828 micros/op 67437 ops/sec;   24.3 MB/s
+Microseconds per update:
+Count: 121664241 Average: 23.9161  StdDev: 23.76
+Min: 2  Median: 3.8798  Max: 122750636
+Percentiles: P50: 3.88 P75: 5.14 P99: 18.11 P99.9: 30.00 P99.99: 50.11
+------------------------------------------------------
+(       1,       2 ]   531135   0.437%   0.437% 
+(       2,       3 ] 22434369  18.440%  18.876% ####
+(       3,       4 ] 43042316  35.378%  54.254% #######
+(       4,       6 ] 44219835  36.346%  90.600% #######
+(       6,      10 ]  7131225   5.861%  96.461% #
+(      10,      15 ]  2356901   1.937%  98.398% 
+(      15,      22 ]  1644595   1.352%  99.750% 
+(      22,      34 ]   273301   0.225%  99.975% 
+(      34,      51 ]    19419   0.016%  99.991% 
+(      51,      76 ]     7706   0.006%  99.997% 
+(      76,     110 ]     1308   0.001%  99.998% 
+(     110,     170 ]      972   0.001%  99.999% 
+(     170,     250 ]      250   0.000%  99.999% 
+(     250,     380 ]      154   0.000%  99.999% 
+(     380,     580 ]       46   0.000%  99.999% 
+(     580,     870 ]       29   0.000%  99.999% 
+(     870,    1300 ]       13   0.000%  99.999% 
+(    1300,    1900 ]       19   0.000%  99.999% 
+(    1900,    2900 ]        3   0.000%  99.999% 
+(    2900,    4400 ]       12   0.000%  99.999% 
+(    4400,    6600 ]        2   0.000%  99.999% 
+(    6600,    9900 ]       10   0.000%  99.999% 
+(    9900,   14000 ]       39   0.000% 100.000% 
+(   14000,   22000 ]       27   0.000% 100.000% 
+(   22000,   33000 ]       27   0.000% 100.000% 
+(   33000,   50000 ]       21   0.000% 100.000% 
+(   50000,   75000 ]       36   0.000% 100.000% 
+(   75000,  110000 ]       43   0.000% 100.000% 
+(  110000,  170000 ]       91   0.000% 100.000% 
+(  170000,  250000 ]       92   0.000% 100.000% 
+(  250000,  380000 ]       56   0.000% 100.000% 
+(  380000,  570000 ]       35   0.000% 100.000% 
+(  570000,  860000 ]       11   0.000% 100.000% 
+(  860000, 1200000 ]        8   0.000% 100.000% 
+( 1200000, 1900000 ]        2   0.000% 100.000% 
+( 1900000, 2900000 ]        4   0.000% 100.000% 
+( 2900000, 4300000 ]       10   0.000% 100.000% 
+( 4300000, 6500000 ]       20   0.000% 100.000% 
+( 6500000, 9800000 ]       36   0.000% 100.000% 
+( 9800000, 14000000 ]       22   0.000% 100.000% 
+( 14000000, 22000000 ]       20   0.000% 100.000% 
+( 22000000, 33000000 ]        6   0.000% 100.000% 
+( 33000000, 49000000 ]        4   0.000% 100.000% 
+( 49000000, 74000000 ]        5   0.000% 100.000% 
+( 74000000, 110000000 ]        4   0.000% 100.000% 
+( 110000000, 160000000 ]        2   0.000% 100.000% 
+
+Microseconds per read:
+Count: 121659758 Average: 5.7398  StdDev: 21.09
+Min: 0  Median: 4.2377  Max: 184064
+Percentiles: P50: 4.24 P75: 8.33 P99: 18.46 P99.9: 29.96 P99.99: 48.17
+------------------------------------------------------
+[       0,       1 ] 14535077  11.947%  11.947% ##
+(       1,       2 ] 26465939  21.754%  33.701% ####
+(       2,       3 ] 10556738   8.677%  42.379% ##
+(       3,       4 ]  7355702   6.046%  48.425% #
+(       4,       6 ] 16126081  13.255%  61.680% ###
+(       6,      10 ] 27836302  22.880%  84.560% #####
+(      10,      15 ] 16652640  13.688%  98.248% ###
+(      15,      22 ]  1852383   1.523%  99.771% 
+(      22,      34 ]   237072   0.195%  99.966% 
+(      34,      51 ]    35582   0.029%  99.995% 
+(      51,      76 ]     3953   0.003%  99.998% 
+(      76,     110 ]     1167   0.001%  99.999% 
+(     110,     170 ]      705   0.001% 100.000% 
+(     170,     250 ]      186   0.000% 100.000% 
+(     250,     380 ]      114   0.000% 100.000% 
+(     380,     580 ]       70   0.000% 100.000% 
+(     580,     870 ]        7   0.000% 100.000% 
+(     870,    1300 ]        1   0.000% 100.000% 
+(    1300,    1900 ]        3   0.000% 100.000% 
+(    1900,    2900 ]        2   0.000% 100.000% 
+(    2900,    4400 ]        2   0.000% 100.000% 
+(    4400,    6600 ]        2   0.000% 100.000% 
+(    6600,    9900 ]        3   0.000% 100.000% 
+(    9900,   14000 ]        3   0.000% 100.000% 
+(   14000,   22000 ]        5   0.000% 100.000% 
+(   22000,   33000 ]        2   0.000% 100.000% 
+(   33000,   50000 ]        3   0.000% 100.000% 
+(   50000,   75000 ]        7   0.000% 100.000% 
+(  110000,  170000 ]        6   0.000% 100.000% 
+(  170000,  250000 ]        1   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      7/4    3.88 GB   1.2     54.0     0.0     54.0     124.7     70.7       0.0   1.6     11.2     26.0   4918.19            175.40       290   16.959     55M  5469K
+  L1     11/5    5.21 GB   1.4    102.4    66.8     35.6      88.5     52.9       0.0   1.3     74.7     64.6   1402.94             95.80        18   77.941    105M    14M
+  L2     49/20  21.02 GB   0.6    165.2    44.1    121.1     153.0     31.9       3.6   3.5     22.6     21.0   7480.19            145.21        95   78.739    170M    12M
+  L3     32/0   14.53 GB   0.1      0.0     0.0      0.0       0.0      0.0      14.5   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum     99/29  44.64 GB   0.0    321.5   110.9    210.6     366.2    155.5      18.2   4.8     23.9     27.2  13801.32            416.40       403   34.246    331M    32M
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.3      0.3       0.0   1.0      0.0     15.2     19.82              0.52         1   19.822       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0    321.5   110.9    210.6     290.2     79.5       0.0   0.0     31.2     28.1  10569.75            286.62       156   67.755    331M    32M
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      76.0     76.0       0.0   0.0      0.0     24.1   3231.57            129.79       247   13.083       0      0
+Uptime(secs): 3608.2 total, 8.1 interval
+Flush(GB): cumulative 76.020, interval 0.295
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 366.19 GB write, 103.93 MB/s write, 321.55 GB read, 91.26 MB/s read, 13801.3 seconds
+Interval compaction: 0.29 GB write, 37.18 MB/s write, 0.00 GB read, 0.00 MB/s read, 19.8 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 240 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 3608.2 total, 8.1 interval
+Cumulative writes: 128M writes, 128M keys, 128M commit groups, 1.0 writes per commit group, ingest: 124.30 GB, 35.28 MB/s
+Cumulative WAL: 128M writes, 0 syncs, 128295016.00 writes per sync, written: 124.30 GB, 35.28 MB/s
+Cumulative stall: 00:36:52.622 H:M:S, 61.3 percent
+Cumulative L0 stall: 00:00:0.000 H:M:S
+Cumulative Mem stall: 00:36:52.622 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 615 writes, 615 keys, 609 commit groups, 1.0 writes per commit group, ingest: 0.62 MB, 0.08 MB/s
+Interval WAL: 615 writes, 0 syncs, 615.00 writes per sync, written: 0.00 MB, 0.08 MB/s
+Interval stall: 00:00:15.433 H:M:S, 190.1 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:15.433 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

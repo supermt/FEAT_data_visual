@@ -48,11 +48,18 @@ class LogRecorder:
             x for x in self.log_lines if x["event"] == "flush_finished"]
         # flush_df = pd.DataFrame(["job","start_time","end_time","flush_size"])
         for start_event, index in zip(flush_start_array, range(len(flush_start_array))):
-            flush_event_row = [start_event["job"],
-                               start_event['time_micros'] -
-                               self.start_time_micros,
-                               flush_end_array[index]["time_micros"] - self.start_time_micros,
-                               start_event["total_data_size"], flush_end_array[index]["lsm_state"]]
+            if "total_data_size" in start_event:
+                flush_event_row = [start_event["job"],
+                                   start_event['time_micros'] -
+                                   self.start_time_micros,
+                                   flush_end_array[index]["time_micros"] - self.start_time_micros,
+                                   start_event["total_data_size"], flush_end_array[index]["lsm_state"]]
+            else:
+                flush_event_row = [start_event["job"],
+                                   start_event['time_micros'] -
+                                   self.start_time_micros,
+                                   flush_end_array[index]["time_micros"] - self.start_time_micros,
+                                   start_event["memory_usage"], flush_end_array[index]["lsm_state"]]
             if self.iostat:
                 flush_io_stats_value = [flush_end_array[index][x] for x in flush_io_stats]
                 flush_event_row.extend(flush_io_stats_value)
@@ -91,6 +98,13 @@ class LogRecorder:
         # concat the data frames
         self.compaction_df = pd.concat(
             [compaction_start_df, compaction_end_df], axis=1)
+        self.compaction_df["processing_speed"] = list(self.compaction_df["input_data_size"] / self.compaction_df[
+            "compaction_time_micros"])
+        self.l0_compaction_df = self.compaction_df[self.compaction_df["compaction_reason"] == "LevelL0FilesNum"]
+        self.l0_compaction_df["processing_speed"] = list(
+            self.l0_compaction_df["input_data_size"] / self.l0_compaction_df[
+                "compaction_time_micros"])
+
         pass
 
     def phrase_warninglines(self, jet_lag=0):
@@ -104,7 +118,8 @@ class LogRecorder:
                 stall_point = [line_time_sec, "Redundancy Overflowing"]
             if "memtables" in line:
                 stall_point = [line_time_sec, "Memory Overflowing"]
-
+            # else:
+            #     stall_point = [line_time_sec, line]
             stall_points.append(stall_point)
         # print(stall_points)
         return pd.DataFrame(stall_points, columns=["time sec", "overflowing"])
@@ -119,6 +134,7 @@ class LogRecorder:
         self.log_lines = []
         self.iostat = iostat
         self.compaction_df = pd.DataFrame()
+        self.l0_compaction_df = pd.DataFrame()
         self.qps_df = pd.DataFrame()
 
         if ".gz" in log_file:
@@ -128,6 +144,7 @@ class LogRecorder:
             file_lines = open(log_file, "r").readlines()
 
         UNIST_or_not = "pm" in log_file or "PM" in log_file
+        is_SILK = "SILK" in log_file
         jet_lag = 0
         if UNIST_or_not:
             jet_lag = 1
@@ -142,7 +159,8 @@ class LogRecorder:
                 self.log_lines.append(log_row)
             if "[WARN]" in line:
                 self.warning_lines.append(line)
-        self.pair_the_flush_jobs()
-        self.get_the_compaction_jobs()
+        if not is_SILK:
+            self.pair_the_flush_jobs()
+            self.get_the_compaction_jobs()
         if record_file != "":
             self.record_real_time_qps(record_file, with_DOTA)

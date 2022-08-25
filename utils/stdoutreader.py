@@ -250,6 +250,9 @@ class StdoutReader:
     def get_benchmark_ops(self, benchmark_name):
         return int(self.benchmark_results[benchmark_name][1].split(" ")[0])
 
+    def get_benchmark_MBPS(self, benchmark_name):
+        return float(self.benchmark_results[benchmark_name][2].split(" ")[0])
+
     def __init__(self, input_file, with_hist=False, multi_tasks=False):
         input_file = pathlib.Path(input_file).absolute()
         input_file = str(input_file)

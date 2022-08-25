@@ -1,0 +1,222 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_ssd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    60000000
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    58136.0 MB (estimated)
+FileSize:   29525.8 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_ssd
+DB path: [/home/supermt/rocksdb_ssd]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is triggered
+TEA is triggered
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+flags have been generated for:[ 3 0 0]
+fillrandom   :      12.754 micros/op 78409 ops/sec;   76.0 MB/s
+Microseconds per write:
+Count: 47546999 Average: 12.7536  StdDev: 56.35
+Min: 1  Median: 2.9232  Max: 19822042
+Percentiles: P50: 2.92 P75: 3.77 P99: 8.81 P99.9: 18.16 P99.99: 22.34
+------------------------------------------------------
+[       0,       1 ]     1040   0.002%   0.002% 
+(       1,       2 ]  5546910  11.666%  11.668% ##
+(       2,       3 ] 19741920  41.521%  53.189% ########
+(       3,       4 ] 13391915  28.166%  81.355% ######
+(       4,       6 ]  7712582  16.221%  97.576% ###
+(       6,      10 ]   964402   2.028%  99.604% 
+(      10,      15 ]   105546   0.222%  99.826% 
+(      15,      22 ]    77818   0.164%  99.990% 
+(      22,      34 ]     3978   0.008%  99.998% 
+(      34,      51 ]      364   0.001%  99.999% 
+(      51,      76 ]      115   0.000%  99.999% 
+(      76,     110 ]       52   0.000%  99.999% 
+(     110,     170 ]       58   0.000%  99.999% 
+(     170,     250 ]       32   0.000%  99.999% 
+(     250,     380 ]        8   0.000%  99.999% 
+(     380,     580 ]        9   0.000%  99.999% 
+(     580,     870 ]        5   0.000%  99.999% 
+(     870,    1300 ]        1   0.000%  99.999% 
+(    1300,    1900 ]        1   0.000%  99.999% 
+(    1900,    2900 ]        5   0.000%  99.999% 
+(    2900,    4400 ]        3   0.000% 100.000% 
+(    4400,    6600 ]        5   0.000% 100.000% 
+(    6600,    9900 ]        6   0.000% 100.000% 
+(    9900,   14000 ]        7   0.000% 100.000% 
+(   14000,   22000 ]       15   0.000% 100.000% 
+(   22000,   33000 ]        8   0.000% 100.000% 
+(   33000,   50000 ]       17   0.000% 100.000% 
+(   50000,   75000 ]       30   0.000% 100.000% 
+(   75000,  110000 ]       20   0.000% 100.000% 
+(  110000,  170000 ]       18   0.000% 100.000% 
+(  170000,  250000 ]       12   0.000% 100.000% 
+(  250000,  380000 ]       16   0.000% 100.000% 
+(  380000,  570000 ]        8   0.000% 100.000% 
+(  570000,  860000 ]        4   0.000% 100.000% 
+(  860000, 1200000 ]        2   0.000% 100.000% 
+( 1200000, 1900000 ]        9   0.000% 100.000% 
+( 1900000, 2900000 ]       10   0.000% 100.000% 
+( 2900000, 4300000 ]       13   0.000% 100.000% 
+( 4300000, 6500000 ]       12   0.000% 100.000% 
+( 6500000, 9800000 ]       11   0.000% 100.000% 
+( 9800000, 14000000 ]        8   0.000% 100.000% 
+( 14000000, 22000000 ]        4   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0     11/10   5.63 GB   0.2      4.5     0.0      4.5      49.4     45.0       0.0   1.1      7.4     81.8    619.26            143.12       104    5.954   4647K    43K
+  L1     13/13   3.59 GB   0.0     64.9    39.3     25.5      62.1     36.6       0.0   1.6    276.9    264.9    239.85            190.20        14   17.132     67M  2899K
+  L2     50/0   18.97 GB   0.9     82.8    30.0     52.8      77.5     24.7       3.0   2.6     83.3     78.0   1017.76            184.71        70   14.539     86M  5511K
+  L3     23/0    8.69 GB   0.0      0.0     0.0      0.0       0.0      0.0       8.7   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum     97/23  36.88 GB   0.0    152.1    69.3     82.8     189.0    106.2      11.7   4.2     83.0    103.1   1876.87            518.03       188    9.983    158M  8455K
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.5      0.5       0.0   1.0      0.0     35.3     14.22              1.82         1   14.224       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0    152.1    69.3     82.8     144.0     61.2       0.0   0.0    119.6    113.2   1302.21            384.04        87   14.968    158M  8455K
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      45.0     45.0       0.0   0.0      0.0     80.2    574.66            133.99       101    5.690       0      0
+Uptime(secs): 606.4 total, 6.4 interval
+Flush(GB): cumulative 45.021, interval 0.490
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 189.00 GB write, 319.15 MB/s write, 152.12 GB read, 256.87 MB/s read, 1876.9 seconds
+Interval compaction: 0.49 GB write, 78.53 MB/s write, 0.00 GB read, 0.00 MB/s read, 14.2 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 212 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 606.4 total, 6.4 interval
+Cumulative writes: 47M writes, 47M keys, 47M commit groups, 1.0 writes per commit group, ingest: 45.70 GB, 77.17 MB/s
+Cumulative WAL: 47M writes, 0 syncs, 47546999.00 writes per sync, written: 45.70 GB, 77.17 MB/s
+Cumulative stall: 00:06:49.470 H:M:S, 67.5 percent
+Cumulative L0 stall: 00:00:0.000 H:M:S
+Cumulative Mem stall: 00:06:49.470 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 909 writes, 909 keys, 909 commit groups, 1.0 writes per commit group, ingest: 0.89 MB, 0.14 MB/s
+Interval WAL: 909 writes, 0 syncs, 909.00 writes per sync, written: 0.00 MB, 0.14 MB/s
+Interval stall: 00:00:13.169 H:M:S, 205.9 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:13.169 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

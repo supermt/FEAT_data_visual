@@ -1,0 +1,177 @@
+group	device	workload	op	p99 avg	p99.99 avg	qps avg	p99 std	p99.99 std	qps std
+FEAT	NVMe SSD	a	read	33.08	3573.69	143490.0			
+FEAT	NVMe SSD	a	update	10.63	45.44	143490.0			
+FEAT	NVMe SSD	b	read	12.61	31.74	190520.0			
+FEAT	NVMe SSD	b	update	9.89	31.97	190520.0			
+FEAT	NVMe SSD	c	read	11.67	31.96	150471.0			
+FEAT	NVMe SSD	d	insert	9.79	30.68	238767.0			
+FEAT	NVMe SSD	d	read	10.0	30.07	238767.0			
+FEAT	NVMe SSD	e	insert	18.13	12028.55	19071.0			
+FEAT	NVMe SSD	e	seek	108.51	168.71	19071.0			
+FEAT	NVMe SSD	f	read	22.39	1163.05	107966.0			
+FEAT	NVMe SSD	f	update	31.85	1203.68	107966.0			
+FEAT	PM	a	read	18.72	33.86	177193.0			
+FEAT	PM	a	update	9.71	31.45	177193.0			
+FEAT	PM	b	read	12.71	31.81	192108.0			
+FEAT	PM	b	update	9.85	30.51	192108.0			
+FEAT	PM	c	read	10.3	31.62	168392.0			
+FEAT	PM	d	insert	9.82	29.85	230696.0			
+FEAT	PM	d	read	10.92	30.43	230696.0			
+FEAT	PM	e	insert	17.36	38.58	19149.0			
+FEAT	PM	e	seek	108.48	167.75	19149.0			
+FEAT	PM	f	read	14.97	33.49	125525.0			
+FEAT	PM	f	update	21.33	43.91	125525.0			
+FEAT	SATA HDD	a	read	73.64	85873.25	14760.0			
+FEAT	SATA HDD	a	update	61.44	1293.57	14760.0			
+FEAT	SATA HDD	b	read	13.89	33.06	185940.0			
+FEAT	SATA HDD	b	update	9.88	32.78	185940.0			
+FEAT	SATA HDD	c	read	12.92	32.45	150343.0			
+FEAT	SATA HDD	d	insert	9.85	31.88	223245.0			
+FEAT	SATA HDD	d	read	12.68	31.73	223245.0			
+FEAT	SATA HDD	e	insert	20.26	1512.27	18611.0			
+FEAT	SATA HDD	e	seek	109.81	240.46	18611.0			
+FEAT	SATA HDD	f	read	64.43	91388.74	9255.0			
+FEAT	SATA HDD	f	update	165.84	98650.93	9255.0			
+FEAT	SATA SSD	a	read	30.86	13713.83	92512.0			
+FEAT	SATA SSD	a	update	17.68	80.2	92512.0			
+FEAT	SATA SSD	b	read	13.25	32.41	185863.0			
+FEAT	SATA SSD	b	update	9.9	32.39	185863.0			
+FEAT	SATA SSD	c	read	9.98	31.63	166376.0			
+FEAT	SATA SSD	d	insert	9.81	31.24	232434.0			
+FEAT	SATA SSD	d	read	10.8	30.84	232434.0			
+FEAT	SATA SSD	e	insert	19.7	1896.28	18864.0			
+FEAT	SATA SSD	e	seek	108.81	169.17	18864.0			
+FEAT	SATA SSD	f	read	29.73	8873.62	78982.0			
+FEAT	SATA SSD	f	update	44.27	8900.21	78982.0			
+SILK	NVMe SSD	a	read	14.48	91.06	178154.0			
+SILK	NVMe SSD	a	update	11.21	49.96	178154.0			
+SILK	NVMe SSD	b	read	11.13	89.05	219664.0			
+SILK	NVMe SSD	b	update	12.61	42.4	219664.0			
+SILK	NVMe SSD	c	read	11.54	24.74	159547.0			
+SILK	NVMe SSD	d	insert	11.87	31.3	227652.0			
+SILK	NVMe SSD	d	read	10.61	66.6	227652.0			
+SILK	NVMe SSD	e	insert	19.9	10325.6	20135.0			
+SILK	NVMe SSD	e	seek	98.65	4412.03	20135.0			
+SILK	NVMe SSD	f	read	13.25	84.43	140000.0			
+SILK	NVMe SSD	f	update	19.99	99.61	140000.0			
+SILK	PM	a	read	13.95	33.72	186957.0			
+SILK	PM	a	update	10.52	44.3	186957.0			
+SILK	PM	b	read	10.68	24.73	225535.0			
+SILK	PM	b	update	11.96	27.68	225535.0			
+SILK	PM	c	read	9.12	24.33	169209.0			
+SILK	PM	d	insert	11.92	27.88	227557.0			
+SILK	PM	d	read	10.73	24.83	227557.0			
+SILK	PM	e	insert	19.45	38.63	20664.0			
+SILK	PM	e	seek	97.52	124.57	20664.0			
+SILK	PM	f	read	13.27	29.8	140318.0			
+SILK	PM	f	update	19.87	44.98	140318.0			
+SILK	SATA HDD	a	read	32.76	87852.74	23718.0			
+SILK	SATA HDD	a	update	30.9	98.24	23718.0			
+SILK	SATA HDD	b	read	7869.86	138724.2	5251.0			
+SILK	SATA HDD	b	update	82.94	637.1	5251.0			
+SILK	SATA HDD	c	read	63.35	17678.52	12770.0			
+SILK	SATA HDD	d	insert	56.42	202.12	24774.0			
+SILK	SATA HDD	d	read	33.85	29922.19	24774.0			
+SILK	SATA HDD	e	insert	39.88	216.97	11265.0			
+SILK	SATA HDD	e	seek	185.64	21289.32	11265.0			
+SILK	SATA HDD	f	read	78.48	143304.59	5401.0			
+SILK	SATA HDD	f	update	1366.16	155243.29	5401.0			
+SILK	SATA SSD	a	read	22.78	8994.58	113431.0			
+SILK	SATA SSD	a	update	16.97	76.55	113431.0			
+SILK	SATA SSD	b	read	11.72	184.17	209094.0			
+SILK	SATA SSD	b	update	12.94	62.15	209094.0			
+SILK	SATA SSD	c	read	11.51	210.9	154659.0			
+SILK	SATA SSD	d	insert	14.14	1183.69	200177.0			
+SILK	SATA SSD	d	read	12.23	213.22	200177.0			
+SILK	SATA SSD	e	insert	19.24	917.72	20109.0			
+SILK	SATA SSD	e	seek	95.09	1808.45	20109.0			
+SILK	SATA SSD	f	read	15.88	2803.24	115427.0			
+SILK	SATA SSD	f	update	25.01	3055.65	115427.0			
+pebbles	NVMe SSD	a	read	248.61	9722.69	41165.0			
+pebbles	NVMe SSD	a	update	71.88	140.29	41165.0			
+pebbles	NVMe SSD	b	read	182.66	694.03	47451.0			
+pebbles	NVMe SSD	b	update	34.35	94.39	47451.0			
+pebbles	NVMe SSD	c	read	152.03	525.0	44029.0			
+pebbles	NVMe SSD	d	insert	32.72	75.61	72919.0			
+pebbles	NVMe SSD	d	read	123.35	507.39	72919.0			
+pebbles	NVMe SSD	e	insert	70.49	10823.81	2105.0			
+pebbles	NVMe SSD	e	seek	5118.92	32572.5	2105.0			
+pebbles	NVMe SSD	f	read	241.06	5807.97	27977.0			
+pebbles	NVMe SSD	f	update	248.12	6215.54	27977.0			
+pebbles	PM	a	read	242.25	560.42	45560.0			
+pebbles	PM	a	update	72.15	116.54	45560.0			
+pebbles	PM	b	read	191.98	378.76	46988.0			
+pebbles	PM	b	update	33.13	74.02	46988.0			
+pebbles	PM	c	read	152.77	370.5	45194.0			
+pebbles	PM	d	insert	44.37	83.41	72778.0			
+pebbles	PM	d	read	141.59	378.29	72778.0			
+pebbles	PM	e	insert	60.56	105.6	2416.0			
+pebbles	PM	e	seek	5609.68	9841.28	2416.0			
+pebbles	PM	f	read	235.28	549.27	30815.0			
+pebbles	PM	f	update	243.58	560.52	30815.0			
+pebbles	SATA HDD	a	read	569.61	237307.13	7736.0			
+pebbles	SATA HDD	a	update	123.87	247.15	7736.0			
+pebbles	SATA HDD	b	read	375.18	148817.51	6176.0			
+pebbles	SATA HDD	b	update	92.82	286.94	6176.0			
+pebbles	SATA HDD	c	read	10159.14	318382.47	2770.0			
+pebbles	SATA HDD	d	insert	156.53	406.34	2724.0			
+pebbles	SATA HDD	d	read	7496.41	307015.15	2724.0			
+pebbles	SATA HDD	e	insert	240.49	3680.95	246.0			
+pebbles	SATA HDD	e	seek	58369.83	552413.31	246.0			
+pebbles	SATA HDD	f	read	452.44	227866.39	5027.0			
+pebbles	SATA HDD	f	update	478.93	229913.11	5027.0			
+pebbles	SATA SSD	a	read	318.67	30496.17	32129.0			
+pebbles	SATA SSD	a	update	79.61	167.59	32129.0			
+pebbles	SATA SSD	b	read	194.91	2821.46	47744.0			
+pebbles	SATA SSD	b	update	62.26	109.58	47744.0			
+pebbles	SATA SSD	c	read	192.37	5885.5	39386.0			
+pebbles	SATA SSD	d	insert	36.6	106.62	67300.0			
+pebbles	SATA SSD	d	read	146.87	845.35	67300.0			
+pebbles	SATA SSD	e	insert	109.26	250.54	1768.0			
+pebbles	SATA SSD	e	seek	5386.05	105072.48	1768.0			
+pebbles	SATA SSD	f	read	294.11	22412.59	22366.0			
+pebbles	SATA SSD	f	update	315.03	22409.2	22366.0			
+tuned	NVMe SSD	a	read	18.14	44.58	168822.0			
+tuned	NVMe SSD	a	update	9.89	32.4	168822.0			
+tuned	NVMe SSD	b	read	12.4	32.21	193131.0			
+tuned	NVMe SSD	b	update	9.99	33.47	193131.0			
+tuned	NVMe SSD	c	read	12.05	32.53	153015.0			
+tuned	NVMe SSD	d	insert	9.92	32.76	236662.0			
+tuned	NVMe SSD	d	read	10.0	30.78	236662.0			
+tuned	NVMe SSD	e	insert	18.8	11765.13	19779.0			
+tuned	NVMe SSD	e	seek	107.99	250.66	19779.0			
+tuned	NVMe SSD	f	read	14.79	33.86	122528.0			
+tuned	NVMe SSD	f	update	21.44	50.83	122528.0			
+tuned	PM	a	read	14.94	33.71	180709.0			
+tuned	PM	a	update	9.81	32.41	180709.0			
+tuned	PM	b	read	12.3	31.74	191730.0			
+tuned	PM	b	update	10.1	31.65	191730.0			
+tuned	PM	c	read	10.0	31.56	155877.0			
+tuned	PM	d	insert	9.92	31.33	235808.0			
+tuned	PM	d	read	9.99	30.49	235808.0			
+tuned	PM	e	insert	19.6	39.49	19535.0			
+tuned	PM	e	seek	108.16	166.56	19535.0			
+tuned	PM	f	read	14.62	33.4	124805.0			
+tuned	PM	f	update	21.18	44.27	124805.0			
+tuned	SATA HDD	a	read	3448.15	156985.74	11266.0			
+tuned	SATA HDD	a	update	56.1	1281.23	11266.0			
+tuned	SATA HDD	b	read	33.98	20805.99	23871.0			
+tuned	SATA HDD	b	update	70.07	109.99	23871.0			
+tuned	SATA HDD	c	read	55.45	21235.64	13975.0			
+tuned	SATA HDD	d	insert	31.55	105.57	63707.0			
+tuned	SATA HDD	d	read	21.92	12327.53	63707.0			
+tuned	SATA HDD	e	insert	19.78	401.35	18862.0			
+tuned	SATA HDD	e	seek	108.5	167.38	18862.0			
+tuned	SATA HDD	f	read	25947.25	434873.27	925.0			
+tuned	SATA HDD	f	update	26080.96	482144.3	925.0			
+tuned	SATA SSD	a	read	37.42	14359.54	82711.0			
+tuned	SATA SSD	a	update	19.75	1069.92	82711.0			
+tuned	SATA SSD	b	read	13.82	202.77	174456.0			
+tuned	SATA SSD	b	update	12.43	61.43	174456.0			
+tuned	SATA SSD	c	read	14.43	221.47	130421.0			
+tuned	SATA SSD	d	insert	12.4	55.69	216654.0			
+tuned	SATA SSD	d	read	12.34	232.15	216654.0			
+tuned	SATA SSD	e	insert	20.74	2111.16	18345.0			
+tuned	SATA SSD	e	seek	108.96	862.76	18345.0			
+tuned	SATA SSD	f	read	29.57	9004.03	72823.0			
+tuned	SATA SSD	f	update	44.2	9089.96	72823.0			

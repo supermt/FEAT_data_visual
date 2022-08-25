@@ -1,0 +1,163 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    60000000
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    58136.0 MB (estimated)
+FileSize:   29525.8 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_hdd
+DB path: [/home/supermt/rocksdb_hdd]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is triggered
+TEA is triggered
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+flags have been generated for:[ 1 0 0]
+fillrandom   :      35.849 micros/op 27894 ops/sec;   27.0 MB/s
+Microseconds per write:
+Count: 17087999 Average: 35.8491  StdDev: 181.66
+Min: 1  Median: 2.8118  Max: 62862630
+Percentiles: P50: 2.81 P75: 3.63 P99: 8.17 P99.9: 16.33 P99.99: 33.56
+------------------------------------------------------
+[       0,       1 ]      680   0.004%   0.004% 
+(       1,       2 ]  2644254  15.474%  15.478% ###
+(       2,       3 ]  7266681  42.525%  58.003% #########
+(       3,       4 ]  4620708  27.041%  85.044% #####
+(       4,       6 ]  2242631  13.124%  98.168% ###
+(       6,      10 ]   261610   1.531%  99.699% 
+(      10,      15 ]    30956   0.181%  99.880% 
+(      15,      22 ]    17820   0.104%  99.984% 
+(      22,      34 ]      986   0.006%  99.990% 
+(      34,      51 ]      241   0.001%  99.992% 
+(      51,      76 ]      518   0.003%  99.995% 
+(      76,     110 ]      503   0.003%  99.998% 
+(     110,     170 ]      268   0.002%  99.999% 
+(     170,     250 ]       32   0.000%  99.999% 
+(     250,     380 ]        4   0.000%  99.999% 
+(     380,     580 ]        4   0.000%  99.999% 
+(     580,     870 ]        1   0.000%  99.999% 
+(     870,    1300 ]        1   0.000%  99.999% 
+(    1300,    1900 ]        3   0.000%  99.999% 
+(    2900,    4400 ]        2   0.000%  99.999% 
+(    4400,    6600 ]        1   0.000%  99.999% 
+(    9900,   14000 ]        3   0.000%  99.999% 
+(   14000,   22000 ]        4   0.000%  99.999% 
+(   22000,   33000 ]        1   0.000%  99.999% 
+(   33000,   50000 ]        3   0.000% 100.000% 
+(   50000,   75000 ]        7   0.000% 100.000% 
+(   75000,  110000 ]        1   0.000% 100.000% 
+(  110000,  170000 ]        3   0.000% 100.000% 
+(  170000,  250000 ]        4   0.000% 100.000% 
+(  250000,  380000 ]        7   0.000% 100.000% 
+(  380000,  570000 ]       14   0.000% 100.000% 
+(  570000,  860000 ]       11   0.000% 100.000% 
+(  860000, 1200000 ]        9   0.000% 100.000% 
+( 1200000, 1900000 ]        6   0.000% 100.000% 
+( 1900000, 2900000 ]        1   0.000% 100.000% 
+( 2900000, 4300000 ]        1   0.000% 100.000% 
+( 4300000, 6500000 ]        1   0.000% 100.000% 
+( 6500000, 9800000 ]        2   0.000% 100.000% 
+( 14000000, 22000000 ]        8   0.000% 100.000% 
+( 22000000, 33000000 ]        5   0.000% 100.000% 
+( 33000000, 49000000 ]        2   0.000% 100.000% 
+( 49000000, 74000000 ]        2   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      7/0    3.67 GB   2.9      1.5     0.0      1.5      17.8     16.4       0.0   1.1      1.9     23.3    781.79             58.30        46   16.995   1528K    14K
+  L1     12/5    3.88 GB   2.4     21.5    12.7      8.8      20.9     12.2       0.0   1.7     75.4     73.5    291.70             64.59         8   36.463     22M   540K
+  L2     19/7    7.94 GB   0.5     13.4     5.9      7.4      13.1      5.6       2.3   2.2     16.1     15.7    851.70             39.46        16   53.231     13M   343K
+ Sum     38/12  15.50 GB   0.0     36.3    18.6     17.7      51.8     34.1       2.3   3.2     19.3     27.6   1925.20            162.36        70   27.503     37M   898K
+ Int      0/0    0.00 KB   0.0      2.0     1.0      1.0       2.4      1.4       0.0   4.9      8.3     10.0    248.11              8.79         3   82.705   2093K    92K
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0     36.3    18.6     17.7      35.5     17.8       0.0   0.0     30.5     29.8   1217.91            108.27        25   48.716     37M   898K
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      16.4     16.4       0.0   0.0      0.0     23.7    707.29             54.08        45   15.718       0      0
+Uptime(secs): 612.6 total, 12.6 interval
+Flush(GB): cumulative 16.366, interval 0.490
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 51.83 GB write, 86.63 MB/s write, 36.33 GB read, 60.72 MB/s read, 1925.2 seconds
+Interval compaction: 2.41 GB write, 196.31 MB/s write, 2.01 GB read, 163.68 MB/s read, 248.1 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 95 memtable_compaction, 0 memtable_slowdown, interval 3 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 612.6 total, 12.6 interval
+Cumulative writes: 17M writes, 17M keys, 17M commit groups, 1.0 writes per commit group, ingest: 16.42 GB, 27.45 MB/s
+Cumulative WAL: 17M writes, 0 syncs, 17087999.00 writes per sync, written: 16.42 GB, 27.45 MB/s
+Cumulative stall: 00:08:14.254 H:M:S, 80.7 percent
+Cumulative L0 stall: 00:00:0.000 H:M:S
+Cumulative Mem stall: 00:08:14.254 H:M:S
+Cumulative Pending stall: 00:00:0.000 H:M:S
+Interval writes: 785 writes, 785 keys, 785 commit groups, 1.0 writes per commit group, ingest: 0.77 MB, 0.06 MB/s
+Interval WAL: 785 writes, 0 syncs, 785.00 writes per sync, written: 0.00 MB, 0.06 MB/s
+Interval stall: 00:00:47.401 H:M:S, 376.5 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:47.401 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+

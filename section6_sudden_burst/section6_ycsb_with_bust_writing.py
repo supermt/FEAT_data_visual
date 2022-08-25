@@ -26,6 +26,7 @@ if __name__ == '__main__':
                 cpu = std_info.cpu_count
                 device = utils.stdoutreader.format_device(std_info.device)
                 fillrandom_speed = int(std_info.get_benchmark_ops("bgYCSBrun"))
+                write_in_MBPS = int(std_info.get_benchmark_MBPS("bgYCSBrun"))
                 stall_duration = float(std_info.stall_duration_sec)
                 update_p99 = float(std_info.updaterandom_hist["P99"])
                 update_p9999 = float(std_info.updaterandom_hist["P99.99"])
@@ -34,17 +35,19 @@ if __name__ == '__main__':
                 read_p9999 = float(std_info.readrandom_hist["P99.99"])
 
                 # row = [group, device, fillrandom_speed, stall_duration]
-                row = [group, device, fillrandom_speed, stall_duration, update_p99, update_p9999, read_p99, read_p9999]
+                row = [group.replace("_stable", ""), device, fillrandom_speed, stall_duration, update_p99, update_p9999,
+                       read_p99, read_p9999,
+                       write_in_MBPS]
                 rows.append(row)
     # columns = ["group", "device", "qps", "stall secs"]
-    columns = ["group", "device", "qps", "stall secs", "update p99", "update p99.99", "read p99", "read p99.99"]
+    columns = ["group", "device", "qps", "stall secs", "update p99", "update p99.99", "read p99", "read p99.99", "MBPS"]
     result_pd = pd.DataFrame(rows, columns=columns)
 
     group_list = list(result_pd.groupby("group", as_index=False))
 
     average_and_std_rows = []
     # metrics = ["qps", "stall secs"]
-    metrics = ["qps", "stall secs", "update p99", "update p99.99", "read p99", "read p99.99"]
+    metrics = ["qps", "stall secs", "update p99", "update p99.99", "read p99", "read p99.99", "MBPS"]
     metrics_avg = {x: x + " avg" for x in metrics}
     metrics_std = {x: x + " std" for x in metrics}
 

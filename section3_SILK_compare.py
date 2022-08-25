@@ -54,16 +54,7 @@ if __name__ == '__main__':
 
     devices = ["PM", "NVMeSSD", "SATASSD", "SATAHDD"]
 
-    target_map = {
-        "default_512MB": extract_stall_and_duration(
-            "Eurosys/pm_server_512MB_traverse", "8CPU", "512MB"),
-        "default_64MB": extract_stall_and_duration(
-            "Eurosys/pm_server_increasing_threads", "8CPU", "64MB"),
-        "SILK_512MB": extract_stall_and_duration(
-            "Eurosys/pm_server_SILK_dead_lock_test", "8CPU", "512MB"),
-        "SILK_64MB": extract_stall_and_duration(
-            "Eurosys/pm_server_SILK_dead_lock_test", "8CPU", "64MB"),
-    }
+    LOG_DIR = ""
 
     result_list = []
     for i in range(len(devices)):

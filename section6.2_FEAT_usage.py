@@ -146,4 +146,4 @@ if __name__ == '__main__':
     fig.tight_layout()
     fig.subplots_adjust(bottom=0.15)
     fig.show()
-    fig.savefig('fig_results/tuning_knob_changing.pdf')
+    fig.savefig('fig_results/tuning_knob_changing_v8.pdf')

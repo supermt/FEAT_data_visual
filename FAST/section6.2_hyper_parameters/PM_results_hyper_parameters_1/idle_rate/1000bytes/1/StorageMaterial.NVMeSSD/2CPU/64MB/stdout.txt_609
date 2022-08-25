@@ -1,0 +1,220 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_nvme
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    60000000
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    58136.0 MB (estimated)
+FileSize:   29525.8 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+0 point(s) detected
+use the FEAT tuner 
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/supermt/rocksdb_nvme
+DB path: [/home/supermt/rocksdb_nvme]
+using reporter agent with change points.
+Using FEAT tuner.
+ FEA is triggered
+TEA is triggered
+slow flush, decrease thread
+slow flushing, increase batch
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flush, decrease thread
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+idle threads, decrease thread
+idle threads, reduce batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+slow flush, decrease thread
+slow flushing, increase batch
+flags have been generated for:[ 7 1 1]
+fillrandom   :       6.998 micros/op 142907 ops/sec;  138.5 MB/s
+Microseconds per write:
+Count: 86215999 Average: 6.9975  StdDev: 19.76
+Min: 1  Median: 3.0112  Max: 10935337
+Percentiles: P50: 3.01 P75: 3.88 P99: 9.11 P99.9: 18.77 P99.99: 29.93
+------------------------------------------------------
+[       0,       1 ]     4260   0.005%   0.005% 
+(       1,       2 ]  9171104  10.637%  10.642% ##
+(       2,       3 ] 33656627  39.038%  49.680% ########
+(       3,       4 ] 24690004  28.637%  78.317% ######
+(       4,       6 ] 16179401  18.766%  97.083% ####
+(       6,      10 ]  2128385   2.469%  99.552% 
+(      10,      15 ]   216782   0.251%  99.803% 
+(      15,      22 ]   154692   0.179%  99.983% 
+(      22,      34 ]     9261   0.011%  99.994% 
+(      34,      51 ]      800   0.001%  99.995% 
+(      51,      76 ]      333   0.000%  99.995% 
+(      76,     110 ]      254   0.000%  99.995% 
+(     110,     170 ]      225   0.000%  99.996% 
+(     170,     250 ]       88   0.000%  99.996% 
+(     250,     380 ]       44   0.000%  99.996% 
+(     380,     580 ]        8   0.000%  99.996% 
+(     580,     870 ]       11   0.000%  99.996% 
+(     870,    1300 ]     3343   0.004% 100.000% 
+(    1300,    1900 ]       10   0.000% 100.000% 
+(    1900,    2900 ]       22   0.000% 100.000% 
+(    2900,    4400 ]       19   0.000% 100.000% 
+(    4400,    6600 ]        8   0.000% 100.000% 
+(    6600,    9900 ]       20   0.000% 100.000% 
+(    9900,   14000 ]       23   0.000% 100.000% 
+(   14000,   22000 ]       35   0.000% 100.000% 
+(   22000,   33000 ]       23   0.000% 100.000% 
+(   33000,   50000 ]       24   0.000% 100.000% 
+(   50000,   75000 ]       27   0.000% 100.000% 
+(   75000,  110000 ]       25   0.000% 100.000% 
+(  110000,  170000 ]       24   0.000% 100.000% 
+(  170000,  250000 ]       19   0.000% 100.000% 
+(  250000,  380000 ]       12   0.000% 100.000% 
+(  380000,  570000 ]        4   0.000% 100.000% 
+(  570000,  860000 ]        6   0.000% 100.000% 
+(  860000, 1200000 ]       13   0.000% 100.000% 
+( 1200000, 1900000 ]       16   0.000% 100.000% 
+( 1900000, 2900000 ]       15   0.000% 100.000% 
+( 2900000, 4300000 ]        9   0.000% 100.000% 
+( 4300000, 6500000 ]       13   0.000% 100.000% 
+( 6500000, 9800000 ]        9   0.000% 100.000% 
+( 9800000, 14000000 ]        1   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      5/5    2.94 GB   0.0      0.0     0.0      0.0      82.5     82.5       0.0   1.0      0.0    248.2    340.38            146.16       170    2.002       0      0
+  L1     15/15   2.36 GB   0.0    138.4    79.6     58.8     134.2     75.4       0.0   1.7    750.7    728.1    188.76            231.00        34    5.552    143M  4314K
+  L2     66/1   22.41 GB   1.1    265.5    71.5    194.0     246.6     52.7       1.5   3.4    228.6    212.4   1188.92            302.68       194    6.128    276M    19M
+  L3     82/1   30.54 GB   0.2      9.3     5.1      4.1       8.0      3.9      26.6   1.6    272.3    236.0     34.86              8.74        13    2.682   9641K  1286K
+ Sum    168/22  58.25 GB   0.0    413.1   156.2    256.9     471.3    214.4      28.2   5.7    241.3    275.3   1752.92            688.58       411    4.265    429M    25M
+ Int      0/0    0.00 KB   0.0      5.3     1.2      4.1       5.9      1.8       0.0   6.0    180.1    201.3     30.03              6.46         4    7.507   5493K   369K
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0    413.1   156.2    256.9     388.9    131.9       0.0   0.0    299.5    281.9   1412.54            542.42       241    5.861    429M    25M
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0      82.5     82.5       0.0   0.0      0.0    248.2    340.38            146.16       170    2.002       0      0
+Uptime(secs): 603.3 total, 3.3 interval
+Flush(GB): cumulative 82.491, interval 0.976
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 471.34 GB write, 800.01 MB/s write, 413.10 GB read, 701.15 MB/s read, 1752.9 seconds
+Interval compaction: 5.90 GB write, 1831.59 MB/s write, 5.28 GB read, 1638.93 MB/s read, 30.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 1 slowdown for pending_compaction_bytes, 240 memtable_compaction, 0 memtable_slowdown, interval 5 total count
+
+** File Read Latency Histogram By Level (Include Compaction) [default] **
+
+** File Read Latency Histogram By Level (Without Compaction) [default] **
+
+** DB Stats **
+Uptime(secs): 603.3 total, 3.3 interval
+Cumulative writes: 86M writes, 86M keys, 86M commit groups, 1.0 writes per commit group, ingest: 82.86 GB, 140.65 MB/s
+Cumulative WAL: 86M writes, 0 syncs, 86215999.00 writes per sync, written: 82.86 GB, 140.65 MB/s
+Cumulative stall: 00:04:11.530 H:M:S, 41.7 percent
+Cumulative L0 stall: 00:00:0.000 H:M:S
+Cumulative Mem stall: 00:04:7.926 H:M:S
+Cumulative Pending stall: 00:00:3.604 H:M:S
+Interval writes: 857 writes, 857 keys, 857 commit groups, 1.0 writes per commit group, ingest: 0.84 MB, 0.26 MB/s
+Interval WAL: 857 writes, 0 syncs, 857.00 writes per sync, written: 0.00 MB, 0.26 MB/s
+Interval stall: 00:00:5.246 H:M:S, 158.9 percent
+Interval L0 stall: 00:00:0.000 H:M:S
+Interval Mem stall: 00:00:5.246 H:M:S
+Interval Pending stall: 00:00:0.000 H:M:S
+
