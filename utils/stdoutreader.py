@@ -25,6 +25,8 @@ SEEK_LATENCY = "Microseconds per seek:"
 
 STALL_INFLUENCE_HEADERS = ["max pending bytes", "stops with pending bytes", "stops with Total SST file size"]
 
+STALL_REASON = ["memtable", "level0", "pending_compaction_bytes"]
+
 
 def format_device(device):
     return device.replace("NVMeSSD", "NVMe SSD").replace("SATASSD", "SATA SSD").replace("SATAHDD", "SATA HDD").replace(
@@ -116,6 +118,13 @@ def process_stat_line(line):
 
 
 class StdoutReader:
+    def aggreate_stall_type(self):
+        results = {x: 0 for x in STALL_REASON}
+        for key in self.stall_reasons:
+            for stall_reason in STALL_REASON:
+                if stall_reason in key:
+                    results[stall_reason] += int(self.stall_reasons[key])
+        return results
 
     def split_the_file(self):
         line_counter = 0
