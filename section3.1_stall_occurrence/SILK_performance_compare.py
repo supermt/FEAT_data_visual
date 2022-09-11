@@ -87,23 +87,16 @@ if __name__ == '__main__':
 
     batch_size_curve = {}
     thread_number_curve = {}
+    SILK_default = "../FAST/PM_SILK_tests/SILK-SILK-D"
+    SILK_best_performed = "../FAST/PM_SILK_tests/SILK-best"
+    SILK_paper = "../FAST/PM_SILK_tests/SILK-paper"
 
-    default_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/default"
-    auto_tuned_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/auto-tuned"
+    SILK_default_changes = get_plot_dict(SILK_default, True)
+    SILK_best_performed_changes = get_plot_dict(SILK_best_performed, True)
+    SILK_paper_changes = get_plot_dict(SILK_paper, True)
 
-    SILK_default_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/SILK-D"
-    SILK_paper_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/SILK-P"
-    SILK_Optimized = "../FAST/section6.3_fillrandom/RocksDB7.56/SILK_O"
-
-    FEAT_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/FEAT"
-
-    dir_name = [default_dir, auto_tuned_dir, SILK_default_dir, SILK_paper_dir, SILK_Optimized, FEAT_dir]
-    groups = [get_plot_dict(x, True) for x in dir_name]
-    # FEAT_warm_changes = get_plot_dict(FEAT_warm_dir)
-
-    group_names = ["RocksDB\n(Default)", "RocksDB\n(Auto-Tuned)", "SILK\n(Default Configure)",
-                   "SILK\n(Paper Configure)",
-                   "SILK\n(Optimized Configure)", "FEAT"]
+    groups = [SILK_default_changes, SILK_best_performed_changes, SILK_paper_changes]
+    group_names = ["SILK SILK-SILK-D", "SILK 512 * 8", "SILK SILK-paper"]
 
     mpl.rcParams['figure.figsize'] = (16, 7)
     mpl.rcParams['axes.grid'] = False
@@ -130,17 +123,12 @@ if __name__ == '__main__':
             axes[row_count, col_count].plot(group[device]["secs_elapsed"], group[device]["interval_qps"], "r")
             axes[row_count, col_count].plot(group[device]["secs_elapsed"], group[device]["avg_qps"], "k--",
                                             linewidth=2.9)
-            annot_size = 15
             axes[row_count, col_count].annotate(
-                "avg:" + str(round(group[device]["avg_qps"].mean(), 1)), xy=(0, 350),
-                fontsize=annot_size,
+                round(group[device]["avg_qps"].mean(), 1), xy=(250, 350)
                 # ,int(group[device]["avg_qps"].mean())+100)
             )
             axes[row_count, col_count].annotate(
-                "std_v:" + str(round(group[device]["interval_qps"].std(), 1)),
-                xy=(1800, 350),
-                fontsize=annot_size,
-                color="#0000A0"
+                round(group[device]["interval_qps"].std(), 1), xy=(900, 350), color="#0000A0"
                 # ,int(group[device]["avg_qps"].mean())+100)
             )
             axes[row_count, col_count].set_ylim(0, 450)
@@ -149,8 +137,6 @@ if __name__ == '__main__':
         col_count += 1
 
     fig.tight_layout()
-    fig.subplots_adjust(bottom=0.1, left=0.08)
-    fig.text(0.01, 0.25, "System Throughput (kOps/Sec)", ha='center', rotation="vertical")
     fig.text(0.5, 0.01, "Elapsed Time (Sec)", ha='center')
-    fig.savefig('fig_results/speed_comparison.png')
+    fig.show()
     fig.savefig('fig_results/speed_comparison.pdf')

@@ -41,9 +41,9 @@ def get_tail_latency(std_info, workload):
 
 if __name__ == '__main__':
 
-    groups = ['SILK-SILK-D', 'SILK', 'tuned', "FEAT"]
-    base_dir_prefix = "../FAST/section6.4_ycsb/ycsb"
-    suffixs = ["_1"]
+    groups = ['SILK-SILK-D', 'SILK', "SILK_default", "pebbles", 'tuned', "FEAT"]
+    base_dir_prefix = "../FAST/section6_separate_ycsb/"
+    suffixs = [""]
     devices = ["PM", "NVMe SSD", "SATA SSD", "SATA HDD"]
 
     rows = []
@@ -58,20 +58,24 @@ if __name__ == '__main__':
                 std_info = stdoutreader.StdoutReader(stdout_file)
                 cpu = std_info.cpu_count
                 device = utils.stdoutreader.format_device(std_info.device)
-                level_size_list = std_info.level_size_results
-                print(level_size_list)
                 ycsb_run_speed = int(std_info.get_benchmark_ops("ycsb_run"))
                 workload = log_dir.split(os.sep)[-4]
-                row = [group, device, workload.capitalize(), ycsb_run_speed]
-                for i in range(6):
-                    row.append(level_size_list.get("L" + str(i), 0))
-                rows.append(row)
+                rows.append([group, device, workload.capitalize(), ycsb_run_speed])
 
     print(rows)
 
-    columns = ["group", "device", "workload", "qps", "L0", "L1", "L2", "L3", "L4", "L5", ]
+    columns = ["group", "device", "workload", "qps"]
     # columns = ["group", "device", "qps", "stall secs", "p99", "p99.99"]
     result_pd = pd.DataFrame(rows, columns=columns)
-    # result_pd["deep_rate"] = (result_pd["L3"]) / (
-    #         result_pd["L0"] + result_pd["L1"] + result_pd["L2"] + result_pd["L3"])
-    result_pd.to_csv("../csv_results/ycsb/disk_size.csv", sep="\t", index=False)
+    result_pd.to_csv("../csv_results/ycsb/qps.csv", sep="\t", index=False)
+    # #
+    # group_list = list(result_pd.groupby("group", as_index=False))
+    # # print(group_list)
+    #
+    # merged_df = pd.DataFrame(group_list[0][1][["device", "workload"]])
+    #
+    # for group in group_list:
+    #     qps = list(pd.Series(group[1]["qps"]))
+    #     merged_df[group[0]] = qps
+    # print(merged_df)
+    # merged_df.to_csv("../csv_results/ycsb/qps_grouped.csv", sep="\t", index=False)

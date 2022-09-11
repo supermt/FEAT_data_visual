@@ -8,8 +8,8 @@ import pandas as pd
 
 if __name__ == '__main__':
 
-    groups = ["tuned", 'default']
-    base_dir_prefix = "../FAST/section6.3_fillrandom/"
+    groups = ["tuned", 'SILK-SILK-D', 'SILK']
+    base_dir_prefix = "../FAST/section6.3_fillrandom/temp"
     suffixs = ["1", "2", "3"]
     devices = ["PM", "NVMe SSD", "SATA SSD", "SATA HDD"]
 

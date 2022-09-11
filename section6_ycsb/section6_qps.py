@@ -41,9 +41,9 @@ def get_tail_latency(std_info, workload):
 
 if __name__ == '__main__':
 
-    groups = ['default', 'SILK', "pebbles", 'tuned', "FEAT"]
-    base_dir_prefix = "../FAST/section6.4_ycsb/ycsb"
-    suffixs = ["_1"]
+    groups = ['SILK-SILK-D', 'SILK', "SILK_default", "pebbles", 'tuned', "FEAT"]
+    base_dir_prefix = "../FAST/section6.4_ycsb/uniform"
+    suffixs = [""]
     devices = ["PM", "NVMe SSD", "SATA SSD", "SATA HDD"]
 
     rows = []
@@ -69,13 +69,13 @@ if __name__ == '__main__':
     result_pd = pd.DataFrame(rows, columns=columns)
     result_pd.to_csv("../csv_results/ycsb/qps.csv", sep="\t", index=False)
     # #
-    group_list = list(result_pd.groupby("group", as_index=False))
-    # print(group_list)
-
-    merged_df = pd.DataFrame(group_list[0][1][["device", "workload"]])
-
-    for group in group_list:
-        qps = list(pd.Series(group[1]["qps"]))
-        merged_df[group[0]] = qps
-    print(merged_df)
-    merged_df.to_csv("../csv_results/ycsb/qps_grouped.csv", sep="\t", index=False)
+    # group_list = list(result_pd.groupby("group", as_index=False))
+    # # print(group_list)
+    #
+    # merged_df = pd.DataFrame(group_list[0][1][["device", "workload"]])
+    #
+    # for group in group_list:
+    #     qps = list(pd.Series(group[1]["qps"]))
+    #     merged_df[group[0]] = qps
+    # print(merged_df)
+    # merged_df.to_csv("../csv_results/ycsb/qps_grouped.csv", sep="\t", index=False)
