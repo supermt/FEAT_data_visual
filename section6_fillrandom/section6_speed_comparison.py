@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
     SILK_default_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/SILK-D"
     SILK_paper_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/SILK-P"
-    SILK_Optimized = "../FAST/section6.3_fillrandom/RocksDB7.56/SILK_O"
+    SILK_Optimized = "../FAST/section6.3_fillrandom/RocksDB7.56/SILK-O"
 
     FEAT_dir = "../FAST/section6.3_fillrandom/RocksDB7.56/FEAT"
 
@@ -101,9 +101,9 @@ if __name__ == '__main__':
     groups = [get_plot_dict(x, True) for x in dir_name]
     # FEAT_warm_changes = get_plot_dict(FEAT_warm_dir)
 
-    group_names = ["RocksDB\n(Default)", "RocksDB\n(Auto-Tuned)", "SILK\n(Default Configure)",
-                   "SILK\n(Paper Configure)",
-                   "SILK\n(Optimized Configure)", "FEAT"]
+    group_names = ["RocksDB-DF", "RocksDB-AT", "SILK-DF",
+                   "SILK-P",
+                   "SILK-O", "FEAT"]
 
     mpl.rcParams['figure.figsize'] = (16, 7)
     mpl.rcParams['axes.grid'] = False
