@@ -8,9 +8,9 @@ import pandas as pd
 
 if __name__ == '__main__':
 
-    groups = ['default', 'auto-tuned', "FEAT", "SILK-D", "SILK-O", "SILK-P"]
+    groups = ['default', 'SILK-O', "FEAT", "FEAT_no_sf", "FEAT_ro_first", "Multi-Mem-FEAT"]
     base_dir_prefix = "../FAST/section6.3_fillrandom/RocksDB7.56_list/"
-    suffixs = ["1", "2"]
+    suffixs = ["1", "2", "3"]
     devices = ["PM", "NVMe SSD", "SATA SSD", "SATA HDD"]
 
     rows = []

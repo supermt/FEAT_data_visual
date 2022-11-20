@@ -1,79 +1,77 @@
 from utils.traversal import get_log_dirs, get_log_and_std_files
 from utils.stdoutreader import StdoutReader
 import pandas as pd
+import gzip
 
-STALL_REASON = ["memtable", "level0", "pending_compaction_bytes"]
+IOSTAT_COLUMN_NAMES = "Device             tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn"
+IOSTAT_COLUMN = IOSTAT_COLUMN_NAMES.split()
 
-color_map = {"PM": "rgb(68,114,196)", "NVMeSSD": "rgb(237,125,49)", "SATASSD": "rgb(165,165,165)",
-             "SATAHDD": "rgb(255,192,0)"}
-
-
-def aggreate_stall_type(stall_dict):
-    results = {x: 0 for x in STALL_REASON}
-    for key in stall_dict:
-        for stall_reason in STALL_REASON:
-            if stall_reason in key:
-                results[stall_reason] += int(stall_dict[key])
-    return results
-
-
-def stdout_to_dict(stdout_recorder):
-    temp_dict = {}
-    temp_dict["throughput"] = stdout_recorder.benchmark_results["fillrandom"][1].split(" ")[0]
-    temp_dict["threads"] = int(stdout_recorder.cpu_count.replace("CPU", ""))
-    temp_dict["batch_size"] = stdout_recorder.batch_size.replace("MB", "")
-    temp_dict["device"] = stdout_recorder.device
-
-    temp_dict.update(aggreate_stall_type(stdout_recorder.stall_reasons))
-
-    return temp_dict
-
-
-def extract_stall_and_duration(input_dir, target_cpu='8CPU', target_batch="64MB"):
-    input_dirs = get_log_dirs(input_dir)
-
-    stall_dict = {}
-
-    stall_duration = {}
-
-    throughput = {}
-
-    for log_dir in input_dirs:
-        if target_cpu in log_dir and target_batch in log_dir:
-            stdout_file, LOG_file, report_csv = get_log_and_std_files(log_dir, multi_tasks=True)
-            basic_info = StdoutReader(stdout_file)
-            stall_dict[basic_info.device] = aggreate_stall_type(basic_info.stall_reasons)
-            stall_duration[basic_info.device] = basic_info.stall_duration
-
-            throughput[basic_info.device] = (basic_info.benchmark_results["fillrandom"][1].split(" ")[0])
-
-    return [stall_dict, stall_duration, throughput]
-
-
+PM_device_mapper = {
+    "SATAHDD": "sdc",
+    "SATASSD": "sda",
+    "NVMeSSD": "nvme0n1",
+    "PM": "pmem0"
+}
 if __name__ == '__main__':
 
     devices = ["PM", "NVMeSSD", "SATASSD", "SATAHDD"]
 
-    LOG_DIR = ""
+    LOG_DIR = "FAST/PM_SILK_bandwidth/"
+    log_dirs = get_log_dirs(LOG_DIR)
 
-    result_list = []
-    for i in range(len(devices)):
-        for set_name in target_map:
-            device = devices[i]
-            tuner = set_name.split("_")[0]
-            target_batch_size = set_name.split("_")[1]
+    rows = []
+    for log_dir in log_dirs:
+        stdout_file, LOG_file, report_csv, stat_csv, iostat_text = get_log_and_std_files(log_dir, True, True)
+        std_result = StdoutReader(stdout_file)
+        stat_df = pd.read_csv(stat_csv)
 
-            # transform into secs
-            duration = target_map[set_name][1][device].split(" ")[0].split(":")
-            duration = float(duration[2]) + int(duration[1]) * 60 + int(duration[0]) * 3600
-            duration = round(duration, 2)
+        if ".gz" in iostat_text:
+            iostat_lines = gzip.open(iostat_text, "r").readlines()
+            iostat_lines = [x.decode('utf-8') for x in iostat_lines]
+        else:
+            iostat_lines = open(iostat_text, "r", encoding="utf-8").readlines()
+        IOSTAT = []
+        for line in iostat_lines:
+            if PM_device_mapper[std_result.device] in line:
+                IOSTAT.append(line.split())
+        IOSTAT = pd.DataFrame(IOSTAT, columns=IOSTAT_COLUMN)
+        MBPS = IOSTAT["MB_wrtn/s"].astype(float)
+        stall_duration = std_result.stall_duration_sec
+        data_row = ["SILK", std_result.device.replace("SSD", " SSD").replace("HDD", " HDD"),
+                    int(std_result.cpu_count.replace("CPU", "")), std_result.batch_size,
+                    round(MBPS.mean(), 2), round(MBPS.max(), 2), stall_duration]
+        print(data_row)
+        rows.append(data_row)
 
-            row = [device.replace("SSD", " SSD").replace("HDD", " HDD"), target_batch_size, tuner, duration]
-            throughput = target_map[set_name][2][device]
-            row.append(throughput)
-            row.extend(target_map[set_name][0][device].values())
-            result_list.append(row)
-    result_df = pd.DataFrame(result_list,
-                             columns=["Device", "batch size", "Tuner", "Stall Duration", "Throughput", "MO", "LO",
-                                      "RO"])
-    result_df.to_csv("csv_results/section3_SILK_compare_stall_duration.csv", index=False, sep="\t")
+    LOG_DIR = "Eurosys/pm_server_increasing_batch/1"
+    log_dirs = get_log_dirs(LOG_DIR)
+
+    for log_dir in log_dirs:
+        if ("8CPU" in log_dir and "18CPU" not in log_dir) and ("64MB" in log_dir or "512MB" in log_dir):
+            stdout_file, LOG_file, report_csv, stat_csv, iostat_text = get_log_and_std_files(log_dir, True, True)
+            std_result = StdoutReader(stdout_file)
+            stat_df = pd.read_csv(stat_csv)
+
+            if ".gz" in iostat_text:
+                iostat_lines = gzip.open(iostat_text, "r").readlines()
+                iostat_lines = [x.decode('utf-8') for x in iostat_lines]
+            else:
+                iostat_lines = open(iostat_text, "r", encoding="utf-8").readlines()
+            IOSTAT = []
+            for line in iostat_lines:
+                if PM_device_mapper[std_result.device] in line:
+                    IOSTAT.append(line.split())
+            IOSTAT = pd.DataFrame(IOSTAT, columns=IOSTAT_COLUMN)
+            MBPS = IOSTAT["MB_wrtn/s"].astype(float)
+            stall_duration = std_result.stall_duration_sec
+            data_row = ["RocksDB", std_result.device.replace("SSD", " SSD").replace("HDD", " HDD"),
+                        int(std_result.cpu_count.replace("CPU", "")),
+                        std_result.batch_size,
+                        round(MBPS.mean(), 2), round(MBPS.max(), 2), stall_duration]
+            rows.append(data_row)
+
+    result_df = pd.DataFrame(rows,
+                             columns=["group", "device", "threads", "batch size", "avg bandwidth", "peak bandwidth",
+                                      "stall duration"])
+
+    result_df.to_csv("csv_results/section3_idle_resource/SILK_resource.csv", index=False, sep="\t")

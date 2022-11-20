@@ -61,7 +61,7 @@ if __name__ == '__main__':
         YCSB_log_prefix = base_log_prefix
         target_map = {
             "YCSB_Default_1000": extract_stall_and_duration(
-                YCSB_log_prefix + "default/" + workload),
+                YCSB_log_prefix + "SILK-SILK-D/" + workload),
             "YCSB_Tuned_1000": extract_stall_and_duration(
                 YCSB_log_prefix + "tuned/" + workload),
             "YCSB_FEAT_1000": extract_stall_and_duration(YCSB_log_prefix + "FEAT/" + workload),

@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
     target_map = {
         "default_3600+uniform_100": extract_stall_and_duration(
-            "../LOG_DIR/PM_results_value_test_3600/default/PM_fix/100"),
+            "../LOG_DIR/PM_results_value_test_3600/SILK-SILK-D/PM_fix/100"),
         "FEAT_3600+uniform_100": extract_stall_and_duration("../LOG_DIR/PM_results_value_test_3600/PM_fix/100"),
     }
 

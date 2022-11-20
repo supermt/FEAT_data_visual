@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
     base_log_prefix = "Eurosys/pm_server_ycsb_60+60/"
 
-    tuners = ["default", "SILK", "tuned"]
+    tuners = ["SILK-SILK-D", "SILK", "tuned"]
 
     result_list = []
 

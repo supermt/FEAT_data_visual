@@ -1,7 +1,6 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
-import plotly.graph_objs as go
 
 from utils.stdoutreader import StdoutReader
 from utils.traversal import get_log_dirs, get_log_and_std_files
@@ -33,17 +32,6 @@ def stdout_to_dict(stdout_recorder):
     return temp_dict
 
 
-def prettify_the_fig(fig, font_size=20):
-    fig.update_layout(showlegend=False, font={"size": font_size}, paper_bgcolor='rgba(0,0,0,0)',
-                      plot_bgcolor='rgba(0,0,0,0)')
-    fig.update_layout(
-        margin=go.layout.Margin(
-            t=30,
-            b=0,  # bottom margin
-        )
-    )
-
-
 def pick_the_most_frequent_set(tuning_steps):
     df_mode = tuning_steps.mode()
     most_frequent_thread = int(df_mode["thread_num"][0])
@@ -59,8 +47,8 @@ def pick_the_most_frequent_set(tuning_steps):
 
 
 def get_plot_dict(log_dir, using_SILK=False):
-    start_time = 500
-    end_time = 1500
+    start_time = 0
+    end_time = 3600
     report_dict = {}
     dirs = get_log_dirs(log_dir)
 
@@ -99,27 +87,45 @@ if __name__ == '__main__':
 
     batch_size_curve = {}
     thread_number_curve = {}
-    default_dir = "Eurosys/FEAT_v9/baseline"
-    SILK_dir = "Eurosys/FEAT_v9/SILK"
-    Tuned_dir = "Eurosys/FEAT_v9/tuned"
+    default_dir = "FAST/section6.3_fillrandom/temp/PM_fillrandom1/default"
+    SILK_dir = "FAST/section6.3_fillrandom/temp/PM_fillrandom1/SILK"
+    Tuned_dir = "FAST/section6.3_fillrandom/temp/PM_fillrandom1/tuned"
 
-    TEA_only_dir = "Eurosys/FEAT_v9/TEA"
-    FEA_only_dir = "Eurosys/FEAT_v9/FEA"
-    FEAT_dir = "Eurosys/FEAT_usage_version2/FEAT"
-    FEAT_warm_dir = "Eurosys/FEAT_usage_version3/FEAT"
+    SILK_64_dir = "FAST/section6.3_fillrandom/temp/PM_fillrandom1/SILK_64"
+    SILK_512_dir = "FAST/section6.3_fillrandom/temp/PM_fillrandom1/SILK_512"
+    #
+    FEAT_20_sub_dir = "Eurosys/fillrandom/FEAT_20_sub"
 
-    default_changes = get_plot_dict(default_dir)
     SILK_changes = get_plot_dict(SILK_dir, True)
-    Tuned_changes = get_plot_dict(Tuned_dir)
-    TEA_changes = get_plot_dict(TEA_only_dir)
-    FEA_changes = get_plot_dict(FEA_only_dir)
-    FEAT_changes = get_plot_dict(FEAT_dir)
-    FEAT_warm_changes = get_plot_dict(FEAT_warm_dir)
+    SILK_64_changes = get_plot_dict(SILK_64_dir, True)
+    SILK_512_changes = get_plot_dict(SILK_512_dir, True)
 
-    groups = [default_changes, SILK_changes, Tuned_changes, FEAT_changes, FEA_changes, TEA_changes]
+    FEAT_20_changes = get_plot_dict(FEAT_20_sub_dir)
+    groups = [SILK_changes, SILK_64_changes, SILK_64_changes, SILK_512_changes]
+    group_names = ["No subcompaction", "SILK 64 * 8, 4 sub task", "SILK 512*8, 4 sub task", "FEAT 20 subcompaction",
+                   "tuned 4 subcompaction"]
+
+    # TEA_only_dir = "FAST/section6.3_fillrandom/temp/PM_fillrandom1/TEA"
+    # FEA_only_dir = "FAST/section6.3_fillrandom/temp/PM_fillrandom1/FEA"
+    # FEAT_dir = "FAST/section6.3_fillrandom/temp//PM_fillrandom1/FEAT"
+    # FEAT_warm_dir = "Eurosys/FEAT_usage_version3/FEAT"
+    #
+
+    #
+    # default_changes = get_plot_dict(default_dir)
+    # SILK_changes = get_plot_dict(SILK_dir, True)
+    # Tuned_changes = get_plot_dict(Tuned_dir)
+    # TEA_changes = get_plot_dict(TEA_only_dir)
+    # FEA_changes = get_plot_dict(FEA_only_dir)
+    # FEAT_changes = get_plot_dict(FEAT_dir)
+    # FEAT_warm_changes = get_plot_dict(FEAT_warm_dir)
+    #
+    # assert (FEAT_changes != {})
+    # groups = [default_changes, SILK_changes, Tuned_changes, FEAT_changes, FEA_changes, TEA_changes, SILK_64_changes,
+    #           SILK_512_changes]
     # groups = [default_changes, SILK_changes, Tuned_changes, FEAT_changes, FEA_changes, TEA_changes, FEAT_warm_changes]
-    group_names = ["Default", "SILK", "Tuned", "FEAT", "FEA", "TEA", ]
-    # group_names = ["Default", "SILK", "Tuned", "FEAT", "FEA", "TEA", "FEAT_warm"]
+    # group_names = ["Default", "SILK", "Tuned", "FEAT", "FEA", "TEA", "SILK64", "SILK512"]
+    # # group_names = ["Default", "SILK", "Tuned", "FEAT", "FEA", "TEA", "FEAT_warm"]
 
     mpl.rcParams['figure.figsize'] = (16, 7)
     mpl.rcParams['axes.grid'] = False

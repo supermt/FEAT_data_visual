@@ -101,7 +101,7 @@ if __name__ == '__main__':
     mpl.rcParams['figure.figsize'] = (8, 6)
     mpl.rcParams['axes.grid'] = False
 
-    # extract_data_from_dir("Eurosys/pm_server_ycsb_60+60/default",
+    # extract_data_from_dir("Eurosys/pm_server_ycsb_60+60/SILK-SILK-D",
     #                       "csv_results/ycsb_report/ycsb_default", "Default")
     # extract_data_from_dir("Eurosys/pm_server_ycsb_60+60/tuned",
     #                       "csv_results/ycsb_report/ycsb_tuned", "Tuned")

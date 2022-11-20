@@ -1,4 +1,5 @@
 # here is an example from online-ml/river
+import gzip
 import os.path
 
 import matplotlib as mpl
@@ -10,6 +11,16 @@ from utils.log_class import load_log_and_qps
 from utils.stdoutreader import StdoutReader
 from utils.traversal import get_log_and_std_files
 from utils.traversal import get_log_dirs
+
+IOSTAT_COLUMN_NAMES = "Device             tps    MB_read/s    MB_wrtn/s    MB_read    MB_wrtn"
+IOSTAT_COLUMN = IOSTAT_COLUMN_NAMES.split()
+
+PM_device_mapper = {
+    "SATAHDD": "sdc",
+    "SATASSD": "sda",
+    "NVMeSSD": "nvme0n1",
+    "PM": "pmem0"
+}
 
 
 def ks(x, pos):
@@ -30,8 +41,23 @@ def cut_down_by_time(data_df, start_time, end_time):
     return data_df[(data_df[time_column_name] > start_time) & (data_df[time_column_name] < end_time)]
 
 
-def plot_lines_on_axes(axe, x, y, marker="b", title="", unit="", ticks=False, ylim=[0, 250]):
-    line, = axe.plot(x, y, marker, alpha=0.5)
+def get_MBPS(iostat_text):
+    if ".gz" in iostat_text:
+        iostat_lines = gzip.open(iostat_text, "r").readlines()
+        iostat_lines = [x.decode('utf-8') for x in iostat_lines]
+    else:
+        iostat_lines = open(iostat_text, "r", encoding="utf-8").readlines()
+    IOSTAT = []
+    for line in iostat_lines:
+        if PM_device_mapper["NVMeSSD"] in line:
+            IOSTAT.append(line.split())
+    IOSTAT = pd.DataFrame(IOSTAT, columns=IOSTAT_COLUMN)
+    MBPS = IOSTAT["MB_wrtn/s"].astype(float)
+    return MBPS / 2400 * 100
+
+
+def plot_lines_on_axes(axe, x, y, marker="b", title="", unit="", ticks=False, ylim=[0, 250], legend_name="", alpha=1):
+    line, = axe.plot(x, y, marker, alpha=alpha, label=legend_name)
     if title:
         axe.set_title(title)
     if unit:
@@ -54,13 +80,14 @@ def plot_with_thread_num(start_time, end_time):
     default_setting_compaction_distribution = {x: None for x in key_seq}
     stall_moments = {x: None for x in key_seq}
 
-    log_dir = "Eurosys/pm_server_details_1800sec_running"
-
-    stdout_file, LOG_file, report_csv = get_log_and_std_files(log_dir, multi_tasks=True)
+    # log_dir = "Eurosys/pm_server_details_1800sec_running"
+    stdout_file, LOG_file, report_csv, stat_csv, io_stat = get_log_and_std_files(log_dir_prefix, multi_tasks=True,
+                                                                                 with_stat_csv=True,
+                                                                                 splitted_iostat=True)
     report_csv = report_csv[0]
     report_df = pd.read_csv(report_csv)
-    bytes_to_GB = 1000 * 1000 * 1000
-    bytes_to_MB = 1000 * 1000
+    bytes_to_GB = 1024 * 1024 * 1024
+    bytes_to_MB = 1024 * 1024
     std_info = StdoutReader(stdout_file)
     report_df["pending_bytes"] /= bytes_to_GB
     report_df["total_mem_size"] /= bytes_to_MB
@@ -84,46 +111,35 @@ def plot_with_thread_num(start_time, end_time):
     # slow_threshold = 100
     float(flush_job_df["flush_speed"].mean())
 
-    fig, axes = plt.subplots(2, 1, sharex="all")
+    fig, axes = plt.subplots(3, 1, sharex="all")
     axes[0].set_ylabel("kOps/Sec")
     # axes[1].set_ylabel("MB/Sec")
 
     # Throughput lines
-    axes[1].set_xlim(0, 600)
-    axes[1].set_xticks(range(0, 700, 100))
-    axes[1].set_xlabel("Elapsed Time (Sec)")
+    axes[-1].set_xlim(start_time, end_time)
+    axes[-1].set_xticks(range(start_time, end_time, 100))
+    axes[-1].set_xlabel("Elapsed Time (Sec)")
     ax_throughput = axes[0]
     ax_throughput.set_ylim(0, 250)
-
-    #
-    # throughput_line = plot_lines_on_axes(ax_throughput, report_df["secs_elapsed"],
-    #                                      report_df["interval_qps"], "k", "(a) System Throughput", "kOps/Sec", True,
-    #                                      [0, 350])
-    # # ax_throughput.set_yticks([])
-    #
-    # # MMO and Memory usage
-    # ax_mem_size = axes[1]
-    # ax_mmo_occurrence = axes[1].twinx()
-    #
-    # mem_size_line = plot_lines_on_axes(ax_mem_size, report_df["secs_elapsed"],
-    #                                    report_df["total_mem_size"],
-    #                                    "k--",
-    #                                    "(b) Memory Component Size", "MB", True, [0, 160])
-    #
-    # MMO_point = plot_lines_on_axes(ax_mmo_occurrence, mo_stall_pd["time sec"], mo_stall_pd["values"], "r|",
-    #                                "", "", False, [-2, 0.2])
 
     # L0O and L0 file number
     ax_l0_files = axes[0]
     ax_l0o_occurrence = axes[0].twinx()
-
     l0_size_line = plot_lines_on_axes(ax_l0_files, report_df["secs_elapsed"],
                                       report_df["l0_files"],
                                       "k:",
-                                      "(a) Number of L0 SSTs", "", True, [0, 26])
+                                      "(a) Number of L0 SSTs", "", True, [0, 26], legend_name="L0 Number")
 
-    l0O_point = plot_lines_on_axes(ax_l0o_occurrence, lo_stall_pd["time sec"], lo_stall_pd["values"], "r|",
-                                   "", "", False, [-1, 1.2])
+    l0O_point = plot_lines_on_axes(ax_l0o_occurrence, lo_stall_pd["time sec"], lo_stall_pd["values"], "b|",
+                                   "", "", False, [-1, 1.2], legend_name="L0 Stalls", alpha=0.5)
+
+    label_list = [l0_size_line, l0O_point]
+    plot_labels = ["Number of L0 SSTs", "L0 Stalls"]
+    lgd = axes[0].legend(label_list,
+                         plot_labels,
+                         ncol=2,
+                         frameon=False,
+                         shadow=False, loc=(0.15, 0.01))
 
     # RDO and Compaction pending bytes
 
@@ -133,28 +149,52 @@ def plot_with_thread_num(start_time, end_time):
     redundant_size_line = plot_lines_on_axes(ax_redundancy, report_df["secs_elapsed"],
                                              report_df["pending_bytes"],
                                              "k-.",
-                                             "(b) Redundancy Data Size", "GB", True, [0, 85])
+                                             "(b) Redundant Data Size", "GB", True, [0, 85], legend_name="Redundancy")
 
     RDO_point = plot_lines_on_axes(ax_rdo_occurrence, ro_stall_pd["time sec"], ro_stall_pd["values"], "r|",
-                                   "", "", False, [0, 2.2])
+                                   "", "", False, [0, 2.2], legend_name="PS stall")
 
-    label_list = [l0_size_line, l0O_point, redundant_size_line, ]
-    plot_labels = ["Number of L0 SSTs", "Occurrence of Data Overflow", "Redundant Data Size"]
-    lgd = fig.legend(label_list,
-                     plot_labels,
-                     ncol=2,
-                     frameon=False,
-                     shadow=False)
+    label_list = [redundant_size_line, RDO_point]
+    plot_labels = ["Redundant Data Size", "PS Stall"]
+    lgd = axes[1].legend(label_list,
+                         plot_labels,
+                         ncol=2,
+                         frameon=False,
+                         shadow=False)
+    # Resource Utilization
+    ax_cpu = axes[2]
+    ax_disk = axes[2]
+    ax_cpu.set_ylabel("Utilization (%)")
+    ax_cpu.set_ylim(0, 90)
+    ax_disk.set_ylim(0, 90)
+    disk_utilization = get_MBPS(io_stat)
+    cpu_utils = pd.read_csv(stat_csv)["cpu_percent"] / 4
+
+    disk_util_line = plot_lines_on_axes(ax_disk, range(start_time, end_time), disk_utilization[start_time:end_time],
+                                        "k--",
+                                        "(c) Resource Utilization", "", True, [0, 150], legend_name="Bandwidth")
+
+    cpu_util_line = plot_lines_on_axes(ax_cpu, range(start_time, end_time), cpu_utils[start_time:end_time],
+                                       "r-.",
+                                       "", "", True, [0, 150], legend_name="Bandwidth", alpha=0.5)
+
+    label_list = [disk_util_line, cpu_util_line]
+    plot_labels = ["Disk Utilization", "CPU Utilization"]
+    lgd = axes[2].legend(label_list,
+                         plot_labels,
+                         ncol=2,
+                         frameon=False,
+                         shadow=False, loc="upper center")
+
     fig.tight_layout()
-    fig.subplots_adjust(bottom=0.35)
-    # axes[1].scatter(low_speed_flush_jobs["start_time"] / 1000000, [0] * len(low_speed_flush_jobs))
-
+    # fig.subplots_adjust(bottom=0.35)
+    fig.align_ylabels(axes)
     fig.show()
     fig.savefig('fig_results/mapping_of_overflows.pdf')
 
 
 if __name__ == '__main__':
-    mpl.rcParams['figure.figsize'] = (8, 4)
+    mpl.rcParams['figure.figsize'] = (8, 6)
     mpl.rcParams['axes.grid'] = False
     mpl.rcParams['font.size'] = 16
     mpl.rcParams['font.family'] = "Arial"

@@ -1,0 +1,4 @@
+group	device	workload	qps
+ADOC	SATA HDD	Feat	21504
+ADOC-T	SATA HDD	Tea	9707
+ADOC-B	SATA HDD	Fea	21996
